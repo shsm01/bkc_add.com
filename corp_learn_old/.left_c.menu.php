@@ -1,0 +1,69 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+
+	Array(
+		"Курсы", 
+		"/corp_learn/english/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+
+	Array(
+		"Информация о ВКС-Executive Centre", 
+		"/corp_learn/information/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Преимущества", 
+		"/corp_learn/advantages/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Методика", 
+		"/corp_learn/method/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Клиенты", 
+		"/corp_learn/clients/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бесплатный урок", 
+		"/corp_learn/free_lesson/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новый раздел", 
+		"/corp_learn/novyy-razdel/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/corp_learn/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

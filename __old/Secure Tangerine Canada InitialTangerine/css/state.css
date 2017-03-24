@@ -1,0 +1,1764 @@
+a:hover [class*='icon-'],
+a:hover [class^='icon-'] {
+  text-decoration: none;
+}
+.is-hidden {
+  display: none !important;
+  visibility: hidden;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+html.lt-ie9 .content {
+  margin-bottom: 100px;
+}
+html.lt-ie9 .browser-notice {
+  padding-left: 0;
+}
+html.lt-ie9 .tax-receipts-center table .note,
+html.lt-ie9 .tax-receipts-center table .note-head {
+  float: left;
+}
+html.lt-ie9 * {
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+html.lt-ie9 .navbar .nav > li:after {
+  background-image: none;
+  content: "";
+  margin: 0;
+  width: 0;
+  height: 0;
+}
+html.lt-ie9 .navbar .nav > li .dropdown-menu {
+  display: none;
+}
+html.lt-ie9 .navbar .nav > li:hover .dropdown-menu {
+  display: block;
+}
+html.lt-ie9 .double-safe-images .active {
+  outline: 2px solid #ff6600;
+}
+html.lt-ie9 .calculate-link:before {
+  content: url(../../images/calculate.png);
+}
+html.lt-ie9 .tipsafe .security-logo,
+html.lt-ie9 .tipsafe .download-trusteer {
+  display: inline;
+}
+html.lt-ie9 .tipsafe .security-logo .security-logo-text {
+  margin: 0;
+}
+html.lt-ie9 .sign-up-tabs a {
+  padding-bottom: 2.5em;
+  background: url(../../images/tabs-grey-circle.gif) center bottom no-repeat white;
+}
+html.lt-ie9 .sign-up-tabs li:after {
+  display: none;
+}
+html.lt-ie9 .sign-up-tabs li.active a {
+  background-image: url(../../images/tabs-orange-circle.gif);
+}
+html.lt-ie9 .btn.active,
+html.lt-ie9 .btn:active {
+  background: #dedede;
+}
+html.lt-ie9 span.form-error-inline {
+  display: block;
+  margin: 5px 0 0;
+}
+html.lt-ie9 .map-search .input-append input {
+  width: 94.5%;
+}
+html.lt-ie9 input[type="submit"].btn {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 4px 12px;
+}
+html[lang="fr-CA"] .navbar .nav > li > a {
+  padding: 12px 9px;
+}
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  .text-right.text-left-phone {
+    text-align: left !important;
+  }
+  .mobile-header-top .btn-menu {
+    margin-right: 0;
+    padding-right: 15px;
+    padding-top: 5px;
+  }
+  .mobile-header-top .btn-menu:before {
+    left: 11px;
+    top: 25px;
+  }
+  .header-top,
+  .header-main,
+  .nav-main {
+    padding: 0 20px;
+  }
+  .header-top,
+  .header-main,
+  .header-logo {
+    text-align: center;
+  }
+  .actions-welcome {
+    display: block;
+  }
+  .nav-main {
+    display: none;
+  }
+  .content-left .left-orange-key,
+  .content-left .left-interest,
+  .content-left .left-tools {
+    display: none;
+  }
+  .content .account-details-header .account-details-info .account-details-account-actions .btn,
+  .content .account-details-header .account-details-info .mortgage-links .btn {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  .content .account-details-actions .btn-group {
+    display: block;
+    width: 100%;
+  }
+  .content .account-details-actions select {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .content .account-details-actions button {
+    float: right;
+  }
+  .orange-alerts .input-prepend {
+    margin-top: 0;
+  }
+  .orange-alerts .table tr td:first-child {
+    text-align: right;
+  }
+  .orange-alerts .table tr td:before {
+    text-align: left;
+  }
+  .orange-alerts .table input[type="text"] {
+    width: 90px;
+  }
+  .editable.legal-print {
+    padding-top: 0px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .img-right {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+  .download-transactions {
+    padding: 15px 0;
+  }
+  .download-transactions .btn {
+    display: block;
+    margin: 0 15px;
+  }
+  .double-safe-current-image .double-safe-top {
+    height: auto;
+  }
+  .btn-group {
+    display: block;
+  }
+  input[type="submit"].btn {
+    margin-top: 5px;
+  }
+  select {
+    display: block;
+    max-width: none;
+    width: 100%;
+  }
+  .input-append,
+  .input-prepend,
+  .form-search .input-append,
+  .form-inline .input-append,
+  .form-horizontal .input-append,
+  .form-search .input-prepend,
+  .form-inline .input-prepend,
+  .form-horizontal .input-prepend {
+    display: block;
+  }
+  .form-drop-controls .control-group .control-label,
+  .form-delete-account .control-group .control-label,
+  .transaction-download .control-group .control-label,
+  .form-activation-code .control-group .control-label,
+  .move-my-money .control-group .control-label,
+  .csa-account-stuff .control-group .control-label,
+  .form-remediation .control-group .control-label,
+  .form-long-forms-short-labels .control-group .control-label {
+    width: 100% !important;
+  }
+  .form-drop-controls .control-group .controls,
+  .form-delete-account .control-group .controls,
+  .transaction-download .control-group .controls,
+  .form-activation-code .control-group .controls,
+  .move-my-money .control-group .controls,
+  .csa-account-stuff .control-group .controls,
+  .form-remediation .control-group .controls,
+  .form-long-forms-short-labels .control-group .controls {
+    margin-left: 0  !important;
+    clear: both;
+  }
+  .form-drop-controls .control-group .controls .btn-group,
+  .form-delete-account .control-group .controls .btn-group,
+  .transaction-download .control-group .controls .btn-group,
+  .form-activation-code .control-group .controls .btn-group,
+  .move-my-money .control-group .controls .btn-group,
+  .csa-account-stuff .control-group .controls .btn-group,
+  .form-remediation .control-group .controls .btn-group,
+  .form-long-forms-short-labels .control-group .controls .btn-group {
+    width: 100%;
+  }
+  .transaction-download > p {
+    margin-left: 15px;
+  }
+  .print-section {
+    text-align: left;
+    padding-left: 10px;
+    display: none;
+  }
+  .no-margin-before-footer {
+    margin-bottom: 0;
+  }
+  .footer {
+    margin: 0 0 0;
+    padding: 10px 20px;
+  }
+  .footer.clone {
+    display: none;
+  }
+  .footer .social-links p {
+    margin: 1.05em 0;
+  }
+  .sidebar-left .left-orange-key,
+  .sidebar-left .left-interest,
+  .sidebar-left .left-tools {
+    display: none;
+  }
+  .ui-datepicker select {
+    display: inline;
+  }
+  .form-horizontal .control-group [name="IndustryOccupation"],
+  .form-horizontal .control-group [name="Occupation"] {
+    width: 220px;
+  }
+  .form-horizontal .control-group span.error {
+    display: block;
+  }
+  .btn-right {
+    float: none;
+  }
+  .form-long-forms {
+    margin-top: 0;
+  }
+  .form-long-forms.form-horizontal .control-label {
+    text-align: left;
+  }
+  .checked-long span {
+    width: 92%;
+  }
+  .row .table-horizontal td,
+  .row-fluid .table-horizontal td,
+  .row .table-vertical td,
+  .row-fluid .table-vertical td,
+  .row .table-horizontal td[class*="span"],
+  .row-fluid .table-horizontal td[class*="span"],
+  .row .table-vertical td[class*="span"],
+  .row-fluid .table-vertical td[class*="span"] {
+    padding: 10px 10px 10px 0;
+  }
+  .row .table-horizontal td.tbl-cell-block,
+  .row-fluid .table-horizontal td.tbl-cell-block,
+  .row .table-vertical td.tbl-cell-block,
+  .row-fluid .table-vertical td.tbl-cell-block,
+  .row .table-horizontal td[class*="span"].tbl-cell-block,
+  .row-fluid .table-horizontal td[class*="span"].tbl-cell-block,
+  .row .table-vertical td[class*="span"].tbl-cell-block,
+  .row-fluid .table-vertical td[class*="span"].tbl-cell-block {
+    display: block;
+    line-height: 1.5em;
+    padding-left: 10px;
+    position: static;
+    text-align: left;
+  }
+  .row .table-horizontal td.tbl-cell-block:before,
+  .row-fluid .table-horizontal td.tbl-cell-block:before,
+  .row .table-vertical td.tbl-cell-block:before,
+  .row-fluid .table-vertical td.tbl-cell-block:before,
+  .row .table-horizontal td[class*="span"].tbl-cell-block:before,
+  .row-fluid .table-horizontal td[class*="span"].tbl-cell-block:before,
+  .row .table-vertical td[class*="span"].tbl-cell-block:before,
+  .row-fluid .table-vertical td[class*="span"].tbl-cell-block:before {
+    display: block;
+    padding-bottom: 5px;
+    position: static;
+    white-space: normal;
+    width: auto;
+  }
+  .double-safe-top {
+    min-height: auto;
+    border: auto 0px;
+  }
+  .double-safe-top p {
+    padding-top: 5px;
+  }
+  .double-safe-top img {
+    padding-top: 2px;
+  }
+  .double-safe-top input {
+    margin-top: 5px;
+  }
+  .doublesafe-passmark-secure-link {
+    float: left;
+  }
+  .doublesafe-pick-new-questions .control-group .control-label {
+    width: auto;
+  }
+  .doublesafe-pick-new-questions .control-group .controls {
+    margin-left: 0;
+  }
+  .form-early-redemption .btn-group {
+    display: block;
+  }
+  .form-early-redemption.form-horizontal .control-label {
+    width: auto;
+  }
+  .form-early-redemption.form-horizontal .controls {
+    margin-left: 0;
+  }
+  .uneditable-input {
+    width: 220px;
+  }
+  .asp-missing {
+    padding: 20px 0;
+  }
+  .asp-missing span {
+    font-size: 1.3em;
+  }
+  .asp-missing span.missing {
+    font-size: 4em;
+  }
+  .asp-setup-calculator {
+    text-align: left;
+  }
+  .asp-setup-calculator span {
+    font-size: 1.1em;
+    padding: 0 10px;
+  }
+  .asp-setup-calculator span.equals {
+    padding-left: 0;
+  }
+  .asp-setup-calculator span.hidden-desktop {
+    display: inline-block !important;
+  }
+  .asp-setup-calculator span.asp-savings {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 1.3em;
+  }
+  .asp-setup-calculator span.asp-savings span {
+    padding: 0;
+  }
+  .asp-setup-calculator .asp-savings-container {
+    display: block;
+  }
+  .thrive-switch p {
+    margin: 3px 0 0 30px;
+  }
+  .thrive-switch .thrive-pie {
+    float: left;
+    margin-right: 7px;
+  }
+  .thrive-switch .thrive-switch-text {
+    width: 100%;
+  }
+  .thrive-switch .thrive-switch-button {
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 0px;
+  }
+  .mortgage-activation .mortgage-pic {
+    float: left;
+    margin-right: 7px;
+    padding-bottom: 45px;
+  }
+  .mortgage-activation .mortgage-text {
+    width: 100%;
+  }
+  .account-summary-download-transactions {
+    text-align: left;
+  }
+  .account-summary-start-asp {
+    padding: 0;
+    text-align: left;
+  }
+  .account-summary-cta {
+    text-align: left;
+  }
+  .tax-receipts-center table .note {
+    max-width: none;
+  }
+  .tax-receipts-center table .note textarea {
+    height: 80px;
+    max-width: none;
+  }
+  .refer-a-friend-points h2 {
+    margin-bottom: 0;
+  }
+  .refer-a-friend-goals .general-setting-wrapper {
+    margin-bottom: 20px;
+  }
+  .refer-a-friend-share .span3 {
+    width: 47.717%;
+    float: left;
+    margin-left: 2.12766%;
+    margin-bottom: 20px;
+  }
+  .nav-tabs > li,
+  .nav-pills > li {
+    float: none;
+  }
+  .nav-tabs {
+    border-bottom: 0;
+  }
+  .nav-tabs > li.active > a:last-child {
+    border-bottom-color: #dddddd;
+  }
+  .nav-tabs > li > a,
+  .nav-tabs > li > a:hover,
+  .nav-tabs > li > a:focus {
+    border-color: #dddddd;
+  }
+  .nav-tabs > li > a:last-child {
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  .scrollable-table-outer {
+    position: relative;
+    margin-bottom: 1.5em;
+  }
+  .scrollable-table-outer .scrollable-table-inner {
+    overflow-x: scroll;
+  }
+  .scrollable-table-outer .table {
+    table-layout: fixed;
+    margin-bottom: 0;
+  }
+  .scrollable-table-outer .table td,
+  .scrollable-table-outer .table th {
+    width: 160px;
+  }
+  .scrollable-table-outer .table td.scrollable-date,
+  .scrollable-table-outer .table th.scrollable-date {
+    width: 120px;
+  }
+  .scrollable-table-outer .table td.scrollable-small,
+  .scrollable-table-outer .table th.scrollable-small {
+    width: 90px;
+  }
+  .scrollable-table-outer .table td.scrollable-large,
+  .scrollable-table-outer .table th.scrollable-large {
+    width: 230px;
+  }
+  .enrollment-form .header-enrollment .header-enrollment-intro {
+    border-left: none;
+    padding-bottom: 1px;
+    padding-right: 0;
+  }
+  .enrollment-form .header-enrollment .header-enrollment-info {
+    border-bottom: 1px solid #999999;
+    border-left: none;
+    min-height: none;
+    padding-right: 0;
+  }
+  .enrollment-form .header-enrollment .header-enrollment-rate {
+    border: none;
+  }
+  .enrollment-form .header-enrollment .interest-rate {
+    border-top: 1px solid #999999;
+    line-height: 1em;
+    padding-top: 15px;
+    margin: 0;
+  }
+  .enrollment-form .header-enrollment .interest-rate.interest-rate-as-low-as span {
+    display: block;
+    margin-top: 0.3em;
+  }
+  .enrollment-form .summary-section-header .btn {
+    margin-top: .5em;
+  }
+  .enrollment-progress-container {
+    padding-bottom: 0;
+  }
+  .steps-connector {
+    display: none;
+  }
+  .enrollment-progress-steps .step {
+    float: none;
+    margin: 8px 0;
+    width: 100%;
+    *zoom: 1;
+  }
+  .enrollment-progress-steps .step:before,
+  .enrollment-progress-steps .step:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  .enrollment-progress-steps .step:after {
+    clear: both;
+  }
+  .enrollment-progress-steps .step .step-number {
+    float: left;
+  }
+  .enrollment-progress-steps .step .step-label {
+    height: 2em;
+    text-align: left;
+    width: auto;
+  }
+  .enrollment-progress-steps .step .step-link {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .enrollment-progress-steps .step .sub-steps {
+    float: left;
+    margin-left: 2em;
+    position: static;
+  }
+  .enrollment-progress-steps .step .sub-step {
+    display: block;
+    clear: both;
+  }
+  .enrollment-progress-steps .step .sub-step:after {
+    content: attr(data-title);
+    margin-left: 18px;
+    margin-top: -4px;
+    width: 230px;
+    float: left;
+    display: block;
+  }
+  .rsp-transfer .rsp-transfer-img {
+    margin-bottom: 40px;
+  }
+  .rsp-transfer .rsp-transfer-img:last-child {
+    margin-bottom: 0px;
+  }
+  .draft img {
+    width: 100%;
+  }
+  .thrive-video-wrapper {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  .sign-up-summary {
+    margin: 0;
+  }
+  .sign-up-summary img {
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+  }
+  .sign-up-accounts .rate {
+    text-align: left;
+  }
+  .sign-up-accounts .rate span {
+    margin-right: 0.2em;
+    display: inline;
+  }
+  .sign-up-accounts .rate strong {
+    display: inline;
+  }
+  .sign-up-accounts .reviews {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .sign-up-accounts .sign-up-cta {
+    text-align: left;
+  }
+  .sign-up-accounts .sign-up-cta .btn {
+    margin-left: 0;
+  }
+  .sign-up-tabs {
+    text-align: left;
+  }
+  .sign-up-tabs ul {
+    margin: 0;
+  }
+  .sign-up-tabs li {
+    display: block;
+    width: 100%;
+  }
+  .sign-up-tabs li:after {
+    display: inline-block;
+    clear: none;
+    margin-bottom: 0.9em;
+  }
+  .sign-up-tabs a {
+    padding: 0 0 0 30px;
+  }
+  .double-safe-demo img {
+    width: 80%;
+    padding: 10px 10%;
+  }
+  .enrollment-help-section .action {
+    margin-top: 25px;
+    text-align: left;
+  }
+  .enrollment-form .enrollment-section-table {
+    border-top: 0px solid #ebebeb;
+  }
+  .interac img {
+    float: left;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .pay-my-bills span.form-error-inline {
+    width: 60%;
+    margin-left: 40%;
+  }
+  .video-wrapper-in-content {
+    margin: 0;
+  }
+  .map-search .input-append input {
+    width: 96%;
+  }
+  .map-container-collapse .map {
+    height: 260px;
+  }
+  .quick-searches-content {
+    clear: both;
+    padding-top: 10px;
+  }
+  .abm-locations .abm-locations-title {
+    margin-top: 0.6em;
+  }
+  .abm-locations .abm-location {
+    position: relative;
+  }
+  .abm-locations .abm-location h4 {
+    width: 83%;
+  }
+  .abm-locations .abm-location .span1 {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+  .abm-locations .abm-location .number {
+    float: right;
+  }
+  .abm-locator-map-branch {
+    margin: 0.5em 0 1em;
+  }
+  .abm-locator-search-options label {
+    display: block;
+  }
+  .abm-services-list {
+    margin-bottom: 0;
+  }
+  .pagination-abm-locations {
+    float: none;
+    text-align: center;
+  }
+  .link-bottom {
+    width: auto;
+  }
+  .dropdown-menu.typeahead > .active > a {
+    background: transparent;
+    color: #666666;
+  }
+  .sony-android *,
+  .sony-android *:before,
+  .sony-android *:after {
+    -webkit-backface-visibility: hidden !important;
+  }
+  .social-links {
+    margin-bottom: 5px;
+  }
+  .time-out img.airplane {
+    margin: 10px 0 10px;
+    padding: 0px;
+    width: 100%;
+  }
+  .time-out img.logo {
+    margin-bottom: 20px;
+    width: 160px;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 979px) {
+  .row-fluid .content-span {
+    margin-left: 0;
+    width: 100%;
+  }
+  .footer {
+    margin: 50px 0 0;
+  }
+  .footer .footer .social-links p {
+    margin: 0.05em 0;
+  }
+  .orange-alerts .table td:first-child input[type=checkbox] {
+    margin-left: 0 !important;
+  }
+  .orange-alerts .tbl-cell-block > p {
+    display: inline-block;
+    margin-top: 0 !important;
+    width: 100%;
+  }
+  .orange-alerts .row-fluid .table-vertical td {
+    padding-left: 26.6%;
+    text-align: left;
+  }
+  .double-safe-current-image .double-safe-top {
+    height: 320px;
+  }
+  .double-safe-images .double-safe-generate-images {
+    display: block;
+    text-align: right;
+    width: 95%;
+  }
+  .double-safe-images.is-visitor a {
+    width: 18%;
+  }
+  .double-safe-images.is-visitor .double-safe-generate-images {
+    width: 18%;
+    display: inline-block;
+  }
+  .double-safe-top {
+    min-height: 341px;
+  }
+  .content-main .content-main-wrapper p:first-child {
+    margin-top: 1em;
+  }
+  .form-long-forms.form-horizontal .control-label {
+    width: 200px;
+  }
+  .form-long-forms.form-horizontal .controls {
+    margin-left: 220px;
+  }
+  .control-group .btn-group {
+    display: block;
+  }
+  .enrollment-form .header-enrollment-rate {
+    padding-left: 15px;
+  }
+  .header-enrollment .interest-rate.interest-rate-up-to span,
+  .header-enrollment .interest-rate.interest-rate-as-low-as span {
+    display: block;
+    margin-top: 0.3em;
+  }
+  .enrollment-progress-steps li {
+    margin: 3px 0;
+  }
+  .double-safe-demo img {
+    float: none;
+    padding-top: 0px;
+    width: 72%;
+  }
+  .row .table-horizontal td,
+  .row-fluid .table-horizontal td,
+  .row .table-vertical td,
+  .row-fluid .table-vertical td,
+  .row .table-horizontal td[class*="span"],
+  .row-fluid .table-horizontal td[class*="span"],
+  .row .table-vertical td[class*="span"],
+  .row-fluid .table-vertical td[class*="span"] {
+    padding: 10px;
+  }
+  .row .table-horizontal td:before,
+  .row-fluid .table-horizontal td:before,
+  .row .table-vertical td:before,
+  .row-fluid .table-vertical td:before,
+  .row .table-horizontal td[class*="span"]:before,
+  .row-fluid .table-horizontal td[class*="span"]:before,
+  .row .table-vertical td[class*="span"]:before,
+  .row-fluid .table-vertical td[class*="span"]:before {
+    position: static !important;
+    width: 50%;
+    display: block;
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 10px 10px 0;
+  }
+  .row .table-horizontal td.tbl-cell-block.tbl-cell-block-tablet,
+  .row-fluid .table-horizontal td.tbl-cell-block.tbl-cell-block-tablet,
+  .row .table-vertical td.tbl-cell-block.tbl-cell-block-tablet,
+  .row-fluid .table-vertical td.tbl-cell-block.tbl-cell-block-tablet,
+  .row .table-horizontal td[class*="span"].tbl-cell-block.tbl-cell-block-tablet,
+  .row-fluid .table-horizontal td[class*="span"].tbl-cell-block.tbl-cell-block-tablet,
+  .row .table-vertical td[class*="span"].tbl-cell-block.tbl-cell-block-tablet,
+  .row-fluid .table-vertical td[class*="span"].tbl-cell-block.tbl-cell-block-tablet {
+    display: block;
+    line-height: 1.5em;
+    padding-left: 10px;
+    position: static;
+    text-align: left;
+  }
+  .row .table-horizontal td.tbl-cell-block.tbl-cell-block-tablet:before,
+  .row-fluid .table-horizontal td.tbl-cell-block.tbl-cell-block-tablet:before,
+  .row .table-vertical td.tbl-cell-block.tbl-cell-block-tablet:before,
+  .row-fluid .table-vertical td.tbl-cell-block.tbl-cell-block-tablet:before,
+  .row .table-horizontal td[class*="span"].tbl-cell-block.tbl-cell-block-tablet:before,
+  .row-fluid .table-horizontal td[class*="span"].tbl-cell-block.tbl-cell-block-tablet:before,
+  .row .table-vertical td[class*="span"].tbl-cell-block.tbl-cell-block-tablet:before,
+  .row-fluid .table-vertical td[class*="span"].tbl-cell-block.tbl-cell-block-tablet:before {
+    display: block;
+    padding-bottom: 5px;
+    position: static;
+    white-space: normal;
+    color: #666666;
+    content: attr(data-title);
+  }
+  .enrollment-progress-container .steps-connector {
+    top: 31%;
+  }
+  .enrollment-progress-steps .step {
+    text-align: center;
+  }
+  .enrollment-progress-steps .step-label {
+    width: auto;
+  }
+  .enrollment-progress-steps .sub-steps {
+    position: static;
+    display: inline;
+  }
+  .enrollment-progress-steps .sub-step {
+    margin: .5em 1px 0;
+  }
+  .login .form-horizontal .controls {
+    margin-left: 0px;
+  }
+  .login .login-passmark-span .login-passmark-box {
+    min-height: 224px;
+  }
+  .login .login-passmark-box {
+    min-height: 169px;
+  }
+  .map-search .input-append input {
+    width: 93%;
+  }
+  .abm-locator-search-options label {
+    margin-right: 12px;
+  }
+  .abm-locator-search-options i {
+    display: none;
+  }
+  .abm-locations .abm-location .address.span8 {
+    padding-left: 25px;
+  }
+  .interac img {
+    float: right;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .pay-my-bills.is-editable .editable {
+    text-align: right;
+  }
+  .sony-android *,
+  .sony-android *:before,
+  .sony-android *:after {
+    -webkit-backface-visibility: hidden !important;
+  }
+  /*.table,
+    .table *,
+    .table *:before,
+    .table *:after {
+      -webkit-backface-visibility: hidden !important;// TQA00392983
+      }*/
+  
+  .tax-receipts-center table .note {
+    max-width: none;
+    float: right;
+  }
+  .tax-receipts-center table .note textarea {
+    float: right;
+    max-height: 100px;
+    max-width: 260px;
+  }
+  .time-out img.airplane {
+    margin: 10px 0;
+    padding-left: 30%;
+    width: 70%;
+  }
+  .time-out img.logo {
+    margin-bottom: 20px;
+    width: 160px;
+  }
+  .ui-datepicker-calendar td {
+    padding: 1px !important;
+  }
+  .ui-datepicker-calendar td a {
+    text-decoration: none !important;
+  }
+}
+@media only screen and (max-width: 979px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+  }
+  .print-section {
+    display: none !important;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+  .nav-main,
+  .left-transfer {
+    display: none;
+  }
+  .header-top,
+  .header-main,
+  .nav-main {
+    padding: 0 20px;
+  }
+  .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: auto;
+  }
+  .nav-main {
+    display: none;
+  }
+  .btn.dropdown-toggle {
+    display: none;
+  }
+  .content {
+    padding: 0 12px 12px;
+    margin-bottom: 20px;
+  }
+  .content-main .content-main-header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  .content-main-wrapper {
+    padding: 0;
+    border: 0;
+  }
+  .orange-alerts h2 {
+    padding-left: 10px;
+  }
+  .orange-alerts .table td:first-child {
+    text-align: left;
+  }
+  .orange-alerts .table td:first-child .tbl-cell-block > p {
+    text-align: left;
+  }
+  .orange-alerts .table td:first-child input[type=checkbox] {
+    margin-left: 66px;
+  }
+  .login h1 {
+    font-size: 1.65em;
+  }
+  .login .content-main-wrapper {
+    border: 2px solid #e8e8e8;
+    margin: 0;
+    padding: 0 6px;
+  }
+  .login .content-main-wrapper h2:first-child {
+    margin-top: 0.6em;
+  }
+  .login .login-passmark-span {
+    margin-bottom: 15px;
+  }
+  .login .button-holder {
+    margin-bottom: 20px;
+  }
+  .account-details-mortgage p {
+    padding: 15px 15px 0 15px;
+  }
+  .account-details-mortgage .table-horizontal tr,
+  .account-details-mortgage .table-horizontal tr:first-child {
+    border-top: 0 !important;
+  }
+  .deleted-external-link-acknowledged .row-fluid .table-vertical tr:first-child {
+    border-top: 0;
+    margin-top: -1px;
+  }
+  .account-type {
+    display: block;
+    margin: 0;
+    padding: 0.6em 0 0.4em 0;
+  }
+  .left-transfer {
+    display: none;
+  }
+  .footer {
+    background-image: none;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 20px;
+  }
+  .footer .footer-body {
+    height: auto !important;
+  }
+  .footer .footer-see-more {
+    display: none;
+  }
+  .touch .footer {
+    height: auto;
+  }
+  .input-append input,
+  .input-prepend input {
+    width: calc(100% - 40px) !important;
+  }
+  .form-horizontal .control-group [name="IndustryOccupation"],
+  .form-horizontal .control-group [name="Occupation"] {
+    width: 220px;
+  }
+  .form-horizontal .control-group span.error {
+    display: block;
+  }
+  .form-error-inline {
+    display: block;
+    margin-left: 0;
+  }
+  span.form-error-inline {
+    padding-top: 7px;
+  }
+  .table-horizontal.table-thin tr,
+  .table-horizontal.table-thin tr:first-child {
+    border-top: 0 !important;
+  }
+  .row .table,
+  .row-fluid .table {
+    border: 6px solid #e8e8e8;
+  }
+  .row .table p,
+  .row-fluid .table p {
+    padding: 0;
+  }
+  .row .table a,
+  .row-fluid .table a {
+    text-decoration: underline;
+  }
+  .row .table .btn,
+  .row-fluid .table .btn {
+    text-decoration: none;
+  }
+  .row .table-horizontal,
+  .row-fluid .table-horizontal {
+    margin-bottom: 0;
+  }
+  .row .table-horizontal tr:first-child,
+  .row-fluid .table-horizontal tr:first-child {
+    border-top: 0;
+  }
+  .row .table-horizontal td,
+  .row-fluid .table-horizontal td,
+  .row .table-horizontal th,
+  .row-fluid .table-horizontal th,
+  .row .table-horizontal th[class*="span"],
+  .row-fluid .table-horizontal th[class*="span"],
+  .row .table-horizontal td[class*="span"],
+  .row-fluid .table-horizontal td[class*="span"] {
+    border-top: 1px solid #dddddd;
+    display: block;
+    position: relative;
+    text-align: right;
+    white-space: normal;
+    width: auto;
+  }
+  .row .table-horizontal td:first-child,
+  .row-fluid .table-horizontal td:first-child,
+  .row .table-horizontal th:first-child,
+  .row-fluid .table-horizontal th:first-child,
+  .row .table-horizontal th[class*="span"]:first-child,
+  .row-fluid .table-horizontal th[class*="span"]:first-child,
+  .row .table-horizontal td[class*="span"]:first-child,
+  .row-fluid .table-horizontal td[class*="span"]:first-child {
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+  }
+  .row .table-horizontal td:before,
+  .row-fluid .table-horizontal td:before,
+  .row .table-horizontal th:before,
+  .row-fluid .table-horizontal th:before,
+  .row .table-horizontal th[class*="span"]:before,
+  .row-fluid .table-horizontal th[class*="span"]:before,
+  .row .table-horizontal td[class*="span"]:before,
+  .row-fluid .table-horizontal td[class*="span"]:before {
+    color: #666666;
+    content: attr(data-title);
+    display: block;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    top: 10px;
+  }
+  .row .table-vertical,
+  .row-fluid .table-vertical {
+    margin-bottom: 0;
+  }
+  .row .table-vertical > thead > tr,
+  .row-fluid .table-vertical > thead > tr,
+  .row .table-vertical > tbody > tr,
+  .row-fluid .table-vertical > tbody > tr,
+  .row .table-vertical > thead > tr > th,
+  .row-fluid .table-vertical > thead > tr > th,
+  .row .table-vertical > tbody > tr > th,
+  .row-fluid .table-vertical > tbody > tr > th,
+  .row .table-vertical > thead > tr > td,
+  .row-fluid .table-vertical > thead > tr > td,
+  .row .table-vertical > tbody > tr > td,
+  .row-fluid .table-vertical > tbody > tr > td,
+  .row .table-vertical > thead > tr > td[class*="span"],
+  .row-fluid .table-vertical > thead > tr > td[class*="span"],
+  .row .table-vertical > tbody > tr > td[class*="span"],
+  .row-fluid .table-vertical > tbody > tr > td[class*="span"],
+  .row .table-vertical > thead > tr > th[class^="span"],
+  .row-fluid .table-vertical > thead > tr > th[class^="span"],
+  .row .table-vertical > tbody > tr > th[class^="span"],
+  .row-fluid .table-vertical > tbody > tr > th[class^="span"] {
+    display: block;
+    width: auto;
+  }
+  .row .table-vertical > thead > tr.hidden,
+  .row-fluid .table-vertical > thead > tr.hidden,
+  .row .table-vertical > tbody > tr.hidden,
+  .row-fluid .table-vertical > tbody > tr.hidden,
+  .row .table-vertical > thead > tr > th.hidden,
+  .row-fluid .table-vertical > thead > tr > th.hidden,
+  .row .table-vertical > tbody > tr > th.hidden,
+  .row-fluid .table-vertical > tbody > tr > th.hidden,
+  .row .table-vertical > thead > tr > td.hidden,
+  .row-fluid .table-vertical > thead > tr > td.hidden,
+  .row .table-vertical > tbody > tr > td.hidden,
+  .row-fluid .table-vertical > tbody > tr > td.hidden,
+  .row .table-vertical > thead > tr > td[class*="span"].hidden,
+  .row-fluid .table-vertical > thead > tr > td[class*="span"].hidden,
+  .row .table-vertical > tbody > tr > td[class*="span"].hidden,
+  .row-fluid .table-vertical > tbody > tr > td[class*="span"].hidden,
+  .row .table-vertical > thead > tr > th[class^="span"].hidden,
+  .row-fluid .table-vertical > thead > tr > th[class^="span"].hidden,
+  .row .table-vertical > tbody > tr > th[class^="span"].hidden,
+  .row-fluid .table-vertical > tbody > tr > th[class^="span"].hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .row .table-vertical > thead,
+  .row-fluid .table-vertical > thead {
+    display: none;
+  }
+  .row .table-vertical > thead > tr,
+  .row-fluid .table-vertical > thead > tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .row .table-vertical > thead > tr,
+  .row-fluid .table-vertical > thead > tr,
+  .row .table-vertical > tbody > tr,
+  .row-fluid .table-vertical > tbody > tr {
+    border-top: 6px solid #e8e8e8;
+  }
+  .row .table-vertical > thead > tr:first-child,
+  .row-fluid .table-vertical > thead > tr:first-child,
+  .row .table-vertical > tbody > tr:first-child,
+  .row-fluid .table-vertical > tbody > tr:first-child {
+    border-top: 0;
+  }
+  .row .table-vertical > tbody > tr > td,
+  .row-fluid .table-vertical > tbody > tr > td,
+  .row .table-vertical > tbody > tr > th,
+  .row-fluid .table-vertical > tbody > tr > th,
+  .row .table-vertical > tbody > tr > th[class*="span"],
+  .row-fluid .table-vertical > tbody > tr > th[class*="span"],
+  .row .table-vertical > tbody > tr > td[class*="span"],
+  .row-fluid .table-vertical > tbody > tr > td[class*="span"] {
+    border-top: 1px solid #dddddd;
+    display: block;
+    position: relative;
+    padding: 10px;
+    text-align: right;
+    white-space: normal;
+    width: auto;
+  }
+  .row .table-vertical > tbody > tr > td:before,
+  .row-fluid .table-vertical > tbody > tr > td:before,
+  .row .table-vertical > tbody > tr > th:before,
+  .row-fluid .table-vertical > tbody > tr > th:before,
+  .row .table-vertical > tbody > tr > th[class*="span"]:before,
+  .row-fluid .table-vertical > tbody > tr > th[class*="span"]:before,
+  .row .table-vertical > tbody > tr > td[class*="span"]:before,
+  .row-fluid .table-vertical > tbody > tr > td[class*="span"]:before {
+    color: #666666;
+    content: attr(data-title);
+    display: block;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    top: 10px;
+    white-space: nowrap;
+    width: auto;
+  }
+  .row .table-vertical > tbody > tr > td.table-cell-no-records,
+  .row-fluid .table-vertical > tbody > tr > td.table-cell-no-records,
+  .row .table-vertical > tbody > tr > th.table-cell-no-records,
+  .row-fluid .table-vertical > tbody > tr > th.table-cell-no-records,
+  .row .table-vertical > tbody > tr > th[class*="span"].table-cell-no-records,
+  .row-fluid .table-vertical > tbody > tr > th[class*="span"].table-cell-no-records,
+  .row .table-vertical > tbody > tr > td[class*="span"].table-cell-no-records,
+  .row-fluid .table-vertical > tbody > tr > td[class*="span"].table-cell-no-records {
+    text-align: left;
+  }
+  .row .table-mixed th,
+  .row-fluid .table-mixed th,
+  .row .table-mixed td,
+  .row-fluid .table-mixed td {
+    text-align: right;
+  }
+  .row .table-mixed th:first-child,
+  .row-fluid .table-mixed th:first-child,
+  .row .table-mixed td:first-child,
+  .row-fluid .table-mixed td:first-child {
+    text-align: left;
+  }
+  .row .table-mixed-big.table-horizontal,
+  .row-fluid .table-mixed-big.table-horizontal {
+    border-top: 0;
+    margin-bottom: 15px;
+  }
+  .row .table-mixed-big.table-horizontal td:first-child,
+  .row-fluid .table-mixed-big.table-horizontal td:first-child {
+    background: #e8e8e8;
+    padding-left: 10px;
+  }
+  .row .table-striped tbody > tr:nth-child(odd) > td,
+  .row-fluid .table-striped tbody > tr:nth-child(odd) > td,
+  .row .table-striped tbody > tr:nth-child(odd) > th,
+  .row-fluid .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: white;
+  }
+  .row .table-striped tbody > tr:nth-child(even) > td,
+  .row-fluid .table-striped tbody > tr:nth-child(even) > td,
+  .row .table-striped tbody > tr:nth-child(even) > th,
+  .row-fluid .table-striped tbody > tr:nth-child(even) > th {
+    background-color: white;
+  }
+  .row .table-bordered,
+  .row-fluid .table-bordered {
+    border-bottom: 1px solid #dddddd;
+    border-right: 0;
+    border-top: 0;
+  }
+  .row .table-bordered th,
+  .row-fluid .table-bordered th,
+  .row .table-bordered td,
+  .row-fluid .table-bordered td {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+  }
+  .row .table-refer-friends tr td:last-child,
+  .row-fluid .table-refer-friends tr td:last-child {
+    text-align: right;
+  }
+  .transaction-download label.radio {
+    margin-left: 15px;
+  }
+  .account-details-header,
+  .account-details-main {
+    margin-top: 0;
+  }
+  .account-details-actions .btn-group {
+    margin-left: 0;
+  }
+  .account-details-account-actions > a,
+  .mortgage-links > a {
+    display: block;
+    margin-top: 10px;
+  }
+  .btn {
+    min-width: 50px;
+    padding: 8px 12px;
+  }
+  input.btn[type="submit"] {
+    height: 2.9em;
+  }
+  .modal-footer .btn {
+    min-width: 50px;
+    padding: 8px 10px;
+  }
+  .button-holder-container {
+    background: none;
+  }
+  .button-holder {
+    padding: 8px 0px;
+    text-align: center;
+  }
+  .link-bottom {
+    margin: 7px 0;
+    float: none;
+    display: block;
+  }
+  .pay-my-bills.is-editable .editable {
+    display: block !important;
+  }
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .viewport {
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .frame {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 200%;
+  }
+  .menu {
+    background-color: white;
+    display: block;
+    float: left;
+    height: 100% !important;
+    overflow-y: scroll !important;
+    position: relative;
+    width: 250px;
+    z-index: 1001;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate(-250px, 0);
+    -moz-transform: translate(-250px, 0);
+    -ms-transform: translate(-250px, 0);
+    -o-transform: translate(-250px, 0);
+    transform: translate(-250px, 0);
+  }
+  .menu * {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .menu.open {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .menu.open + .view {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .menu a {
+    text-decoration: none;
+  }
+  .menu .mobile-menu-header {
+    background-color: #f58426;
+    color: white;
+    padding: 5px 10px;
+    border-bottom: 1px solid #c46a1e;
+    *zoom: 1;
+  }
+  .menu .mobile-menu-header:before,
+  .menu .mobile-menu-header:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  .menu .mobile-menu-header:after {
+    clear: both;
+  }
+  .menu .mobile-menu-header .mobile-menu-header-left,
+  .menu .mobile-menu-header .mobile-menu-header-right {
+    float: left;
+  }
+  .menu .mobile-menu-header .mobile-menu-header-left > a,
+  .menu .mobile-menu-header .mobile-menu-header-right > a {
+    color: inherit;
+    font-weight: bold;
+  }
+  .menu .mobile-menu-header .mobile-menu-header-left > a:hover,
+  .menu .mobile-menu-header .mobile-menu-header-right > a:hover {
+    text-decoration: none;
+  }
+  .menu .mobile-menu-header .mobile-menu-header-left {
+    width: 105px;
+  }
+  .menu .mobile-menu-header .mobile-menu-header-left [class^="icon-"],
+  .menu .mobile-menu-header .mobile-menu-header-left [class*="icon-"] {
+    font-size: 2.5em;
+  }
+  .menu .mobile-menu-header .mobile-menu-header-left > a {
+    display: inline-block;
+    padding-top: 20px;
+  }
+  .menu .mobile-menu-header .mobile-menu-header-right {
+    margin-top: 10px;
+    padding-left: 15px;
+  }
+  .menu .mobile-menu-header .btn-group > .btn + .btn {
+    margin-left: -3px;
+  }
+  .menu .mobile-menu-nav {
+    background-color: #f58426;
+    border-top: 1px solid #f8a967;
+    margin: 0;
+  }
+  .menu .mobile-menu-nav a {
+    color: inherit;
+  }
+  .menu .mobile-menu-nav > li {
+    border-bottom: 1px solid #f8a967;
+    display: block;
+    color: white;
+    *zoom: 1;
+  }
+  .menu .mobile-menu-nav > li:before,
+  .menu .mobile-menu-nav > li:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  .menu .mobile-menu-nav > li:after {
+    clear: both;
+  }
+  .menu .mobile-menu-nav > li a {
+    font-weight: bold;
+    display: block;
+    padding: 20px 0px 20px 20px;
+  }
+  .menu .mobile-menu-nav > li a:hover {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .menu .mobile-menu-nav > li > a {
+    float: left;
+    width: 75%;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .menu .mobile-menu-nav > li .mobile-dropdown {
+    display: block;
+    float: right;
+    padding: 20px;
+    width: 25%;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .menu .mobile-menu-nav > li .mobile-dropdown.collapsed {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .menu .mobile-menu-nav > li .mobile-dropdown [class*="icon-"],
+  .menu .mobile-menu-nav > li .mobile-dropdown [class^="icon-"] {
+    color: white;
+    font-size: 1.05em;
+  }
+  .menu .mobile-menu-nav > li .mobile-dropdown-menu {
+    background-color: white;
+    color: #f58426;
+    clear: both;
+  }
+  .menu .mobile-menu-nav > li .mobile-dropdown-menu a {
+    border-bottom: 1px solid #f8a967;
+    display: block;
+    padding-left: 35px;
+    padding-right: 20px;
+  }
+  .menu .mobile-menu-nav .mobile-static {
+    border-bottom: 1px solid #4e4e4e;
+    background-color: white;
+    color: #4e4e4e;
+  }
+  .view {
+    width: 50%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate(-250px, 0);
+    -moz-transform: translate(-250px, 0);
+    -ms-transform: translate(-250px, 0);
+    -o-transform: translate(-250px, 0);
+    transform: translate(-250px, 0);
+  }
+  .view .navbar .navbar-inner .btn-navbar {
+    display: block;
+    float: left;
+  }
+  .view > * {
+    -webkit-overflow-scrolling: auto;
+  }
+  .mobile-overlay {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  .mobile-overlay.is-active {
+    left: 0;
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .double-safe-display {
+    margin-top: 20px;
+  }
+  .double-safe-display img {
+    margin-top: 5px;
+  }
+  .create-asp p {
+    margin-bottom: 15px;
+  }
+  .document-list .table td:first-child {
+    text-align: left;
+  }
+  .document-list .table td:first-child input[type="checkbox"] {
+    margin-left: 0px;
+  }
+  .document-list .table td:first-child .radio,
+  .document-list .table td:first-child .checkbox {
+    min-height: 1.2em;
+    padding-left: 0px;
+  }
+  .document-list .table td:first-child label {
+    margin-top: 10px;
+  }
+  .document-list .table td:first-child label p {
+    font-weight: 700;
+    display: inline;
+  }
+  .asp-setup-calculator .btn-large {
+    font-size: 1em;
+    padding: 8px 12px;
+  }
+  .calculate-link {
+    display: block;
+    clear: both;
+    margin: 10px 0 15px 0;
+  }
+  .refer-a-friend-points .well p:first-child {
+    margin-top: 0;
+  }
+  .refer-a-friend-banner img {
+    width: 160px;
+  }
+  .refer-a-friend-share img {
+    width: 70px;
+  }
+  .breadcrumb {
+    display: none;
+  }
+  .document-list .table td:first-child.tbl-select-option {
+    width: auto;
+  }
+  .document-list .table td:first-child .checkbox input[type="checkbox"] {
+    margin-top: 0px;
+  }
+  .table-select-all {
+    border-bottom: 0 !important;
+  }
+  .table .has-label-with-checkbox {
+    text-align: left !important;
+  }
+  .table .has-label-with-checkbox label {
+    font-size: 1em !important;
+    margin: 5px 0;
+  }
+  .table .has-label-with-checkbox span.hidden-desktop {
+    display: inline !important;
+    font-size: 1em !important;
+    font-weight: 700;
+  }
+  .table .has-label-with-checkbox input {
+    margin-top: 0;
+  }
+  .sign-up-accounts {
+    background: white;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .sign-up-accounts hr {
+    border-top-color: #ebebeb;
+    border-bottom-color: #fcfcfc;
+  }
+  .sign-up-accounts .sign-up-account-module-header,
+  .sign-up-accounts .sign-up-account-module-body {
+    background: #fcfcfc;
+  }
+  .enrollment-form .enrollment-section-table {
+    border-top: 0px solid #ebebeb;
+  }
+  .enrollment-form .table .btn {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .map-search .input-append input {
+    padding: 9px 5px;
+  }
+  .table .editable {
+    text-align: left;
+  }
+  .table,
+  .table *,
+  .table *:before,
+  .table *:after {
+    -webkit-backface-visibility: visible;
+    -moz-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  .button-link {
+    float: none;
+    padding: 9px 0;
+  }
+  .internet-login .link-bottom {
+    text-align: center;
+  }
+  .powered-by {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .control-group * {
+    -webkit-overflow-scrolling: auto;
+    /* THIS --> http://benfrain.com/z-index-stacking-contexts-experimental-css-and-ios-safari/ */
+  
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header-main .header-main-menu ul {
+    margin-left: 170px;
+  }
+  .navbar .nav > li > a {
+    padding: 12px 40px;
+  }
+  .navbar .nav > li > .dropdown-menu > li > a {
+    font-weight: 300;
+    padding: 10px 40px;
+  }
+  html[lang="fr-CA"] .navbar .nav > li > a {
+    padding: 12px 25px;
+  }
+  .sidebar-left .sidebar-left-actions .sidebar-left-group > a:first-child {
+    display: inline-block;
+    max-width: 149px;
+  }
+  .stars-rating .stars {
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 979px) and (max-width: 1200px) {
+  .header-main .header-main-menu ul {
+    margin-left: 110px;
+  }
+}
+@media print {
+  a[href]:after {
+    content: "";
+  }
+  .hidden-print,
+  .nav-main,
+  .header-top-menu,
+  .header-main-menu,
+  .content > .container > .row-fluid.visible-desktop,
+  .content > .container > .row-fluid > .span2.visible-desktop,
+  .content-main-header > .span6.visible-desktop > a,
+  .breadcrumb,
+  .account-switch,
+  .marketing-banner,
+  .print-section,
+  .sidebar-left,
+  .button-holder-container,
+  .footer {
+    display: none !important;
+  }
+  .span10.content-span {
+    margin-left: 0;
+  }
+  .content-main .content-main-header h1 {
+    margin: 0;
+  }
+  .content-main .content-main-wrapper {
+    border: 0;
+    padding: 0;
+  }
+  .account-details-header {
+    padding: 0 10px;
+    border: 1px solid black;
+  }
+  .table td[data-title]:before {
+    display: block !important;
+  }
+  .cheque-image {
+    height: 160px;
+  }
+  .logo img {
+    width: 200px;
+  }
+}

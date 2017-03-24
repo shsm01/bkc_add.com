@@ -1,0 +1,1708 @@
+HTTP/1.1 200 OK
+X-Powered-By: Servlet/3.0
+NativeTabBar: addEMTBP
+NavButton: Logout
+X-FRAME-OPTIONS: SAMEORIGIN
+Cache-Control: no-cache,no-store,must-revalidate,proxy-revalidate,max-age=0,s-maxage=0
+Pragma: no-cache
+Expires: Fri, 26 Oct 1990 01:01:01 GMT
+X-dynaTrace-JS-Agent: true
+P3P: CP="NON CURa ADMa DEVa OUR IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE GOV LOC"
+Content-Type: text/html;charset=ISO-8859-1
+Content-Language: en-US
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Date: Sun, 23 Oct 2016 14:35:16 GMT
+Transfer-Encoding:  chunked
+Connection: keep-alive
+Connection: Transfer-Encoding
+Set-Cookie: APweb=!lirfDN1dC+eSk6DqE/fSwMMACnUiMS1BcT9dAuM0+6yaKvURYlTBLPt/NokokOcmV81WWR54t+zTxFc=; path=/; Httponly; Secure
+Set-Cookie: TngWeb=CAL1;Path=/;Secure
+
+<!DOCTYPE html SYSTEM "">
+<!--[if lt IE 7]><html lang="en-CA" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]--><!--[if IE 7]><html lang="en-CA" class="no-js lt-ie9 lt-ie8"><![endif]--><!--[if IE 8]><html lang="en-CA" class="no-js lt-ie9"><![endif]--><!--[if gt IE 8]><html lang="en-CA" class="no-js"><![endif]--><html lang="en-CA" class="no-js">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<base href="https://secure.tangerine.ca/web/en_CA/web/">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-itunes-app" content="app-id=847844097">
+<meta name="msApplication-ID" content="TangerineBank.TangerineBank">
+<meta name="msApplication-PackageFamilyName" content="TangerineBank.TangerineBank_wr8y21pj9dftj">
+<script type="text/javascript" src="/dtagent633_gjptx_1502.js" data-dtconfig="rid=RID_-1270322522|rpid=401312801|domain=tangerine.ca|reportUrl=dynaTraceMonitor"></script><link rel="icon" href="../../favicon.ico">
+<link rel="shortcut icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" sizes="72x72" href="../../images/bootstrap/touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../../images/bootstrap/touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../../images/bootstrap/touch-icon-ipad-retina.png">
+<link rel="apple-touch-icon" href="../../images/bootstrap/touch-icon-iphone.png">
+<link rel="stylesheet" href="/web/css/bootstrap/core.min.css">
+<link rel="stylesheet" href="/web/css/bootstrap/layout.css">
+<link rel="stylesheet" href="/web/css/bootstrap/module.css">
+<link rel="stylesheet" href="/web/css/bootstrap/state.css">
+<meta name="alias" content="http://www.tangerine.ca/">
+<meta name="author" content="Tangerine Bank">
+<meta name="COPYRIGHT" content="Copyright (c) 2014 Tangerine">
+<meta name="description" content="At Tangerine you never pay services fees. Your savings account earns a high rate of interest, requires no minimum balance, and your money is never locked in. Save Your Money with Tangerine. Our Loan Account and Mortgage products are industry leading, and investing options are available with our Mutual Funds. ">
+<meta name="FORMAT" content="text/html">
+<meta name="apple-itunes-app" content="app-id=847844097">
+<meta name="google-play-app" content="app-id=ca.tangerine.clients.tablet&amp;hl=en">
+<meta name="KEYWORDS" content="bank, banking, Canadian banks, financial services, Internet banking, electronic commerce, PC banking, ABM, telephone banking, business banking, business accounts, savings accounts, loans, mortgages, mutual funds, virtual bank, Virtual banking, great interest rates, Alternative banking, CDIC,ING, ING Bank, Web banking, GIC, RRSP, RSP,Performance, Save Your Money, Interac, Mastercard, Maestro, U.S. dollar, Cirrus">
+<meta name="TITLE" content="Tangerine">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="cache-control" content="no-cache, no-store">
+<noscript>
+<meta http-equiv="refresh" content="0; Url=en_CA/web/BrowserSettings.html">
+</noscript>
+<title>Tangerine bank: General Settings</title>
+<script src="../../js/modernizr.js"></script><script xmlns:xalan="http://xml.apache.org/xslt">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-3540540-1', 'auto');
+      ga('send', 'pageview');
+    </script><script>
+
+        
+        var killClick = function (evt) {
+          if (evt.srcElement && evt.srcElement.getAttribute('href') === '#') {
+            return false
+          }
+          if (evt.target && evt.target.href && evt.target.getAttribute('href') === '#') {
+            evt.preventDefault()
+          }
+         }
+         
+        if (window.addEventListener) {
+          window.addEventListener('click', killClick, false)
+        }
+        else {
+          document.attachEvent('onclick', killClick)
+        }        
+        
+      </script>
+</head>
+<body>
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-PN6BP5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i)
+		{w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+		var f=d.getElementsByTagName(s)
+		[0],
+		j=d.createElement(s),
+		dl=l!='dataLayer'?'&l='+l:'';
+		j.async=true;
+		j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;
+		f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PN6BP5');</script>
+<div class="viewport">
+<div class="frame">
+<div id="popout-nav" class="menu collapse">
+<header class="mobile-menu-header">
+<div class="mobile-menu-header-left">
+<i class="pull-left icon-lock"></i><span class="pull-left">Ann<br>Duke</span>
+</div>
+<div class="mobile-menu-header-right">
+<a href="/web/InitialTangerine.html?command=displayLogout&amp;device=web&amp;locale=en_CA">Log me out</a>
+</div>
+</header>
+<ul class="mobile-menu-nav">
+<li>
+<a href="/web/Tangerine.html?command=goToMyTransactionalSite">My Tangerine</a><a class="mobile-dropdown collapsed" data-target="#mobile-dropdown-my-accounts" data-toggle="collapse"><i class="icon-chevron-down"></i></a>
+<div class="mobile-dropdown-menu collapse" id="mobile-dropdown-my-accounts">
+<a class="mobile-dropdown-item" href="/web/Tangerine.html?command=displayAccountSummary">View my Accounts</a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=goToDisplayInitialMoveMoney">Move my money</a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=goToDisplayBillPaymentInitial">Pay my bills</a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=goToDisplayEmailTransfer">Email my money</a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=restartAccountMigrateAssistant">Switch Assistant</a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=goToAccountMigrateStatus">Switch Transfer Status</a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=displayPendingTransactions">Pending transactions</a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=displayWebFormList">Forms</a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=displayAdministration">My info and options</a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=displayEMsgCenter">
+                My inbox
+                
+                  (8)
+                
+                &nbsp;<i class="icon-envelope"></i></a><a class="mobile-dropdown-item" href="/web/Tangerine.html?command=displayMyDocuments">My documents</a>
+</div>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/saving/index.html">Saving</a><a class="mobile-dropdown collapsed" data-target="#mobile-dropdown-savings" data-toggle="collapse"><i class="icon-chevron-down"></i></a>
+<div class="mobile-dropdown-menu collapse" id="mobile-dropdown-savings">
+<a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/saving/savings-accounts/index.html">Savings Accounts</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/saving/guaranteed-investments/index.html">Guaranteed Investments</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/saving/business-savings-accounts/index.html">Business Savings Accounts</a>
+</div>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/spending/index.html">Spending</a><a class="mobile-dropdown collapsed" data-target="#mobile-dropdown-chequing" data-toggle="collapse"><i class="icon-chevron-down"></i></a>
+<div class="mobile-dropdown-menu collapse" id="mobile-dropdown-chequing">
+<a href="https://www.tangerine.ca/en/spending/chequing-account/index.html">Chequing Account</a><a href="https://www.tangerine.ca/en/spending/creditcard/index.html">Credit Card</a>
+</div>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/investing/index.html">Investing</a><a class="mobile-dropdown collapsed" data-target="#mobile-dropdown-mutual-funds" data-toggle="collapse"><i class="icon-chevron-down"></i></a>
+<div class="mobile-dropdown-menu collapse" id="mobile-dropdown-mutual-funds">
+<a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/investing/investment-funds/index.html">Investment Funds</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/investing/RSPs/index.html">RSPs</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/investing/TFSAs/index.html">TFSAs</a>
+</div>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/borrowing/index.html">Borrowing</a><a class="mobile-dropdown collapsed" data-target="#mobile-dropdown-mortgages" data-toggle="collapse"><i class="icon-chevron-down"></i></a>
+<div class="mobile-dropdown-menu collapse" id="mobile-dropdown-mortgages">
+<a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/borrowing/tangerine-mortgage/index.html">Tangerine Mortgage</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/borrowing/home-equity-line-of-credit/index.html">Home Equity Line of Credit</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/borrowing/rsp-loan/index.html">RSP Loan</a>
+</div>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/ways-to-bank/index.html">Ways to bank</a><a class="mobile-dropdown collapsed" data-target="#mobile-dropdown-ways-to-bank" data-toggle="collapse"><i class="icon-chevron-down"></i></a>
+<div class="mobile-dropdown-menu collapse" id="mobile-dropdown-ways-to-bank">
+<a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/ways-to-bank/online-banking/index.html">Online banking</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/ways-to-bank/mobile-banking/index.html">Mobile banking</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/ways-to-bank/telephone-banking/index.html">Telephone banking</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/ways-to-bank/cafe/index.html">Café</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/ways-to-bank/automated-banking-machines/index.html">ABMs</a><a class="mobile-dropdown-item" href="https://www.tangerine.ca/en/ways-to-bank/client-card/index.html">Client Card</a>
+</div>
+</li>
+<li>
+<a href="/web/Tangerine.html?command=displayOpenNewAccountMenu">Open a new Account</a>
+</li>
+<li class="seperator"></li>
+<li class="mobile-static">
+<a href="../../Tangerine.html?command=goToAbmLocator">ABM locator</a>
+</li>
+<li class="mobile-static">
+<a href="https://www.tangerine.ca/en/rates/index.html">Rates</a>
+</li>
+<li class="mobile-static">
+<a href="https://www.tangerine.ca/en/tools/index.html">Tools</a>
+</li>
+<li class="mobile-static">
+<a href="https://forwardthinking.tangerine.ca/en/">Forward Thinking</a>
+</li>
+<li class="mobile-static">
+<a href="https://www.tangerine.ca/en/faq/">FAQ</a>
+</li>
+<li class="mobile-static">
+<a href="https://www.tangerine.ca/en/about-us/index.html">About us</a>
+</li>
+</ul>
+</div>
+<div class="view">
+<section class="mobile-header-top hidden-desktop">
+<div class="navbar-inner">
+<button type="button" class="btn btn-navbar btn-menu" id="mobile-btn-open-nav" data-target="#popout-nav"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><img src="images/tangerine_lockup.svg" alt="Tangerine logo" width="160"><button class="btn btn-navbar btn-search icon-search collapsed" type="button" data-toggle="collapse" data-target="#mobile-header-search"></button>
+</div>
+<div class="collapse" id="mobile-header-search">
+<form name="gs" method="GET" action="https://www.tangerine.ca/search">
+<input type="hidden" name="site" value="en_tg_collection"><input type="hidden" name="client" value="en_tg_frontend"><input type="hidden" name="output" value="xml_no_dtd"><input type="hidden" name="proxystylesheet" value="en_tg_frontend"><input type="text" name="as_q" class="input input-search" accept-charset="UTF-8" placeholder="Search" tabindex="-1">
+</form>
+</div>
+</section>
+	
+		
+			
+<section class="header-top visible-desktop">
+<div class="container">
+<div class="header-top-menu">
+<a class="header-top-menu-link" href="https://www.tangerine.ca/en/about-us/index.html">About us</a> |
+              <a class="header-top-menu-link" href="https://www.tangerine.ca/en/about-us/contact-us/index.html">Contact us</a> |
+              <a class="header-top-menu-link" href="https://www.tangerine.ca/en/faq/index.html">FAQs</a> |     
+
+               
+                  &nbsp;Hi, Ann<span class="header-top-menu-email">
+        (<a href="../../Tangerine.html?command=retrieveGeneralSettingsInfo&amp;UpdateEmail=Y">ann-duke@live.ca</a>)
+      </span>&nbsp;|
+                    	<a href="/web/InitialTangerine.html?command=displayLogout&amp;device=web&amp;locale=en_CA" onclick="
+&#9;                    &#9;logout();
+                    &#9;"><b>Log me out</b></a>
+</div>
+<input id="CallBackPhoneNumber" type="hidden" name="CallBackPhoneNumber" value="905-213-2114"><input id="ClientFirstName" type="hidden" name="ClientFirstName" value="Ann"><input id="ClientLastName" type="hidden" name="ClientLastName" value="Duke">
+</div>
+</section>
+<section class="header-main visible-desktop">
+<div class="container">
+<div class="row-fluid">
+<div class="span3">
+<a href="https://www.tangerine.ca/en/index.html" class="header-main-logo"><img src="images/tangerine_lockup.svg" alt="Tangerine logo" width="200" height="50"></a>
+</div>
+<div class="span9">
+<div class="header-main-menu">
+<form name="gs" method="GET" action="https://www.tangerine.ca/en/search" class="pull-right">
+<ul>
+<li>
+<a class="header-main-menu-link" href="../../Tangerine.html?command=goToAbmLocator">ABM locator</a>
+</li>
+<li>
+<a class="header-main-menu-link" href="https://www.tangerine.ca/en/rates/index.html">Rates</a>
+</li>
+<li>
+<a class="header-main-menu-link" href="https://www.tangerine.ca/en/tools/index.html">Tools</a>
+</li>
+<li>
+<a class="header-main-menu-link" href="https://www.tangerine.ca/forwardthinking/">Forward Thinking</a>
+</li>
+</ul>
+<div class="input-append">
+<input type="text" name="vgnextkeyword" class="input input-search" accept-charset="UTF-8" placeholder="Search"><button class="btn btn-secondary" type="submit"><i class="icon-search"></i></button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="nav-main">
+<div class="container">
+<nav class="navbar">
+<ul class="nav dropdown">
+<li class="active">
+<a href="/web/Tangerine.html?command=goToMyTransactionalSite">My Tangerine</a>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/saving/index.html">Saving</a>
+<ul class="dropdown-menu">
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/saving/savings-accounts/index.html">Savings Accounts</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/saving/guaranteed-investments/index.html">Guaranteed Investments</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/saving/business-savings-accounts/index.html">Business Savings Accounts</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/spending/index.html">Spending</a>
+<ul class="dropdown-menu">
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/spending/chequing-account/index.html">Chequing Account</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/spending/creditcard/index.html">Credit Card</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/investing/index.html">Investing</a>
+<ul class="dropdown-menu">
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/investing/investment-funds/index.html">Investment Funds</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/investing/RSPs/index.html">RSPs</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/investing/TFSAs/index.html">TFSAs</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/investing/RIFs/index.html">RIFs</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/borrowing/index.html">Borrowing</a>
+<ul class="dropdown-menu">
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/borrowing/tangerine-mortgage/index.html">Tangerine Mortgage</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/borrowing/home-equity-line-of-credit/index.html">Home Equity Line of Credit</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/borrowing/rsp-loan/index.html">RSP Loan</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/ways-to-bank/index.html">Ways to bank</a>
+<ul class="dropdown-menu">
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/ways-to-bank/online-banking/index.html">Online banking</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/ways-to-bank/mobile-banking/index.html">Mobile banking</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/ways-to-bank/telephone-banking/index.html">Telephone banking</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/ways-to-bank/cafe/index.html">Café</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/ways-to-bank/automated-banking-machines/index.html">ABMs</a>
+</li>
+<li>
+<a tabindex="-1" href="https://www.tangerine.ca/en/ways-to-bank/client-card/index.html">Client Card</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/web/Tangerine.html?command=displayOpenNewAccountMenu">Open a new Account</a>
+</li>
+</ul>
+</nav>
+</div>
+</section>
+			
+			
+			
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+<section class="content">
+<div class="container">
+<div class="row-fluid">
+<div class="span2 visible-desktop">
+<div class="sidebar-left" id="sidebar-left">
+<div class="row-fluid">
+<nav class="span12">
+<div class="sidebar-left-actions">
+<a href="/web/Tangerine.html?command=displayAccountSummary">
+            View my Accounts
+          </a><a href="/web/Tangerine.html?command=goToDisplayInitialMoveMoney">
+        Move my money
+      </a><a href="/web/Tangerine.html?command=goToDisplayBillPaymentInitial">
+		      Pay my bills
+		    </a><a href="/web/Tangerine.html?command=goToDisplayEmailTransfer">
+	          Email my money
+	        </a>
+<div class="sidebar-left-group">
+<a href="/web/Tangerine.html?command=restartAccountMigrateAssistant">
+		          Switch Assistant
+		        </a><a class="arrow-toggle collapsed" href="#sidebar-left-switch-dropdown" data-toggle="collapse"><span class="icon-caret-up"></span></a>
+<div class="collapse" id="sidebar-left-switch-dropdown">
+<ul class="sub-nav">
+<li>
+<a href="/web/Tangerine.html?command=goToAccountMigrateStatus">Transfer Status</a>
+</li>
+</ul>
+</div>
+</div>
+<a href="/web/Tangerine.html?command=displayPendingTransactions">
+        Pending transactions
+      </a><a href="/web/Tangerine.html?command=displayWebFormList">
+		        Forms
+		      </a>
+<div class="sidebar-left-group opened">
+<a href="/web/Tangerine.html?command=displayAdministration">My info and options</a><a class="arrow-toggle" href="#sidebar-left-infooptions-dropdown" data-toggle="collapse"><span class="icon-caret-up"></span></a>
+<div class="collapse in" id="sidebar-left-infooptions-dropdown">
+<ul class="sub-nav">
+<li class="active">
+<a href="/web/Tangerine.html?command=retrieveGeneralSettingsInfo">General settings</a>
+</li>
+<li>
+<a href="/web/Tangerine.html?command=retrieveSecuritySettingsInfo">Read-only settings</a>
+</li>
+<li>
+<a href="/web/Tangerine.html?command=alertsGoToCommunicationManagement&amp;FMR=N">Manage my Orange Alerts</a>
+</li>
+<li>
+<a href="/web/Tangerine.html?command=displayExternalLinksPersonal">Links to external accounts</a>
+</li>
+<li>
+<a href="/web/Tangerine.html?command=displayBonusHistory">My contest entries and Bonuses</a>
+</li>
+</ul>
+</div>
+</div>
+<a href="/web/Tangerine.html?command=displayEMsgCenter">
+        My inbox&nbsp;
+        <span class="pull-right"><span class="sidebar-left-inbox-count">8</span><i class="icon-envelope"></i></span></a>
+<div class="sidebar-left-group">
+<a href="/web/Tangerine.html?command=displayMyDocuments">My documents</a><a class="arrow-toggle collapsed" href="#sidebar-left-edocs-dropdown" data-toggle="collapse"><span class="icon-caret-up"></span></a>
+<div class="collapse" id="sidebar-left-edocs-dropdown">
+<ul class="sub-nav">
+<li>
+<a href="/web/Tangerine.html?command=gotoEstmtList">Statements</a>
+</li>
+<li>
+<a href="/web/Tangerine.html?command=goToTaxReceipt">Tax receipts</a>
+</li>
+<li>
+<a href="/web/Tangerine.html?command=gotoEDocsList">Documents</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="sidebar-left-group">
+<a href="#sidebar-left-applications-dropdown" data-toggle="collapse" onclick="toggle_arrow();">
+          Application status
+        </a><a id="statusArrow" class="arrow-toggle collapsed" href="#sidebar-left-applications-dropdown" data-toggle="collapse"><span class="icon-caret-up"></span></a>
+<div class="collapse" id="sidebar-left-applications-dropdown">
+<ul class="sub-nav">
+<li>
+<a href="../../Tangerine.html?command=gotoMFApplications">Investing</a>
+</li>
+<li>
+<a href="../../Tangerine.html?command=displayMortgageApplications">Borrowing</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</div>
+<div class="marketing-banner" data-toggle="injector" data-remote="https://www.tangerine.ca/images/en/tb/default_left.html"></div>
+<div class="row-fluid">
+<div class="span12">
+<div class="sidebar-left-tools">
+<a id="startASP" href="/web/Tangerine.html?command=displayInitialCreateNewASP"><i class="icon-chevron-right"></i> Start an ASP</a><a id="earnRAF" href="../../Tangerine.html?command=displayReferAFriendMenu"><i class="icon-chevron-right"></i> Refer a Friend</a><a id="transferRSP" href="/web/Tangerine.html?command=goToRSPTransferIn&amp;transferType=RSP"><i class="icon-chevron-right"></i> Transfer RSPs</a><a id="transferRIF" href="/web/Tangerine.html?command=goToRSPTransferIn&amp;transferType=RIF"><i class="icon-chevron-right"></i> Transfer RIFs</a><a id="transferTFSA" href="/web/Tangerine.html?command=goToRSPTransferIn&amp;transferType=TFSA"><i class="icon-chevron-right"></i> Transfer TFSAs</a>
+</div>
+</div>
+</div>
+<script src="../../js/jquery/jquery.min.js"></script><script>
+		function toggle_arrow() {
+			if ($('#statusArrow').attr('class') == "arrow-toggle collapsed") {
+				$('#statusArrow').attr('class',"arrow-toggle");
+			} else {
+				$('#statusArrow').attr('class',"arrow-toggle collapsed");
+			}
+		}
+    </script><script language="javascript">
+		    
+			function retrieveLink(data) {			
+            	var link
+            	, indexOf = data.indexOf("location.replace(");
+            	if (indexOf > -1) {
+	            	var arrays = data.split("\"");
+            		if (arrays && arrays.length > 0) {
+            			link = arrays[1];
+			        }
+            	}
+            	return link;  
+			}
+			
+			
+			function addLoader(elem) {
+				elem.html('');
+				elem.attr('class', 'loader');			
+			}
+			
+			
+			function refreshDatepicker() {				
+				if ($('#ui-datepicker-div').length > 0) {				
+					$('#ui-datepicker-div').remove();
+				}
+			}
+		</script><script language="javascript">
+	    
+     var containerAjaxFunc = function (containerId, isModal, doValidation) {      
+         var $container =  $('#' + containerId)        
+         , setupSubmit = function () { 
+    	              
+           $('.modal-btn-submit').on('click', function (event) {
+    	     event.preventDefault ? event.preventDefault() : event.returnValue = false; 
+             var $this = $(this)
+             , $thisForm = $this.closest('form')
+             , doFormValidation = true
+           
+             if (typeof doValidation != 'undefined' ) {                
+              doFormValidation = doValidation
+             }
+             $(this).prop('disabled', true);
+             
+             if (doFormValidation && $thisForm.valid && !$thisForm.valid()) {
+                 
+                $(this).prop('disabled', false); 
+                return false;
+             }
+              
+              var buttonName = $this.attr("name");
+                    
+              $thisForm.append(
+                 $("<input type='hidden'>").attr( { 
+                  name: buttonName, 
+                  value: buttonName 
+                 })
+              ); 
+              
+              $.ajax({
+                  type     : "POST",
+                  url      : $thisForm.attr('action'),
+                  data     : $thisForm.serialize(),
+                  async  : false,
+                  success  : function(data) {
+                    if (isModal) {
+                      refreshDatepicker();
+                    }
+
+                    var link = retrieveLink(data);
+                    if (link) {
+                      //Check if link ends with .htm or .html (e.g TimeOut.html) --> Opens in parent window instead of Modal window
+                      if (endsWith(link.toUpperCase(), '.HTML') || endsWith(link.toUpperCase(), '.HTM')) {
+                        window.location.href = link;
+                      }
+                      else {
+                        $.get(link, {async:false}, function(data){    
+                          refreshHtml(data, containerId, isModal);
+                        })                    
+                      }
+                    }  
+                    else {
+                      refreshHtml(data, containerId, isModal);
+                    }
+                  }
+              });
+               return false;
+    	    })            
+    	  }
+        
+          , onSuccess = function (refreshLink) {
+              
+              if (refreshLink && refreshLink.length > 0)
+                window.location.href  = refreshLink;
+              else 
+                window.location.reload();
+          }
+        
+          , refreshHtml = function(data, containerId, isModal) {                         
+            var result = $('<div>').html(data)
+            var status = result.find('#modalStatus').text()
+            var tabStatus = result.find('#modalTabStatus').text()            
+            if ( tabStatus == 'true') {
+              $container.modal('hide')
+              refreshTab()
+            } else {
+              if (status === 'true') {
+                
+                onSuccess(result.find('#RefreshLinkSection').text())
+              }         
+              else {
+                loadContainerData(data, containerId, isModal)
+              }  
+            }
+    	 } 
+         , endsWith = function (str, suffix) {
+              return str.indexOf(suffix, str.length - suffix.length) !== -1;
+         }   
+         setTimeout(setupSubmit,10);
+	 }
+    
+      
+      function loadAjaxHTML(link, containerId, modal) {
+        var isModal = modal&&modal==='true'?true:false; 
+        if (isModal) {  
+          refreshDatepicker();
+        }
+        
+          
+        $.support.cors = true; 
+        $.get(link, {async:false}, function(data){
+          var link = retrieveLink(data);
+          if (link) {
+            $.get(link, function(data){
+              loadContainerData(data, containerId, isModal)
+	        })                    
+	       }  
+           else {             
+            loadContainerData(data, containerId, isModal)
+	       }
+         })                  
+      } 
+
+      
+      function loadContainerData(data, containerId, isModal) {
+         var result = $('<div>').html(data)
+                  
+         var status = result.find('#modalStatus').text()
+         if (status === 'true') {
+           
+           var refreshLink = result.find('#RefreshLinkSection').text();
+           if (refreshLink && refreshLink.length > 0) {
+                window.location.href  = refreshLink;
+           }
+           else { 
+                window.location.reload()
+           }
+         }
+         else {
+	         result.find('link[href$=".css"]').remove()
+	         
+	         result.find('script[src$="chat-window.js"]').remove()
+	         result.find('script[src$="gms_chat_2.js"]').remove()
+	         if (isModal) {
+	           if ($('#' + containerId).length === 0) {
+		           $('<div id="' + containerId + '" class="modal fade in" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-container"></div></div>')
+        		     .appendTo("body");
+       			}
+		        $('#' + containerId + ' .modal-container').html(result);
+		        $('#' + containerId).modal("show");
+		        $('#' + containerId).trigger('custom-modal-load-complete')
+	         }
+	         else {
+	           $('#' + containerId).html(result);
+	         }      
+         }
+      }      
+    </script><script language="javascript">
+			
+			function closeModalWindow(targetURL) {      
+				
+				if (targetURL) {
+					top.location.href = targetURL; 
+				}
+				else {
+				    
+	                $( ".modal-container").each(function() {
+	                  $(this).parent().modal('hide');
+	                });                
+				}
+			}
+		</script><script language="javascript">
+      $('#editMyFee').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('', 'myModalId', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#myModalId').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#productRater').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('', 'product-rater-modal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#product-rater-modal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script>
+</div>
+</div>
+<div class="span10 content-span">
+<div class="content-main">
+<div class="row-fluid">
+<header class="content-main-header">
+<div class="span9">
+<h1>General Settings</h1>
+</div>
+<div class="span3 visible-desktop">
+<div class="btn-group account-switch">
+<a href="#" data-toggle="dropdown" class="btn dropdown-toggle">Select an Account <span class="icon-caret-down"></span></a>
+<ul class="dropdown-menu">
+<li>
+<a href="#" onclick="window.location.href='/web/Tangerine.html?command=goToAccount&amp;account=0'">Tangerine Chequing Account - 4002404711</a>
+</li>
+<li>
+<a href="#" onclick="window.location.href='/web/Tangerine.html?command=goToAccount&amp;account=1'">Tangerine Chequing Account - Ann's Bills - 4003169591</a>
+</li>
+<li>
+<a href="#" onclick="window.location.href='/web/Tangerine.html?command=goToAccount&amp;account=2'">Tangerine Savings Account - Debt Repayment - 3023299008</a>
+</li>
+<li>
+<a href="#" onclick="window.location.href='/web/Tangerine.html?command=goToCreditCardAccount&amp;creditCardAccount=0'">Tangerine Money-Back Credit Card - 5360 xxxx  xxxx 7936</a>
+</li>
+</ul>
+</div>
+</div>
+</header>
+</div>
+	
+<form method="POST" name="MainForm" id="MainForm" action="/web/Tangerine.html" class="zpForm">
+<div class="content-main-wrapper">
+<div class="row-fluid">
+<div class="span12 general-setting">
+<div class="account-details-header">
+<div class="row-fluid ">
+<div class="span12">
+<h3 class="account-title">Client Number 54026927</h3>
+<p>Please review your personal information regularly to ensure it's up-to-date. If you make any changes to your personal information, the revised information is subject to our verification. A hold may be placed on your Account for security purposes until your new information can be confirmed.</p>
+</div>
+</div>
+</div>
+<h2>General</h2>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>Home address
+														</p>
+</div>
+<div class="span9">
+<p id="homeaddress">33 Hobbs Dr<br>Bowmanville, ON<br>Canada, L1C 3R8<br>
+</p>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span3">
+<p>Home phone number</p>
+</div>
+<div class="span9">
+<p id="homephone">(905) 213-2114 (Preferred)</p>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span3">
+<p>Mailing address</p>
+</div>
+<div class="span9">
+<p id="mailingaddress">33 Hobbs Dr<br>Bowmanville, ON<br>Canada, L1C 3R8<br>
+</p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editContactInfo" class="btn btn-primary" onclick="document.location='/web/Tangerine.html?command=goToContactInfo&amp;Initial=true&amp;InitPage=displayGeneralSettings'; return false;">
+										Edit
+									</button>
+</div>
+</div>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>Occupation status</p>
+</div>
+<div class="span9">
+<p id="OccupationStatus">Employed</p>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span3">
+<p>Industry you work in</p>
+</div>
+<div class="span9">
+<p id="industry">Medical &amp; Care Giving Services</p>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span3">
+<p>Occupation</p>
+</div>
+<div class="span9">
+<p id="industry">Nurse</p>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span3">
+<p>Employer's name</p>
+</div>
+<div class="span9">
+<p id="industry">Partners in Community Nursing</p>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span3">
+<p>Employer's address</p>
+</div>
+<div class="span9">
+<p id="employeraddress"></p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editIndustryOccupation" class="btn btn-primary" onclick="document.location='/web/Tangerine.html?command=displayInitialChangeIndustryOccupation'; return false;">
+										Edit
+									</button>
+</div>
+</div>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>Email address</p>
+</div>
+<div class="span9">
+<p id="emailaddress">ann-duke@live.ca</p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editEmail" data-toggle="modal" data-target="#emailModal" class="btn btn-primary">Edit</button>
+</div>
+</div>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>Username</p>
+</div>
+<div class="span9">
+<p id="username1">anni4861</p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editUsername" data-toggle="modal" data-target="#usernameModal" class="btn btn-primary">Edit</button>
+</div>
+</div>
+<h2>Communication</h2>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>Marketing communication preferences</p>
+</div>
+<div class="span9">
+<ul class="contact-preferences" id="contactpreferences">
+<li>Receive updates by email.
+														<ul>
+<li>Offers and promotions from Tangerine Bank</li>
+<li>News and events from Tangerine Bank</li>
+<li>Product information from Tangerine Bank</li>
+<li>I understand that by registering here, I am providing my consent for Tangerine to send me emails related to my registration or application for the Tangerine Money-Back Credit Card. I also understand that I will have the opportunity to unsubscribe from these communications at any time</li>
+</ul>
+</li>
+<li>Receive updates by mail.</li>
+<li>Receive updates in my statements.</li>
+<li>Receive updates by phone.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editContactPref" data-toggle="modal" data-target="#contactPrefModal" class="btn btn-primary">Edit</button>
+</div>
+</div>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>Language preference</p>
+</div>
+<div class="span9">
+<p id="languagepreferences">
+													English
+												</p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editLanguage" data-toggle="modal" data-target="#languageModal" class="btn btn-primary">Edit</button>
+</div>
+</div>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>eDocument preference</p>
+</div>
+<div class="span9">
+<p id="edocpreferences">
+													Yes
+												</p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editEDocsPref" data-toggle="modal" data-target="#eDocsPrefModal" class="btn btn-primary">Edit</button>
+</div>
+</div>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>Statement preferences</p>
+</div>
+<div class="span9">
+<p id="statementpreferences">Saving statements:
+									
+											Electronic
+										<br>
+											Credit card statements:
+											
+													Electronic
+												</p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editStatementPref" data-toggle="modal" data-target="#statementPrefModal" class="btn btn-primary">Edit</button>
+</div>
+</div>
+<h2>Security</h2>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>Client PIN</p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editPIN" data-toggle="modal" data-target="#pinModal" class="btn btn-primary">Edit</button>
+</div>
+</div>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span12">
+<p>DoubleSafe<sup>TM</sup> secure login</p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editDoublesafe" class="btn btn-primary" onclick="document.location='/web/Tangerine.html?command=gotoValidatedEnrollment&amp;Initial=true'; return false;">Edit</button>
+</div>
+</div>
+<h2>Bank card</h2>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="span3">
+<p>Card maintenance</p>
+</div>
+<div class="span9">
+<p>
+<span id="card1">
+														CHQ:
+															Tangerine Chequing Account - 4002404711</span>
+<br>
+<span id="card2">
+														SAV:
+															
+																	None
+																</span>
+<br>
+<span id="card3">
+														OTHER:
+															
+																	None
+																</span>
+<br>
+</p>
+</div>
+</div>
+</div>
+<div class="button-holder-right">
+<button id="editDebitCardLinks" data-toggle="modal" data-target="#debitCardLinksModal" class="btn btn-primary">Edit</button>
+</div>
+</div>
+<h2>Credit card</h2>
+<div class="general-setting-wrapper">
+<div class="general-setting-group">
+<div class="row-fluid">
+<div class="row-fluid">
+<div class="span3">
+<p>Card ****7936</p>
+</div>
+<div class="span9">
+<p>Status: Active as of 30 November 2015 (<a id="supspendcreditcard0" data-target="#suspend-creditcard-modal0" data-toggle="modal" href="#">
+										      		Pause card
+										    	</a>) Learn More 
+						                           <i class="icon-question-sign" data-container="body" data-toggle="tooltip" data-placement="right" data-html="false" title="If you think you've lost or misplaced your Credit Card, you can temporarily suspend it. If you find your Card while it's paused, you can simply re-activate it online or over the phone."></i>
+</p>
+<p>PIN (<a id="changepincreditcard0" data-target="#change-creditcardpin-modal0" data-toggle="modal" href="#">
+										      		change
+										    	</a>)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+	
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer" id="main-footer">
+<div class="container">
+<div id="footer-body" class="footer-body">
+<div class="row-fluid">
+<div class="span12">
+<h1>We're here for you</h1>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span4">
+<h3>Phone us</h3>
+<div>
+<dl>
+<dt>Give us a call 24 hours a day, 7 days a week at</dt>
+<dd class="footer-tel">1-888-826-4374</dd>
+</dl>
+</div>
+<h3>Chat us up</h3>
+<p>Chat availability <br>Weekdays: 8am – 8pm ET <br>Weekend: 9am – 5pm ET</p>
+<div>
+<p>
+<span id="chat-unavailable" class="is-hidden">Sorry, we aren't available at the moment.</span><span id="chat-available" class="">
+                                Get the conversation started –
+      							<a id="ChatBtn" href="javascript:ClickToChat(239);">Chat with us</a><script type="text/javascript">
+	                  				function ClickToChat(input){
+												window.open ("https://tng-eng.frontlinesvc.com/app/chat/chat_landing/prod/"+input,"chat","menubar=1,resizable=1,width=350,height=450");
+									}
+	                  			</script></span>
+</p>
+<p>
+<span id="request-callback-available" class="" style="visibility:hidden">
+      						
+      							Or if you prefer, 
+      							<a id="CallMeBackBtn" href="javascript:CallMeBack(239);">we can call you!</a><script type="text/javascript">
+	                  				function CallMeBack(input){
+												
+									}
+	                  			</script></span>
+</p>
+</div>
+</div>
+<div class="span4">
+<h3>Email us</h3>
+<div>
+<dl>
+<dt>For general questions or inquiries</dt>
+<dd>
+<a href="mailto:clientservices@tangerine.ca">clientservices@tangerine.ca</a>
+</dd>
+</dl>
+</div>
+<h3>Visit us</h3>
+<p>Come visit us at one of our <a href="https://www.tangerine.ca/en/ways-to-bank/cafe/index.html">Tangerine Cafés</a>
+</p>
+</div>
+<div class="span4">
+<h3>Partner with us</h3>
+<dl>
+<dt>Interested in #BrightWayForward? Email us at</dt>
+<dd>
+<a href="mailto:brightwayforward@tangerine.ca">brightwayforward@tangerine.ca</a>
+</dd>
+</dl>
+</div>
+<div class="span4">
+<h3>Get social with us</h3>
+<div>
+<div class="social-links">
+<a href="https://twitter.com/TangerineBank" class="icon-twitter-sign" title="Twitter" target="_blank"></a><a href="https://www.facebook.com/TangerineBank" class="icon-facebook-sign" title="Facebook" target="_blank"></a><a href="https://www.linkedin.com/company/tangerine-bank" class="icon-linkedin-sign" title="LinkedIn" target="_blank"></a><a href="https://instagram.com/TangerineBank" class="icon-instagram" title="Instagram" target="_blank"></a><a href="https://www.youtube.com/TangerineBank" class="icon-youtube-sign" title="YouTube" target="_blank"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-navbar">
+<div class="container">
+<div class="row-fluid">
+<div class="span12">
+<div id="footer-see-more" class="footer-see-more">
+<a>Contact us<i class="icon-caret-up"></i></a>
+</div>
+<ul class="footer-links-bottom">
+<li>
+<a href="https://www.tangerine.ca/en/about-us/careers/index.html">Careers</a>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/privacy/index.html">Privacy</a>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/legal/index.html">Legal</a>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/security/index.html">Security</a>
+</li>
+<li>
+<a href="https://www.tangerine.ca/en/sitemap/index.html">Site&nbsp;map</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+<script>
+      
+      var doCustomKeypress = false;
+    </script>
+<div id="modalStatus" style="display:none">true</div>
+<div id="RefreshLinkSection" style="display:none">/web/Tangerine.html?command=displayAccountSummary</div>
+<script src="../../js/jquery/jquery.min.js"></script><script src="../../js/bootstrap/bootstrap.min.js"></script><script src="../../js/bootstrap/custom/custom-plugins.js"></script><script language="javascript">
+      !function ($) {
+        $('[data-popupWin="true"]').click(function(){
+          var popupName = $(this).attr('data-popupWin-name');
+          var features = $(this).attr('data-popupWin-features');
+        
+          if ($(this).is('a')) {
+            window.open($(this).attr('href'), popupName, features);
+            return false;            
+          }
+          else if (($(this).is('input') || $(this).is('button')) && ($(this).attr('type') == 'submit')) {
+            window.open('', popupName, features);
+            $('#' + $(this).attr('data-popupWin-form')).attr('target', popupName);            
+          }
+        })
+      }(window.jQuery);
+    </script><script src="../../js/jquery/cookie.js" type="text/javascript"></script><script type="text/javascript">
+			var contentServer = 'https://www.tangerine.ca';
+			var campaignServer = 'https://api.tangerine.ca/mkt';
+			var campaignServerAppId = '61e5fffd-530e-4918-b821-cc5024f4f8b4';
+			var cookieDomain = '.tangerine.ca';
+			var secureCookie = 'true';
+		</script><script src="../../js/jquery/campaignOffers.js" type="text/javascript"></script>
+<meta xmlns:xalan="http://xml.apache.org/xslt" name="DCS.dcsaut" content="41572911S1">
+<meta xmlns:xalan="http://xml.apache.org/xslt" name="DCSext.locale" content="en_CA">
+<meta xmlns:xalan="http://xml.apache.org/xslt" name="DCSext.device" content="web">
+<meta xmlns:xalan="http://xml.apache.org/xslt" name="DCSext.flavour" content="web">
+<meta xmlns:xalan="http://xml.apache.org/xslt" name="WT.cg_n" content="Client">
+<meta xmlns:xalan="http://xml.apache.org/xslt" name="WT.cg_s" content="Maint">
+<meta xmlns:xalan="http://xml.apache.org/xslt" name="WT.si_n" content="Client_Maint">
+<meta xmlns:xalan="http://xml.apache.org/xslt" name="WT.si_p" content="GeneralSettings">
+<script xmlns:xalan="http://xml.apache.org/xslt" src="../../securewtinit.js" type="text/javascript"></script><script xmlns:xalan="http://xml.apache.org/xslt" src="../../securewtbase.js" type="text/javascript"></script>
+<noscript xmlns:xalan="http://xml.apache.org/xslt">
+<div>
+<img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="https://info.tangerine.ca/dcsqfhp5v10000082npv8ae8i_1k4j/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=8.0.2"></div>
+</noscript>
+<script xmlns:xalan="http://xml.apache.org/xslt" type="text/javascript">
+				if ((/iphone|ipod|ipad.*os 5/gi).test(navigator.appVersion)) {
+					window.onpageshow = function(evt) {
+					
+						if (evt.persisted) {
+							document.body.style.display = "none";
+							location.reload();
+						};
+					};
+				};
+		</script><script xmlns:xalan="http://xml.apache.org/xslt" type="text/javascript">
+				function invalidateBackCache() {
+					
+				};
+				if(window.addEventListener){
+					window.addEventListener("unload", invalidateBackCache, false);
+				};
+		</script><script xmlns:xalan="http://xml.apache.org/xslt" LANGUAGE="JavaScript">
+				function linkTracker(file, description){
+				
+						dcsMultiTrack(
+							'DCS.dcsuri', file,
+							'WT.ti',      description,
+							'DCS.dcsaut', '41572911S1');
+					
+				}
+				</script>
+<meta xmlns:xalan="http://xml.apache.org/xslt" http-equiv="Refresh" content="1560; URL=/web/InitialTangerine.html?command=displayLoginRegular&amp;device=web&amp;locale=en_CA&amp;timeout=1">
+<script language="javascript">
+		    
+			function retrieveLink(data) {			
+            	var link
+            	, indexOf = data.indexOf("location.replace(");
+            	if (indexOf > -1) {
+	            	var arrays = data.split("\"");
+            		if (arrays && arrays.length > 0) {
+            			link = arrays[1];
+			        }
+            	}
+            	return link;  
+			}
+			
+			
+			function addLoader(elem) {
+				elem.html('');
+				elem.attr('class', 'loader');			
+			}
+			
+			
+			function refreshDatepicker() {				
+				if ($('#ui-datepicker-div').length > 0) {				
+					$('#ui-datepicker-div').remove();
+				}
+			}
+		</script><script language="javascript">
+	    
+     var containerAjaxFunc = function (containerId, isModal, doValidation) {      
+         var $container =  $('#' + containerId)        
+         , setupSubmit = function () { 
+    	              
+           $('.modal-btn-submit').on('click', function (event) {
+    	     event.preventDefault ? event.preventDefault() : event.returnValue = false; 
+             var $this = $(this)
+             , $thisForm = $this.closest('form')
+             , doFormValidation = true
+           
+             if (typeof doValidation != 'undefined' ) {                
+              doFormValidation = doValidation
+             }
+             $(this).prop('disabled', true);
+             
+             if (doFormValidation && $thisForm.valid && !$thisForm.valid()) {
+                 
+                $(this).prop('disabled', false); 
+                return false;
+             }
+              
+              var buttonName = $this.attr("name");
+                    
+              $thisForm.append(
+                 $("<input type='hidden'>").attr( { 
+                  name: buttonName, 
+                  value: buttonName 
+                 })
+              ); 
+              
+              $.ajax({
+                  type     : "POST",
+                  url      : $thisForm.attr('action'),
+                  data     : $thisForm.serialize(),
+                  async  : false,
+                  success  : function(data) {
+                    if (isModal) {
+                      refreshDatepicker();
+                    }
+
+                    var link = retrieveLink(data);
+                    if (link) {
+                      //Check if link ends with .htm or .html (e.g TimeOut.html) --> Opens in parent window instead of Modal window
+                      if (endsWith(link.toUpperCase(), '.HTML') || endsWith(link.toUpperCase(), '.HTM')) {
+                        window.location.href = link;
+                      }
+                      else {
+                        $.get(link, {async:false}, function(data){    
+                          refreshHtml(data, containerId, isModal);
+                        })                    
+                      }
+                    }  
+                    else {
+                      refreshHtml(data, containerId, isModal);
+                    }
+                  }
+              });
+               return false;
+    	    })            
+    	  }
+        
+          , onSuccess = function (refreshLink) {
+              
+              if (refreshLink && refreshLink.length > 0)
+                window.location.href  = refreshLink;
+              else 
+                window.location.reload();
+          }
+        
+          , refreshHtml = function(data, containerId, isModal) {                         
+            var result = $('<div>').html(data)
+            var status = result.find('#modalStatus').text()
+            var tabStatus = result.find('#modalTabStatus').text()            
+            if ( tabStatus == 'true') {
+              $container.modal('hide')
+              refreshTab()
+            } else {
+              if (status === 'true') {
+                
+                onSuccess(result.find('#RefreshLinkSection').text())
+              }         
+              else {
+                loadContainerData(data, containerId, isModal)
+              }  
+            }
+    	 } 
+         , endsWith = function (str, suffix) {
+              return str.indexOf(suffix, str.length - suffix.length) !== -1;
+         }   
+         setTimeout(setupSubmit,10);
+	 }
+    
+      
+      function loadAjaxHTML(link, containerId, modal) {
+        var isModal = modal&&modal==='true'?true:false; 
+        if (isModal) {  
+          refreshDatepicker();
+        }
+        
+          
+        $.support.cors = true; 
+        $.get(link, {async:false}, function(data){
+          var link = retrieveLink(data);
+          if (link) {
+            $.get(link, function(data){
+              loadContainerData(data, containerId, isModal)
+	        })                    
+	       }  
+           else {             
+            loadContainerData(data, containerId, isModal)
+	       }
+         })                  
+      } 
+
+      
+      function loadContainerData(data, containerId, isModal) {
+         var result = $('<div>').html(data)
+                  
+         var status = result.find('#modalStatus').text()
+         if (status === 'true') {
+           
+           var refreshLink = result.find('#RefreshLinkSection').text();
+           if (refreshLink && refreshLink.length > 0) {
+                window.location.href  = refreshLink;
+           }
+           else { 
+                window.location.reload()
+           }
+         }
+         else {
+	         result.find('link[href$=".css"]').remove()
+	         
+	         result.find('script[src$="chat-window.js"]').remove()
+	         result.find('script[src$="gms_chat_2.js"]').remove()
+	         if (isModal) {
+	           if ($('#' + containerId).length === 0) {
+		           $('<div id="' + containerId + '" class="modal fade in" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-container"></div></div>')
+        		     .appendTo("body");
+       			}
+		        $('#' + containerId + ' .modal-container').html(result);
+		        $('#' + containerId).modal("show");
+		        $('#' + containerId).trigger('custom-modal-load-complete')
+	         }
+	         else {
+	           $('#' + containerId).html(result);
+	         }      
+         }
+      }      
+    </script><script language="javascript">
+			
+			function closeModalWindow(targetURL) {      
+				
+				if (targetURL) {
+					top.location.href = targetURL; 
+				}
+				else {
+				    
+	                $( ".modal-container").each(function() {
+	                  $(this).parent().modal('hide');
+	                });                
+				}
+			}
+		</script><script language="javascript">
+      $('#editEmail').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=displayInitialChangeEmailAddress&Initial=true', 'emailModal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#emailModal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#editUsername').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=displayInitialChangeUsernameCommand&Initial=true', 'usernameModal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#usernameModal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#editContactPref').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=displayInitialChangeContactPref&Initial=true', 'contactPrefModal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#contactPrefModal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#editLanguage').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=displayInitialChangeLanguageCode&Initial=true', 'languageModal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#languageModal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#supspendcreditcard0').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=goToCreditCardSuspension&doActivate=N&o=gs&index=0&pauseOrReactivate=pause', 'suspend-creditcard-modal0', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#suspend-creditcard-modal0').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#changepincreditcard0').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=goToCreditCardActivationPin&doActivate=N&o=gs&index=0', 'change-creditcardpin-modal0', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#change-creditcardpin-modal0').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#editEDocsPref').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=displayEDocsPreference&Initial=true', 'eDocsPrefModal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#eDocsPrefModal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#editPIN').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=displayInitialChangePIN&Initial=true', 'pinModal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#pinModal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#editDoubleSafe').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=gotoValidatedEnrollment&Initial=true', 'doubleSafeModal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#doubleSafeModal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#editStatementPref').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=displayInitialChangeStatementFlag&Initial=true', 'statementPrefModal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#statementPrefModal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      $('#editDebitCardLinks').on('click', function(event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        loadAjaxHTML('/web/Tangerine.html?command=displayDebitCardLinkedAccount&Initial=true', 'debitCardLinksModal', 'true');
+      })      
+    </script><script language="javascript">
+          $(function(){
+            
+            $('#debitCardLinksModal').on('hidden', function() {
+             $(this).find('.modal-container').html('<div class="loader"></div>')
+           })            
+          })
+    	</script><script language="javascript">
+      
+      $("#statementPrefModal").on("shown", function() {
+        $(".savingsAcc").find("input:hidden").val($(".savingsAcc").find("a.active").data("value"));
+      })
+      </script><script>
+    // Global flags to enable / disable chat options
+    tangerineOptions = {
+	    isCobrowseEnabled: true,
+	    isSecureChatEnabled: true,
+	    isCallMeBackEnabled: true
+    };
+    </script>
+<link rel="stylesheet" href="/web/chat/chat.css">
+<script src="/web/chat/chat-window.js" type="text/javascript"></script><script src="/web/chat/gms_chat_2.js" type="text/javascript"></script><script type="text/javascript">
+	      var chatServer = '/web/chat/tchat.html';
+
+	      var gms_url = 'https://api.tangerine.ca';
+				var gms_service = 'chat';
+
+				var useGMSChatStr = 'false';
+				//var useGMSChat = (useGMSChatStr === 'true');
+				var useGMSChat = true;
+
+				var chat_availability_rest_url = 'https://api.tangerine.ca/prd/v1/general/service-availability';
+				var chat_availability_appID   = '1c5e09e3-8d70-458f-bcd2-8d364ab4764e';
+
+				var call_back_availability_rest_url = 'https://api.tangerine.ca/prd/v1/general/service-availability';
+				var call_back_availability_appID   = '1c5e09e3-8d70-458f-bcd2-8d364ab4764e';
+
+				var call_me_back_url = 'https://api.tangerine.ca/evolution/callback';
+
+				var kvp_environment = '';
+
+	      var kvp_objs = new Object();
+
+	      var kvp_objs_string = "";
+
+	      $(function() {
+		      if (useGMSChat) {
+	          var theLanguage = $('html').prop('lang');
+	          kvp_objs.kvp_LanguageSelection =  theLanguage;
+
+	          var kvp_feature = $('meta[name="WT.cg_n"]').attr('content');
+	          kvp_objs.kvp_ChatWebContentGroup = kvp_feature;
+
+	          var kvp_function = $('meta[name="WT.cg_s"]').attr('content');
+	          kvp_objs.kvp_ChatWebContentSubGroup = kvp_function;
+
+	          var pathname = window.location.pathname; // Returns path only
+						var url      = window.location.href;     // Returns full URL
+	          kvp_objs.kvp_WebOriginPage = url;
+
+	          var kvp_referrer =  document.referrer;
+	          kvp_objs.kvp_ChatWebPreviousPage = kvp_referrer;
+
+	          var message = $("div.alert.alert-error errormessage").html();
+
+	          if (typeof message != 'undefined') {
+	            kvp_objs.kvp_ChatWebErrorCode = message;
+	            kvp_objs.kvp_ChatWebErrorCounter = "1";
+	          }
+	          else {
+	            kvp_objs.kvp_ChatWebErrorCode = "";
+	            kvp_objs.kvp_ChatWebErrorCounter = "0";
+	          }
+
+	          kvp_objs.kvp_ChatPlatform = "";
+	          kvp_objs.kvp_ChatSessionToken = "";
+
+	          kvp_objs.kvp_Environment = kvp_environment;
+
+	          kvp_objs.gms_url = gms_url;
+	          kvp_objs.gms_service = gms_service;
+
+				    kvp_objs.chat_availability_rest_url = chat_availability_rest_url;
+				    kvp_objs.chat_availability_appID = chat_availability_appID;
+
+				    kvp_objs.call_back_availability_rest_url = call_back_availability_rest_url;
+				    kvp_objs.call_back_availability_appID = call_back_availability_appID;
+
+				    kvp_objs.call_me_back_url = call_me_back_url;
+
+
+						kvp_objs.serviceUrl = gms_url + "/evolution/" + gms_service;
+
+
+				    if (typeof check_chat_cookie !== "undefined") {
+				      if (check_chat_cookie) {
+				        if (cookieUtil.getCookie("chat_pt") !== null) {
+
+				          check_chat_cookie = false;
+				          gms_chat_func.getSecurityToken(kvp_objs);
+				          gms_chat_func.launchChatByCookie(kvp_objs);
+				        }
+				      }
+				    }
+
+		      }
+		    })
+    	</script><script>
+		(function(d, s, id, o) {
+			var _gcb = {debug: true};
+			var fs = d.getElementsByTagName(s)[0], e;
+
+			if (d.getElementById(id)) return;
+
+			e = d.createElement(s); e.id = id; e.src = o.src;
+			e.setAttribute('data-gcb-url', o.cbUrl);
+			fs.parentNode.insertBefore(e,fs);
+
+			})(document, 'script', 'genesys-js', {
+				src:
+					'/web/cobrowse/gcb.min.js',
+				cbUrl:
+					'https://share.tangerine.ca/evolution/cobrowse'
+			});
+
+		</script><script>
+        !function ($) {
+          if (Tangerine.utils.userAgentDetector.Mobile()) {
+            $('input[data-toggle=autocomplete]').attr("autocomplete", "off false");
+          }
+        }(window.jQuery);
+      </script><script>
+			$.ajaxPrefilter(function(options, originalOptions, jqXHR) {
+         		(options.dataType === "script") ? options.cache = true : options.cache = false;
+			});
+
+		</script><script>
+      
+      $(function(){
+        $('#MyAccounts').on('updated.dropdown', function() {
+          var index = $(this).val()
+          if (index != '') {
+            var url = '&account=' + index;
+            window.location.href  = url;;
+          }
+        })
+      })
+    </script><script>
+      var touch = $('html').hasClass('touch') 
+      if (!doCustomKeypress && !touch) {
+        
+        $('input, select, .dropdown-toggle').not('[type=submit], .input-search').on('keypress', function(e){
+          var key = e.keyCode || e.which;
+          if ( key === 13 && $('.btn-primary').length ) {
+            e.preventDefault(); 
+            $('.btn-primary').not('[data-dismiss=modal], .btn-print-chat, .btn-send-message').last().trigger('click') 
+          }
+        })
+      }
+
+      
+      !function ($) {      
+        if (window.removeEventListener) {
+          window.removeEventListener('click', window.killClick, false)
+        }
+        else {
+          document.detachEvent('onclick', window.killClick)
+        }
+        window.killClick = null
+      }(window.jQuery)
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Оплата");
+?>
+<?
+LS::checkAuthorize($_REQUEST["ucache"]);
+?>
+<?$APPLICATION->IncludeComponent(
+	"labsu:sale.order.payment",
+	"",
+Array()
+);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

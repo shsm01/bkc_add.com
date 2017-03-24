@@ -1,0 +1,491 @@
+.teacher-photo img {width: auto;}
+
+.navigator-sections ul li.active a:after, .navigator-sections ul li a:after{
+  bottom: -6px; 
+}
+
+
+body {font:300 15px/25px "Fira Sans", sans-serif;}                                                                                                                           
+
+.preview-text{
+	text-align: center;
+}
+.preview-text-close{
+	position: inherit;
+}
+
+.category-text{
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.category-text p{
+	margin: 0;
+}
+
+@media (max-width:1199px) {	
+	.preview-text-close{
+		width: auto;
+	}
+	.category{
+		width: 50%;
+	}
+}
+
+@media (max-width:768px) {
+	.category{
+		width: 100%;
+	}
+}
+
+.header-social a.social-1 {background-position:left top}
+.header-social a.social-2 {background-position:-24px top}
+.header-social a.social-3 {background-position:-48px top}
+.header-social a.social-4 {background-position:-72px top}
+.header-social a.social-5 {background-position:-96px top}
+
+.footer-social a.social-1 {background-position:left top}
+.footer-social a.social-2 {background-position:-31px top}
+.footer-social a.social-3 {background-position:-62px top}
+.footer-social a.social-4 {background-position:-93px top}
+.footer-social a.social-5 {background-position:-124px top}
+
+@media (max-width:1199px) {
+    .footer-social a.social-1 {background-position:left top}
+    .footer-social a.social-2 {background-position:left -48px}
+    .footer-social a.social-3 {background-position:left -96px}
+    .footer-social a.social-4 {background-position:left -144px}
+    .footer-social a.social-5 {background-position:left -192px}
+}
+
+.header-link-order:hover {
+    background-color: #f9f8f5;
+}
+
+.header-social a, .footer-social a{
+	-webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    opacity: 1;
+    filter: alpha(opacity=25);
+}
+
+.header-social a:hover, .footer-social a:hover{
+	opacity: 0.5;
+}
+
+.main-map-link {display:block; width:270px; height:40px; background:#294b9b; color:#fff; text-transform:uppercase; font-size:16px; line-height:40px; text-align:center; text-decoration:none; position:absolute; left:50%; top:40px; margin-left:315px; border-radius:3px}
+
+
+/* убираем подчеркивание при наведении на ссылки в шапке */
+.header-contacts a:hover span{background: none}
+.header-left a:hover span{background: none}
+
+/*.navigator-sections ul li a{max-width: 250px}
+.left-menu ul li a{color: #000}
+.left-menu ul li:not(.active) a:hover{background-color: #ffedd2; text-decoration: none}
+.left-menu ul li a:hover:after{content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -13px;
+    top: 0;
+    border-left: 13px solid #ffedd2;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+*/
+
+/*
+.top-menu {display:none; position:absolute; left:-39px; top:30px; white-space:nowrap; padding:0 10px 0 80px; background:#294b9b; z-index:98}
+.top-menu:before {content:""; display:block; width:100%; height:9999px; position:absolute; left:0; bottom:100%; background:#294b9b}
+.top-menu:after {content:""; display:block; width:100%; height:9999px; position:absolute; left:0; top:100%; background:#294b9b}
+.top-menu.open {display:block}
+.top-menu ul {margin:0; font-size: 15px; line-height: 20px; text-transform:uppercase;}
+.top-menu ul li {border-top:1px solid #213c87; margin:0 80px 0 0; padding: 0}
+.top-menu ul li:first-child {border-top:none}
+.top-menu ul li:before {display:none}
+.top-menu ul li a {color:#fff; text-decoration:none; padding: 13px 20px 16px 20px; display: block;width: 165px; white-space: normal;}
+.top-menu ul li a:hover {font-weight: 300; background-color: #00bcc6;}
+
+.top-menu-link {float:left; margin:4px 0 0 0; width:20px; height:17px; background:url(../images/nav.png); position:relative}
+.top-menu-link:hover {background-position:-25px top}
+.top-menu.open+.top-menu-link {z-index:99; background-position:left -16px}
+.top-menu.open+.top-menu-link:hover {background-position:-21px -16px}
+
+.nav-inner {background: none}
+.top-menu-link{float: none; position: absolute; top: 40px; left: 0px;}
+.top-menu-logo{position: absolute; top: -181px; left: 39px;}
+.top-menu .header-user{float: none; position: absolute; top: -250px; left: 39px;}
+
+@media (max-width:1199px) {	
+	.top-menu-link{display: none;}
+}
+*/
+
+#bkc_map
+{
+    width: 780px;
+    height: 940px;
+    background: url('/local/layout/images/bkc_map.png') no-repeat;
+    margin:30px auto!important;
+    position:relative;
+}
+
+#bkc_map > a{display:block;position:absolute;text-decoration:none;border-width:2px;border-style:solid;border-color:#0caebb;border-radius:7px;text-transform:uppercase;padding:4px 4px 2px;background:#fff;font:bold 65%/100% Arial, "Helvetica CY", "Nimbus Sans L";}
+#bkc_map > a:hover{background:#0caebb;}
+#bkc_map > a:before{content:'';display:block;width:12px;height:12px;background:#ff0000;border-radius:50%;border-width:2px;border-style:solid;border-color:#fff;position:absolute;margin:-8px 0 0;}
+#bkc_map > a:hover:before{border-color:#ff0000;background:#fff;}
+#bkc_map > a:hover:after{color:#fff!important;}
+#content #bkc_map > a{color:#0caebb;}
+
+
+/* красная ветка */
+#bkc_univercity,#bkc_sokolniki,#bkc_chistye, #bkc_ohotnyi, #bkc_frunzenskaya,#bkc_prvernadskogo,#bkc_yugo_zapadnaya, #bkc_lubjanka{color:#ff0000!important;border-color:#ff0000!important;}
+#bkc_univercity:hover,#bkc_sokolniki:hover,#bkc_chistye:hover, #bkc_ohotnyi:hover, #bkc_frunzenskaya:hover,#bkc_prvernadskogo:hover,#bkc_yugo_zapadnaya:hover, #bkc_lubjanka:hover{background:#ff0000!important;}
+
+#bkc_univercity{left: 145px;top: 627px;}
+#bkc_univercity:after{content:"университет";}
+#bkc_univercity:before{left:-20px;top:50%;}
+
+#bkc_sokolniki{left: 617px;top: 210px;}
+#bkc_sokolniki:after{content:"сокольники";}
+#bkc_sokolniki:before{left:-20px;top:50%;}
+
+#bkc_chistye{left: 515px;top: 330px;}
+#bkc_chistye:after{content:"чистые пруды";}
+#bkc_chistye:before{left:-20px;top:50%;}
+
+#bkc_lubjanka{left: 479px;top: 365px;}
+#bkc_lubjanka:after{content:"лубянка";}
+#bkc_lubjanka:before{left:-20px;top:50%;}
+
+#bkc_ohotnyi{left: 328px;top: 404px;}
+#bkc_ohotnyi:after{content:"охотный ряд";}
+#bkc_ohotnyi:before{right:-18px;top:115%;}
+
+#bkc_frunzenskaya{left: 176px;top: 565px;}
+#bkc_frunzenskaya:after{content:"фрунзенская";}
+#bkc_frunzenskaya:before{right:-20px; top:50%;}
+
+#bkc_prvernadskogo{left: 125px;top: 647px;}
+#bkc_prvernadskogo:after{content:"проспект вернадского";}
+#bkc_prvernadskogo:before{left:-20px;top:50%;}
+
+#bkc_yugo_zapadnaya{left: 103px;top: 668px;}
+#bkc_yugo_zapadnaya:after{content:"юго-западная";}
+#bkc_yugo_zapadnaya:before{left:-20px;top:50%;}
+
+/* оранжевая ветка */
+
+
+#bkc_belyaevo, #bkc_babushkinskaya, #bkc_academic, #alekseevskaya{color:#f77e3d!important;border-color:#f77e3d!important;}
+#bkc_belyaevo:hover, #bkc_babushkinskaya:hover, #bkc_academic:hover, #alekseevskaya:hover{background:#f77e3d!important;}
+
+#alekseevskaya{left: 422px;top: 145px;}
+#alekseevskaya:after{content:"алексеевская";}
+#alekseevskaya:before{right:-20px;top:50%;}
+
+#bkc_belyaevo{left: 270px;top: 743px;}
+#bkc_belyaevo:after{content:"беляево";}
+#bkc_belyaevo:before{left:-20px;top:50%;}
+
+#bkc_babushkinskaya{left: 527px;top: 18px;}
+#bkc_babushkinskaya:after{content:"бабушкинская";}
+#bkc_babushkinskaya:before{left:-20px;top:50%;}
+
+#bkc_academic{left: 280px;top: 643px;}
+#bkc_academic:after{content:"академическая";}
+#bkc_academic:before{left:-20px;top:50%;}
+
+/* синяя ветка */
+#bkc_semenovskaya, #bkc_strogino, #bkc_partizanskaya, #bkc_krylatskoe, #bkc_kuntsevskaya, #bkc_mitino{color:#366eb6!important;border-color:#366eb6!important;}
+#bkc_semenovskaya:hover, #bkc_strogino:hover, #bkc_partizanskaya:hover, #bkc_krylatskoe:hover, #bkc_kuntsevskaya:hover, #bkc_mitino:hover{background:#366eb6!important;}
+
+#bkc_semenovskaya{left: 699px;top: 274px;}
+#bkc_semenovskaya:after{content:"семеновская";}
+#bkc_semenovskaya:before{left:-20px;top:50%;}
+
+#bkc_strogino{left: 17px;top: 195px;}
+#bkc_strogino:after{content:"строгино";}
+#bkc_strogino:before{left:-20px;top:50%;}
+
+#bkc_partizanskaya{left: 713px;top: 240px;}
+#bkc_partizanskaya:after{content:"партизанская";}
+#bkc_partizanskaya:before{left:-20px;top:50%;}
+
+#bkc_krylatskoe{left: 17px;top: 220px;}
+#bkc_krylatskoe:after{content:"крылатское";}
+#bkc_krylatskoe:before{left:-20px;top:50%;}
+
+#bkc_kuntsevskaya{left: 17px;top: 277px;}
+#bkc_kuntsevskaya:after{content:"кунцевская";}
+#bkc_kuntsevskaya:before{left:-20px;top:50%;}
+
+#bkc_mitino{left: 17px;top: 111px;}
+#bkc_mitino:after{content:"митино";}
+#bkc_mitino:before{left:-20px;top:50%;}
+
+/* зеленая ветка */
+#bkc_kantemirovskaya, #bkc_tverskaya, #bkc_voikovskaya, #bkc_kashirskaya, #bkc_krasnogvardeyskaya, #bkc_rechnoy, #bkc_teatralnaya{color:#00ac59!important;border-color:#00ac59!important;}
+#bkc_kantemirovskaya:hover, #bkc_tverskaya:hover, #bkc_voikovskaya:hover, #bkc_kashirskaya:hover, #bkc_krasnogvardeyskaya:hover, #bkc_rechnoy:hover, #bkc_teatralnaya:hover{background:#00ac59!important;}
+
+#bkc_kantemirovskaya{left: 470px;top: 726px;}
+#bkc_kantemirovskaya:after{content:"кантемировская";}
+#bkc_kantemirovskaya:before{right:-20px;top:50%;}
+
+#bkc_tverskaya{left: 281px;top: 330px;}
+#bkc_tverskaya:after{content:"тверская";}
+#bkc_tverskaya:before{right:-20px;top:50%;}
+
+#bkc_voikovskaya{left: 222px;top: 137px;}
+#bkc_voikovskaya:after{content:"войковская";}
+#bkc_voikovskaya:before{left:-20px;top:50%;}
+
+#bkc_kashirskaya{left: 573px;top: 675px;}
+#bkc_kashirskaya:after{content:"каширская";}
+#bkc_kashirskaya:before{left:-20px;top:50%;}
+
+#bkc_krasnogvardeyskaya{left: 539px;top: 812px;}
+#bkc_krasnogvardeyskaya:after{content:"красногвардейская";}
+#bkc_krasnogvardeyskaya:before{right:-20px;top:50%;}
+
+#bkc_rechnoy{left: 111px;top: 77px;}
+#bkc_rechnoy:after{content:"речной вокзал";}
+#bkc_rechnoy:before{right:-20px;top:50%;}
+
+#bkc_teatralnaya{left: 442px;top: 428px;}
+#bkc_teatralnaya:after{content:"театральная";}
+#bkc_teatralnaya:before{left:-20px;top:50%;}
+
+/* сиреневая ветка */
+#bkc_schukinskaya, #bkc_octoberpole, #bkc_polezhaevskaya, #bkc_puchkinskaya, #bkc_proletarskaya, #bkc_zhulebino, #bkc_lermontovskiy, #bkc_begovaya{color:#8f589e!important;border-color:#8f589e!important;}
+#bkc_schukinskaya:hover, #bkc_octoberpole:hover, #bkc_polezhaevskaya:hover, #bkc_puchkinskaya:hover, #bkc_proletarskaya:hover, #bkc_zhulebino:hover, #bkc_lermontovskiy:hover, #bkc_begovaya:hover{background:#8f589e!important;}
+
+#bkc_schukinskaya{left: 169px;top: 225px;}
+#bkc_schukinskaya:after{content:"";}
+#bkc_schukinskaya:before{left:-20px;top:50%;}
+
+#bkc_octoberpole{left: 119px;top: 260px;}
+#bkc_octoberpole:after{content:"октябрьское поле";}
+#bkc_octoberpole:before{left:-20px;top:50%;}
+
+#bkc_polezhaevskaya{left: 119px;top: 290px;}
+#bkc_polezhaevskaya:after{content:"полежаевская";}
+#bkc_polezhaevskaya:before{left:-20px;top:50%;}
+
+#bkc_begovaya{left: 135px;top: 330px;}
+#bkc_begovaya:after{content:"беговая";}
+#bkc_begovaya:before{left:-20px;top:50%;}
+
+#bkc_puchkinskaya{left: 345px;top: 370px;}
+#bkc_puchkinskaya:after{content:"пушкинская";}
+#bkc_puchkinskaya:before{left:10px;top:-70%;}
+
+#bkc_proletarskaya{left: 674px; top: 531px;}
+#bkc_proletarskaya:after{content:"пролетарская";}
+#bkc_proletarskaya:before{left:-20px;top:50%;}
+
+#bkc_zhulebino{left: 782px;top: 704px;}
+#bkc_zhulebino:after{content:"жулебино";}
+#bkc_zhulebino:before{left:-20px;top:50%;}
+
+#bkc_lermontovskiy{left: 782px;top: 666px;}
+#bkc_lermontovskiy:after{content:"лермонтовский проспект";}
+#bkc_lermontovskiy:before{left:-20px;top:50%;}
+
+/* серая ветка */
+#bkc_altufievo, #bkc_borovitskaya, #bkc_petrovskorazumovskaya, #bkc_prazhskaya, #zvetnoy_bulvar, #bkc_bibirevo{color:#747370!important;border-color:#747370!important;}
+#bkc_altufievo:hover, #bkc_borovitskaya:hover, #bkc_petrovskorazumovskaya:hover, #bkc_prazhskaya:hover, #zvetnoy_bulvar:hover, #bkc_bibirevo:hover{background:#747370!important;}
+
+#bkc_altufievo{left: 328px;top: -10px;}
+#bkc_altufievo:after{content:"алтуфьево";}
+#bkc_altufievo:before{left:-20px;top:50%;}
+
+#bkc_bibirevo{left: 328px;top: 15px;}
+#bkc_bibirevo:after{content:"бибирево";}
+#bkc_bibirevo:before{left:-20px;top:50%;}
+
+#bkc_borovitskaya{left: 363px;top: 385px;}
+#bkc_borovitskaya:after{content:"";}
+#bkc_borovitskaya:before{left:-20px;top:50%;}
+
+#bkc_petrovskorazumovskaya{left: 328px;top: 74px;}
+#bkc_petrovskorazumovskaya:after{content:"петровско-разумовская";}
+#bkc_petrovskorazumovskaya:before{left:-20px;top:50%;}
+
+#bkc_prazhskaya{left: 421px;top: 842px;}
+#bkc_prazhskaya:after{content:"пражская";}
+#bkc_prazhskaya:before{left:-20px;top:50%;}
+
+#zvetnoy_bulvar{left: 270px;top: 265px;}
+#zvetnoy_bulvar:after{content:"цветной бульвар";}
+#zvetnoy_bulvar:before{right:-20px;top:50%;}
+
+/* желтая ветка */
+#perovo, #bkc_novogireevo, #bkc_novokosino{color:#cb9a4a!important;border-color:#cb9a4a!important;}
+#perovo:hover, #bkc_novogireevo:hover, #bkc_novokosino:hover{background:#cb9a4a!important;}
+
+#perovo{left: 746px;top: 366px;}
+#perovo:after{content:"перово";}
+#perovo:before{left:-20px;top:50%;}
+
+#bkc_novogireevo{left: 766px;top: 345px;}
+#bkc_novogireevo:after{content:"новогиреево";}
+#bkc_novogireevo:before{left:-20px;top:50%;}
+
+#bkc_novokosino{left: 787px;top: 324px;}
+#bkc_novokosino:after{content:"новокосино";}
+#bkc_novokosino:before{left:-20px;top:50%;}
+
+/* салатовая ветка */
+#bkc_sretenskiy, #bkc_trubnaya, #bkc_zyablikovo, #bkc_krestyanskaya_zastava, #bratislavskaya, #lyublino,#maryino{color:#77c251!important;border-color:#77c251!important;}
+#bkc_sretenskiy:hover, #bkc_trubnaya:hover, #bkc_zyablikovo:hover, #bkc_krestyanskaya_zastava:hover, #bratislavskaya:hover, #lyublino:hover, #maryino:hover{background:#77c251!important;}
+
+#bkc_sretenskiy{left: 475px;top: 292px;}  
+#bkc_sretenskiy:after{content:"сретенский бульвар";}
+#bkc_sretenskiy:before{left:10px;bottom:-135%;}
+
+#bkc_trubnaya{left: 407px;top: 279px;}
+#bkc_trubnaya:after{content:"трубная";}
+#bkc_trubnaya:before{left:-20px;top:50%;}
+
+#bkc_zyablikovo{left: 687px;top: 800px;}
+#bkc_zyablikovo:after{content:"зябликово";}
+#bkc_zyablikovo:before{left:-20px;top:50%;}
+
+#bkc_krestyanskaya_zastava{left: 675px;top: 550px;}
+#bkc_krestyanskaya_zastava:after{content:"крестьянская застава";}
+#bkc_krestyanskaya_zastava:before{left:-20px;top:5px;}
+
+#bratislavskaya{left:578px;top: 696px;}
+#bratislavskaya:after{content:"братиславская";}
+#bratislavskaya:before{right:-20px;top:50%;}
+
+#lyublino{left: 688px;top: 676px;}
+#lyublino:after{content:"люблино";}
+#lyublino:before{left:-20px;top:50%;}
+
+#maryino{left: 688px;top: 718px;}
+#maryino:after{content:"марьино";}
+#maryino:before{left:-20px;top:50%;}
+
+
+/* бутовская линия*/
+#uzhnoe_butovo {color:#95a3cf!important;border-color:#95a3cf!important;}
+#uzhnoe_butovo:hover {background:#95a3cf!important;}
+
+#uzhnoe_butovo{left: 35px;top: 852px;}
+#uzhnoe_butovo:after{content:"Улица Горчакова";}
+#uzhnoe_butovo:before{left:10px;bottom:-135%;}
+
+/* кольцевая */
+#bkc_prospektmira, #bkc_taganskaya, #kievskaya, #krasnayapresen{color:#6e463e!important;border-color:#6e463e!important;}
+#bkc_prospektmira:hover, #bkc_taganskaya:hover, #kievskaya:hover, #krasnayapresen:hover{background:#6e463e!important;}
+
+#bkc_prospektmira{left: 509px;top: 218px;}
+#bkc_prospektmira:after{content:"проспект мира";}
+#bkc_prospektmira:before{left:-20px;top:50%;}
+
+#bkc_taganskaya{left: 538px;top: 460px;}
+#bkc_taganskaya:after{content:"таганская";}
+#bkc_taganskaya:before{right:-20px;top:50%;}
+
+#kievskaya{left: 255px;top: 475px;}
+#kievskaya:after{content:"киевская";}
+#kievskaya:before{left:-20px;top:50%;}
+
+#krasnayapresen{left: 104px;top: 367px;}
+#krasnayapresen:after{content:"краснопресненская";}
+#krasnayapresen:before{right:-20px;top:50%;}
+
+#bkc_arbatskaya{left: 363px;top: 385px;}
+#bkc_arbatskaya:after{content:"арбатская";}
+#bkc_arbatskaya:before{left:-20px;top:50%;}
+
+#bkc_kropotkinskaya{left: 253px;top: 410px;}
+#bkc_kropotkinskaya:after{content:"кропоткинская";}
+#bkc_kropotkinskaya:before{left:-20px;top:50%;}
+
+#bkc_mosfilm{left: 70px;top: 530px;}
+#bkc_mosfilm:after{content:"мосфильмовская";}
+#bkc_mosfilm:before{left:-20px;top:50%;}
+
+
+#bkc_michurinskyi{left: 150px;top: 550px;}
+#bkc_michurinskyi:after{content:"";}
+#bkc_michurinskyi:before{left:-20px;top:50%;}
+
+#bkc_troitsk{left: 100px;top: 910px;}
+#bkc_troitsk:after{content:"троицк";}
+#bkc_troitsk:before{left:-20px;top:50%;}
+
+#bkc_podolsk{left: 233px;top: 910px;}
+#bkc_podolsk:after{content:"Подольск";}
+#bkc_podolsk:before{left:-20px;top:50%;}
+
+#bkc_lianozovo{left: 235px;top: 8px;}
+#bkc_lianozovo:after{content:"";}
+#bkc_lianozovo:before{left:-20px;top:50%;}
+
+/*#mayakovskaya
+{
+    width: 95px;
+    left: 264px;
+    top: 308px;
+    background: url(/images/map/mayakovskaya.png);
+}*/
+
+#bkc_zelenograd {left: 87px;top: 7px;}
+#bkc_zelenograd:after{content:"Зеленоград";}
+#bkc_zelenograd:before{left:-20px;top:50%;}
+
+#bkc_himki{left: 126px;top: 46px;}
+#bkc_himki:after{content:"Химки";}
+#bkc_himki:before{left:-20px;top:50%;}
+
+
+#krasnogorsk{left: -90px;top: 130px;}
+#krasnogorsk:after{content:"Красногорск";}
+#krasnogorsk:before{left:-20px;top:50%;}
+
+#pavshinskaya_poima{left: -75px;top: 160px;}
+#pavshinskaya_poima:after{content:"Павшинская пойма";}
+#pavshinskaya_poima:before{left:-20px;top:50%;}
+
+.nav-menu li > a > span.active_elem {background-position:left -45px;}
+
+.error-top{
+position:fixed;
+margin-left:50%;
+top:0;
+background-color:red;
+color:white;
+display:block;
+padding:10px;
+vertical-align:middle;
+z-index:10000;
+font-weight:bold;
+}
+.prew-top-user{
+background:yellow;
+display:block;
+padding:20px;
+text-transform:uppercase;
+font-size:14px;
+}
+
+.left-menu ul li.open ul li ul{
+display:none;
+}
+.left-menu ul li.open ul li.open ul{
+display:block;
+}
+
+.order-corporate .window-success { margin: 0 auto; }
+
+.header-user {opacity: 0.3;}
+
+/* Правки по мобильной версии */

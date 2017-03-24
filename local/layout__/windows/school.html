@@ -1,0 +1,32 @@
+<div class="window-school">
+    <h2>Как добраться</h2>
+    <p>От станции метро "Речной вокзал":1ый вагон из центра, 1ый переулок налево, ведущий на Ленинградское шоссе. В этом переулке находится школа и детский сад друг против друга. Пройдите вдоль школьного забора и поверните направо в параллельный переулок. Вы увидите 5-ти этажный дом желтого цвета - 94, корпус 3. Мы находимся в этом доме. Вход на 1 этаже не со стороны подъездов (первый этаж - нежилой). От станции метро "Сокол" или "Войковская" можно проехать до остановки "Северный речной порт" на троллейбусе №6 или 43 и пройти немного в обратную сторону. Здание видно от остановки.</p>
+    <div class="window-school-map">
+        <div id="mapWindow"></div>
+        <script src="http://api-maps.yandex.ru/2.1/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+        <script>
+            ymaps.ready(init);
+
+            var myMap;
+
+            function init() {
+                myMap = new ymaps.Map('mapWindow', {
+                    center: [55.755768, 37.617671],
+                    zoom: 16,
+                    controls: ['zoomControl']
+                });
+
+                myMap.behaviors.disable('scrollZoom');
+
+                myPlacemark = new ymaps.Placemark([55.856433, 37.4714], {}, {
+                    iconLayout: 'default#image',
+                    iconImageHref: 'images/map-icon-blue-big.png',
+                    iconImageSize: [74, 57],
+                    iconImageOffset: [-23, -57]
+                });
+                myMap.geoObjects.add(myPlacemark);
+                myMap.setCenter([55.856433, 37.4714]);
+            }
+        </script>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+body {font:300 15px/25px "Fira Sans", sans-serif;}
+
+.header-social a.social-1 {background-position:left top}
+.header-social a.social-2 {background-position:-24px top}
+.header-social a.social-3 {background-position:-48px top}
+.header-social a.social-4 {background-position:-72px top}
+.header-social a.social-5 {background-position:-96px top}
+.footer-social a.social-1 {background-position:left top}
+.footer-social a.social-2 {background-position:-31px top}
+.footer-social a.social-3 {background-position:-62px top}
+.footer-social a.social-4 {background-position:-93px top}
+.footer-social a.social-5 {background-position:-124px top}
+
+.top-menu {display:none; position:absolute; left:-39px; top:30px; white-space:nowrap; padding:0 10px 0 80px; background:#294b9b; z-index:98}
+.top-menu:before {content:""; display:block; width:100%; height:9999px; position:absolute; left:0; bottom:100%; background:#294b9b}
+.top-menu:after {content:""; display:block; width:100%; height:9999px; position:absolute; left:0; top:100%; background:#294b9b}
+.top-menu.open {display:block}
+.top-menu ul {margin:0; font-size: 15px; line-height: 20px; text-transform:uppercase;}
+.top-menu ul li {border-top:1px solid #213c87; margin:0 80px 0 0; padding: 0}
+.top-menu ul li:first-child {border-top:none}
+.top-menu ul li:before {display:none}
+.top-menu ul li a {color:#fff; text-decoration:none; padding: 13px 20px 16px 20px; display: block;width: 165px; white-space: normal;}
+.top-menu ul li a:hover {font-weight: 300; background-color: #00bcc6;}
+
+.top-menu-link {float:left; margin:4px 0 0 0; width:20px; height:17px; background:url(../images/nav.png); position:relative}
+.top-menu-link:hover {background-position:-25px top}
+.top-menu.open+.top-menu-link {z-index:99; background-position:left -16px}
+.top-menu.open+.top-menu-link:hover {background-position:-21px -16px}
+
+.nav-inner {background: none}
+.top-menu-link{float: none; position: absolute; top: 40px; left: 0px;}
+.top-menu-logo{position: absolute; top: -181px; left: 39px;}
+.top-menu .header-user{float: none; position: absolute; top: -250px; left: 39px;}

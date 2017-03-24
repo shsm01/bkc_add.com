@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ВКС</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300italic,400,500,500italic&amp;subset=latin,cyrillic" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="js/chosen/chosen.css" />
+        <link rel="stylesheet" href="js/jscrollpane/jquery.jscrollpane.css" />
+
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/chosen/chosen.jquery.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/jscrollpane/jquery.mousewheel.js"></script>
+        <script src="js/jscrollpane/jquery.jscrollpane.min.js"></script>
+        <script src="js/tools.js"></script>
+
+        <meta name="viewport" content="width=device-width" />
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+
+            <header>
+                <div class="header-inner">
+                    <div class="header-left">
+                        <a href="#" class="header-user"><span>Личный кабинет</span></a>
+
+                        <div class="header-social">
+                            <a href="#" class="header-social-1"></a>
+                            <a href="#" class="header-social-2"></a>
+                            <a href="#" class="header-social-3"></a>
+                            <a href="#" class="header-social-4"></a>
+                            <a href="#" class="header-social-5"></a>
+                        </div>
+
+                        <div class="logo"><a href="#"><img src="images/logo.png" alt="" width="282" height="120" /></a></div>
+                    </div>
+
+                    <div class="header-right">
+                        <div class="header-contacts">
+                            <a href="#" class="header-address"><span>Адреса школ</span></a>
+                            <a href="#" class="header-phone"><span><em>+7 495</em> 737-52-25</span></a>
+                        </div>
+                        <a href="windows/order.html" class="header-link-order window-link">Заявка на обучение</a>
+                        <a href="#" class="header-link-test">Пройти онлайн-тест</a>
+                    </div>
+
+                    <div class="header-center"><img src="images/N1.png" alt="" width="370" height="167" /></div>
+                </div>
+            </header>
+
+            <!-- nav -->
+            <div class="nav">
+                <div class="nav-inner">
+                    <a href="#" class="search-link"></a>
+
+                    <ul class="nav-menu">
+                        <li class="nav-menu-with-submenu">
+                            <a href="#"><span class="nav-menu-1"></span>Курсы для&nbsp;взрослых</a>
+
+                            <!-- submenu -->
+                            <div class="submenu">
+                                <!-- submenu langs -->
+                                <div class="submenu-langs">
+                                    <div class="submenu-langs-list">
+                                        <ul>
+                                            <li class="active"><a href="#" class="submenu-lang-01">Английский</a></li>
+                                            <li><a href="#" class="submenu-lang-02">Немецкий</a></li>
+                                            <li><a href="#" class="submenu-lang-03">Французский</a></li>
+                                            <li><a href="#" class="submenu-lang-04">Итальянский</a></li>
+                                            <li><a href="#" class="submenu-lang-05">Испанский</a></li>
+                                            <li><a href="#" class="submenu-lang-06">Китайский</a></li>
+                                            <li><a href="#" class="submenu-lang-07">Японский</a></li>
+                                            <li><a href="#" class="submenu-lang-08">Чешский</a></li>
+                                            <li><a href="#" class="submenu-lang-09">Арабский</a></li>
+                                            <li><a href="#" class="submenu-lang-10">Португальский</a></li>
+                                            <li><a href="#" class="submenu-lang-11">Греческий</a></li>
+                                            <li><a href="#" class="submenu-lang-12">Russian</a></li>
+                                            <li><a href="#" class="submenu-lang-02">Немецкий</a></li>
+                                            <li><a href="#" class="submenu-lang-03">Французский</a></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="submenu-langs-prev disabled"></a>
+                                    <a href="#" class="submenu-langs-next disabled"></a>
+                                </div>
+                                <!-- submenu langs END -->
+
+                                <!-- submenu tabs -->
+                                <div class="submenu-tabs">
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab active">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-12"></strong><span>Английский по доступным ценам</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                        <!-- submenu banners -->
+                                        <div class="submenu-banners">
+                                            <div class="main-banner-3">
+                                                <div class="main-banner-title">Горящие<br />группы месяца!</div>
+                                                <div class="main-banner-text">Открыт набор в ГОРЯЩИЕ этого месяца!</div>
+                                                <a href="#" class="main-banner-link">Заказать</a>
+                                            </div>
+                                            <div class="main-banner-5">
+                                                <div class="main-banner-title">4 стратегии экономии<br />от ВКС-IH</div>
+                                                <div class="main-banner-text">Изучайте иностранные языки прямо в офисе!</div>
+                                                <a href="#" class="main-banner-link">Заказать</a>
+                                            </div>
+                                        </div>
+                                        <!-- submenu banners END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-12"></strong><span>Английский по доступным ценам</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                </div>
+                                <!-- submenu tabs END -->
+
+                            </div>
+                            <!-- submenu END -->
+
+                        </li>
+                        <li class="nav-menu-with-submenu">
+                            <a href="#"><span class="nav-menu-2"></span>Курсы&nbsp;для&nbsp;детей и&nbsp;подростков</a>
+
+                            <!-- submenu -->
+                            <div class="submenu">
+                                <!-- submenu langs -->
+                                <div class="submenu-langs">
+                                    <div class="submenu-langs-list">
+                                        <ul>
+                                            <li class="active"><a href="#" class="submenu-lang-01">Английский</a></li>
+                                            <li><a href="#" class="submenu-lang-02">Немецкий</a></li>
+                                            <li><a href="#" class="submenu-lang-03">Французский</a></li>
+                                            <li><a href="#" class="submenu-lang-04">Итальянский</a></li>
+                                            <li><a href="#" class="submenu-lang-05">Испанский</a></li>
+                                            <li><a href="#" class="submenu-lang-06">Китайский</a></li>
+                                            <li><a href="#" class="submenu-lang-07">Японский</a></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="submenu-langs-prev disabled"></a>
+                                    <a href="#" class="submenu-langs-next disabled"></a>
+                                </div>
+                                <!-- submenu langs END -->
+
+                                <!-- submenu tabs -->
+                                <div class="submenu-tabs">
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab active">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-12"></strong><span>Английский по доступным ценам</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                        <!-- submenu banners -->
+                                        <div class="submenu-banners">
+                                            <div class="main-banner-3">
+                                                <div class="main-banner-title">Горящие<br />группы месяца!</div>
+                                                <div class="main-banner-text">Открыт набор в ГОРЯЩИЕ этого месяца!</div>
+                                                <a href="#" class="main-banner-link">Заказать</a>
+                                            </div>
+                                            <div class="main-banner-5">
+                                                <div class="main-banner-title">4 стратегии экономии<br />от ВКС-IH</div>
+                                                <div class="main-banner-text">Изучайте иностранные языки прямо в офисе!</div>
+                                                <a href="#" class="main-banner-link">Заказать</a>
+                                            </div>
+                                        </div>
+                                        <!-- submenu banners END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-12"></strong><span>Английский по доступным ценам</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                </div>
+                                <!-- submenu tabs END -->
+
+                            </div>
+                            <!-- submenu END -->
+
+                        </li>
+                        <li>
+                            <a href="#"><span class="nav-menu-3"></span>Курсы для преподавателей</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="nav-menu-4"></span>Международные экзамены</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="nav-menu-5"></span>Обучение зарубежом</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="nav-menu-6"></span>Корпоративное обучение</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- nav END -->
+
+            <div class="breadcrumbs">
+                <a href="#">Школа иностранных языков</a> <span></span>
+                <a href="#">О компании</a> <span></span>
+                Социальная ответственность
+            </div>
+
+            <!-- container -->
+            <div class="container">
+
+                <!-- left -->
+                <div class="left">
+                    <a href="#" class="left-menu-mobile"></a>
+                    <div class="left-menu-wrap">
+                        <div class="left-menu">
+                            <ul>
+                                <li class="open">
+                                    <a href="#"><div>О компании</div></a>
+                                    <ul>
+                                        <li><a href="#"><div>Миссия и корпоративная культура</div></a></li>
+                                        <li><a href="#"><div>Лицензии и дипломы</div></a></li>
+                                        <li class="active"><a href="#"><div>Социальная ответственность</div></a></li>
+                                        <li><a href="#"><div>Наши партнёры</div></a></li>
+                                        <li><a href="#"><div>Карьера в ВКС-IH</div></a></li>
+                                        <li><a href="#"><div>Вакансии</div></a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><div>Дни открытых дверей</div></a></li>
+                                <li><a href="#"><div>Методика обучения</div></a></li>
+                                <li><a href="#"><div>Наши преподаватели</div></a></li>
+                                <li><a href="#"><div>Отзывы студентов и&nbsp;учителей</div></a></li>
+                                <li><a href="#"><div>Видео уроков и&nbsp;мероприятий</div></a></li>
+                                <li><a href="#"><div>Пресс-центр</div></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- left END -->
+
+                <!-- right -->
+                <div class="right">
+                    <div class="right-banner"><a href="#"><img src="files/right.jpg" alt="" width="235" height="190" /></a></div>
+
+                    <!-- right events -->
+                    <div class="right-events">
+                        <div class="right-events-title">Акции и скидки</div>
+                        <div class="right-events-list">
+                            <div class="right-event">
+                                <div class="right-event-name"><a href="#">Бюджетный английский за 4500 рублей</a></div>
+                                <div class="right-event-anonce">Успей записаться! Старт 13 июня!</div>
+                            </div>
+                            <div class="right-event">
+                                <div class="right-event-name"><a href="#">Неделя Мега Скидок на интенсивную летнюю программу для детей!</a></div>
+                                <div class="right-event-anonce">Спешите! Такого больше не будет!</div>
+                            </div>
+                            <div class="right-event">
+                                <div class="right-event-name"><a href="#">Красный квадрат! Заработай МЕГА СКИДКУ сам!</a></div>
+                                <div class="right-event-anonce">Прими участие в нашей увлекательной игре и получи скидку, которую смог заработать сам.</div>
+                            </div>
+                        </div>
+                        <a href="#" class="right-event-all">Все акции</a>
+                    </div>
+                    <!-- right events END -->
+
+                    <!-- right events -->
+                    <div class="right-events">
+                        <div class="right-news-title">Новости</div>
+                        <div class="right-events-list">
+                            <div class="right-event">
+                                <div class="right-event-name"><a href="#">Французский разговорный клуб</a></div>
+                                <div class="right-event-anonce">Ждем вас 16 июня в 18:30</div>
+                            </div>
+                            <div class="right-event">
+                                <div class="right-event-name"><a href="#">Итальянский в саду «Эрмитаж»</a></div>
+                                <div class="right-event-anonce">Ждем вас 15 июня 2016 г. с 19:00 по 20:30</div>
+                            </div>
+                            <div class="right-event">
+                                <div class="right-event-name"><a href="#">Летние каникулы за рубежом</a></div>
+                                <div class="right-event-anonce">Путешествуй с пользой - учи английский!</div>
+                            </div>
+                        </div>
+                        <a href="#" class="right-event-all">Все новости</a>
+                    </div>
+                    <!-- right events END -->
+                </div>
+                <!-- right -->
+
+                <!-- content -->
+                <div class="content">
+                    <div class="content-wrap">
+
+                        <h1>Социальная ответственность</h1>
+                        <h2>«Шередарь». Возвращаем детство!</h2>
+                        <p>ВКС-IH активно развивает партнерскую сеть и стремится к сотрудничеству в самых разных сферах. Наши партнеры предоставляют скидки студентам ВКС-IH по программе "Карта студента ВКС-IH".</p>
+                        <p>Чтобы узнать о предоставляемой скидке, а также прочитать подробное описание компании-партнера кликните мышью по логотипу партнера.</p>
+                        <p>По вопросам заключения партнерских соглашений и участия в программе "Карта студента" Вы можете обратиться по адресу: <a href="#">partner@bkc.ru</a></p>
+
+                    </div>
+                </div>
+                <!-- content END -->
+
+            </div>
+            <!-- container END -->
+
+            <!-- subscribe -->
+            <div class="subscribe">
+                <div class="subscribe-inner">
+                    <div class="subscribe-title">Будьте в курсе новостей и акций</div>
+                    <form action="#" method="post">
+                        <div class="form-input"><input type="text" name="email" value="" placeholder="Ваш адрес электронной почты" class="required" /></div>
+                        <div class="form-submit"><input type="submit" value="Ок" /></div>
+                    </form>
+                </div>
+            </div>
+            <!-- subscribe END -->
+
+            <footer>
+                <div class="footer-inner">
+
+                    <!-- footer content -->
+                    <div class="footer-content">
+                        <div class="footer-menu">
+                            <h3><a href="#">Курсы</a></h3>
+                            <ul>
+                                <li><a href="#">Курсы для взрослых</a></li>
+                                <li><a href="#">Курсы для детей и&nbsp;подростков</a></li>
+                                <li><a href="#">Корпоративное обучение</a></li>
+                                <li><a href="#">Международные экзамены</a></li>
+                                <li><a href="#">Обучение зарубежом</a></li>
+                                <li><a href="#">Курсы для преподавателей</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu">
+                            <h3><a href="#">Иностранные языки</a></h3>
+                            <ul>
+                                <li><a href="#">Английский</a></li>
+                                <li><a href="#">Немецкий</a></li>
+                                <li><a href="#">Испанский</a></li>
+                                <li><a href="#">Итальянский</a></li>
+                                <li><a href="#">Французский</a></li>
+                                <li><a href="#">Китайский</a></li>
+                                <li><a href="#">Японский</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu">
+                            <h3><a href="#">Обучение за рубежом</a></h3>
+                            <ul>
+                                <li><a href="#">Языковые курсы за рубежом</a></li>
+                                <li><a href="#">Программа Foundation Year</a></li>
+                                <li><a href="#">ВКС Pre-Masters Programme</a></li>
+                                <li><a href="#">Подготовка к поступлению</a></li>
+                                <li><a href="#">Специализированные курсы и&nbsp;тренинги</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu">
+                            <h3><a href="#">Компания</a></h3>
+                            <ul>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Методика обучения</a></li>
+                                <li><a href="#">Отзывы студентов</a></li>
+                                <li><a href="#">Преподаватели</a></li>
+                                <li><a href="#">Пресс-центр</a></li>
+                                <li><a href="#">Работа в ВКС-IH</a></li>
+                                <li><a href="#">Jobs for teachers</a></li>
+                                <li><a href="#">Партнеры</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-contacts">
+                            <h3><a href="#">Контакты</a></h3>
+                            <div class="footer-phones"><span>+7 (495)</span> 737-52-25<br /><span>+7 (495)</span> 258-00-04</div>
+                            <a href="#" class="footer-callback">Обратный звонок</a>
+                            <div class="footer-email"><a href="#">info@bkc.ru</a></div>
+                            <div class="footer-social">
+                                <a href="#" class="footer-social-1"></a>
+                                <a href="#" class="footer-social-2"></a>
+                                <a href="#" class="footer-social-3"></a>
+                                <a href="#" class="footer-social-4"></a>
+                                <a href="#" class="footer-social-5"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footer content END -->
+
+                    <!-- footer links -->
+                    <div class="footer-links">
+                        <div class="footer-logo"><img src="images/footer-logo.png" alt="" width="268" height="105" /></div>
+                        <div class="footer-charity">Выбирая обучение в BKC IH, Вы помогаете пройти реабилитацию детям, перенесшим тяжелые заболевания</div>
+                        <div class="footer-developer">Интернет-маркетинг<br /><a href="#" target="_blank">Smirnov Digital</a></div>
+                        <div class="footer-developer">Создание сайта<br /><a href="#" target="_blank">Bilingo Digital Agency</a></div>
+                    </div>
+                    <!-- footer links END -->
+
+                </div>
+            </footer>
+
+        </div>
+        <!-- wrapper END -->
+
+    </body>
+</html>

@@ -1,0 +1,279 @@
+2016-08-06 23:22:05 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-08-06 23:22:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-08-06 23:22:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc.ondev.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.29&dbv=5.5.36&instm=main%2C16.0.11%2CY%3Bperfmon%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Bclouds%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bmobileapp%2C16.0.3%2CN%3Bphotogallery%2C16.0.1%2CN%3Bsecurity%2C16.0.3%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Biblock%2C16.0.4%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bforum%2C16.5.0%2CN%3Bseo%2C16.0.3%2CN%3Bform%2C15.0.2%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsocialservices%2C16.5.3%2CN%3Bblog%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.siteinfoportal%2Cbitrix.sitecorporate%2Casd.iblock&SUPD_SRS=RU&SUPD_CMP=N
+2016-08-06 23:22:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-08-06 23:22:06 -  - TIME GetUpdatesList(request) 0.17 sec
+2016-08-06 23:22:06 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:19:48 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:19:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:19:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Cartofbx.yandexmetrika&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:19:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:19:48 -  - TIME GetUpdatesList(request) 0.379 sec
+2016-09-14 18:19:48 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:20:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-09-14 18:20:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:20:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=artofbx.yandexmetrika&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:20:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:20:04 -  - TIME LoadModulesUpdates(request) 0.433 sec
+2016-09-14 18:20:04 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:20:04 - LMU01 - LoadModulesUpdates-Step
+2016-09-14 18:20:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-09-14 18:20:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:20:05 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:20:05 - DOWNLOAD - Time - 0.43186211585999 sec
+2016-09-14 18:20:05 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-09-14 18:20:05 -  - TIME UnGzipArchive 0.025 sec
+2016-09-14 18:20:05 -  - TIME UpdateStepModules 0.015 sec
+2016-09-14 18:20:05 - UPD_SUCCESS - Updated: artofbx.yandexmetrika
+2016-09-14 18:20:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-09-14 18:20:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:20:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.0%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=artofbx.yandexmetrika&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:20:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:20:05 -  - TIME LoadModulesUpdates(request) 0.329 sec
+2016-09-14 18:20:05 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:20:05 - LMU01 - LoadModulesUpdates-Step
+2016-09-14 18:20:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-09-14 18:20:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:20:06 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:20:06 - DOWNLOAD - Time - 0.40736198425293 sec
+2016-09-14 18:20:06 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-09-14 18:20:06 -  - TIME UnGzipArchive 0.002 sec
+2016-09-14 18:20:06 -  - TIME UpdateStepModules 0.019 sec
+2016-09-14 18:20:06 - UPD_SUCCESS - Updated: artofbx.yandexmetrika (1.0.1)<br>Исправлена ошибка сохранения параметров в системе администрирования
+2016-09-14 18:20:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-09-14 18:20:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:20:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=artofbx.yandexmetrika&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:20:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:20:07 -  - TIME LoadModulesUpdates(request) 0.358 sec
+2016-09-14 18:20:07 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:20:07 - STEP - Finish - NOUPDATES
+2016-09-14 18:20:07 - STEP - Finish - NOUPDATES
+2016-09-14 18:20:10 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:20:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:20:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:20:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:20:10 -  - TIME GetUpdatesList(request) 0.374 sec
+2016-09-14 18:20:10 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:20:10 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:20:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:20:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:20:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:20:11 -  - TIME GetUpdatesList(request) 0.395 sec
+2016-09-14 18:20:11 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:21:16 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:21:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:21:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:21:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:21:16 -  - TIME GetUpdatesList(request) 0.358 sec
+2016-09-14 18:21:16 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:25:05 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:25:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:25:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:25:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:25:05 -  - TIME GetUpdatesList(request) 0.402 sec
+2016-09-14 18:25:05 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:43:29 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:43:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:43:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal%2Crodzeta.yandexmetricgoals&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:43:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:43:29 -  - TIME GetUpdatesList(request) 0.381 sec
+2016-09-14 18:43:29 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:43:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-09-14 18:43:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:43:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:43:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:43:39 -  - TIME LoadModulesUpdates(request) 0.346 sec
+2016-09-14 18:43:39 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:43:39 - LMU01 - LoadModulesUpdates-Step
+2016-09-14 18:43:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-09-14 18:43:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:43:39 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:43:39 - DOWNLOAD - Time - 0.38732504844666 sec
+2016-09-14 18:43:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-09-14 18:43:39 -  - TIME UnGzipArchive 0.008 sec
+2016-09-14 18:43:39 -  - TIME UpdateStepModules 0.01 sec
+2016-09-14 18:43:39 - UPD_SUCCESS - Updated: rodzeta.yandexmetricgoals
+2016-09-14 18:43:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-09-14 18:43:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:43:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:43:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:43:40 -  - TIME LoadModulesUpdates(request) 0.339 sec
+2016-09-14 18:43:40 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:43:40 - STEP - Finish - NOUPDATES
+2016-09-14 18:43:40 - STEP - Finish - NOUPDATES
+2016-09-14 18:45:11 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:45:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:45:11 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:45:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:45:12 -  - TIME GetUpdatesList(request) 0.412 sec
+2016-09-14 18:45:12 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:45:12 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:45:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:45:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:45:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:45:12 -  - TIME GetUpdatesList(request) 0.335 sec
+2016-09-14 18:45:12 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:54:59 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:54:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:54:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:54:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:54:59 -  - TIME GetUpdatesList(request) 0.418 sec
+2016-09-14 18:54:59 -  - exec CUpdateClientPartner::ParseServerData
+2016-09-14 18:59:42 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-09-14 18:59:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-09-14 18:59:42 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=new1.bkc.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-09-14 18:59:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-09-14 18:59:42 -  - TIME GetUpdatesList(request) 0.327 sec
+2016-09-14 18:59:42 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-29 12:32:18 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-29 12:32:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-29 12:32:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&dbv=5.5.49&instm=main%2C16.0.11%2CN%3Biblock%2C16.0.4%2CN%3Bsocialservices%2C16.5.3%2CN%3Bmobileapp%2C16.0.3%2CN%3Bseo%2C16.0.3%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C16.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.0%2CN%3Bscale%2C16.0.0%2CN%3Bblog%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bsecurity%2C16.0.3%2CN%3Bclouds%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-29 12:32:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-29 12:32:18 -  - TIME GetUpdatesList(request) 0.328 sec
+2016-12-29 12:32:18 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-16 04:04:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:05 -  - TIME GetUpdatesList(request) 0.441 sec
+2017-01-16 04:04:05 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:08 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-16 04:04:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:08 -  - TIME GetUpdatesList(request) 0.383 sec
+2017-01-16 04:04:08 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:14 -  - exec CUpdateClientPartner::ActivateCoupon
+2017-01-16 04:04:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&SUPD_SRS=RU&SUPD_CMP=N&coupon=MPX-HQ3M1VVP8T-RZY3ZUOT3X&query_type=coupon
+2017-01-16 04:04:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:14 -  - TIME ActivateCoupon(request) 0.259 sec
+2017-01-16 04:04:14 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:14 - UPD_SUCCESS - Coupon activated
+2017-01-16 04:04:16 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-16 04:04:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:16 -  - TIME GetUpdatesList(request) 0.297 sec
+2017-01-16 04:04:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN&reqm=sebekon.psbpayment&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:19 -  - TIME LoadModulesUpdates(request) 0.287 sec
+2017-01-16 04:04:19 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:19 - S - STEP
+2017-01-16 04:04:19 - LMU01 - LoadModulesUpdates-Step
+2017-01-16 04:04:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:20 -  - loadFile
+2017-01-16 04:04:20 - U - RETURN
+2017-01-16 04:04:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-16 04:04:20 -  - TIME UnGzipArchive 0.128 sec
+2017-01-16 04:04:20 -  - TIME UpdateStepModules 0.145 sec
+2017-01-16 04:04:20 - UPD_SUCCESS - Updated: sebekon.psbpayment
+2017-01-16 04:04:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bsebekon.psbpayment%2C1.0.0%2CN&reqm=sebekon.psbpayment&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:21 -  - TIME LoadModulesUpdates(request) 0.317 sec
+2017-01-16 04:04:21 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:21 - S - STEP
+2017-01-16 04:04:21 - LMU01 - LoadModulesUpdates-Step
+2017-01-16 04:04:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:21 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:21 -  - loadFile
+2017-01-16 04:04:21 - U - RETURN
+2017-01-16 04:04:21 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-16 04:04:21 -  - TIME UnGzipArchive 0.004 sec
+2017-01-16 04:04:21 - CSURUS1 - Run updater '/bitrix/updates/update_m1484528661/sebekon.psbpayment/updater1.0.1.php'
+2017-01-16 04:04:21 -  - TIME UpdateStepModules 0.015 sec
+2017-01-16 04:04:21 - UPD_SUCCESS - Updated: sebekon.psbpayment (1.0.1)<br>* корректная обработка заказов с номерами заказов на основе шаблонов
+2017-01-16 04:04:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:22 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bsebekon.psbpayment%2C1.0.1%2CN&reqm=sebekon.psbpayment&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:22 -  - TIME LoadModulesUpdates(request) 0.286 sec
+2017-01-16 04:04:22 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:22 - S - STEP
+2017-01-16 04:04:22 - LMU01 - LoadModulesUpdates-Step
+2017-01-16 04:04:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:22 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:22 -  - loadFile
+2017-01-16 04:04:22 - U - RETURN
+2017-01-16 04:04:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-16 04:04:22 -  - TIME UnGzipArchive 0.006 sec
+2017-01-16 04:04:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1484528662/sebekon.psbpayment/updater1.0.2.php'
+2017-01-16 04:04:22 -  - TIME UpdateStepModules 0.009 sec
+2017-01-16 04:04:23 - UPD_SUCCESS - Updated: sebekon.psbpayment (1.0.2)<br>* корректная обработка заказов с номерами заказов на основе шаблонов
+2017-01-16 04:04:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bsebekon.psbpayment%2C1.0.2%2CN&reqm=sebekon.psbpayment&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:23 -  - TIME LoadModulesUpdates(request) 0.279 sec
+2017-01-16 04:04:23 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:23 - S - STEP
+2017-01-16 04:04:23 - LMU01 - LoadModulesUpdates-Step
+2017-01-16 04:04:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:24 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:24 -  - loadFile
+2017-01-16 04:04:24 - U - RETURN
+2017-01-16 04:04:24 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-16 04:04:24 -  - TIME UnGzipArchive 0.008 sec
+2017-01-16 04:04:24 - CSURUS1 - Run updater '/bitrix/updates/update_m1484528664/sebekon.psbpayment/updater1.0.4.php'
+2017-01-16 04:04:24 -  - TIME UpdateStepModules 0.005 sec
+2017-01-16 04:04:24 - UPD_SUCCESS - Updated: sebekon.psbpayment (1.0.4)<br>* Исправлена ошибка при показе сообщений
+2017-01-16 04:04:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:24 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bsebekon.psbpayment%2C1.0.4%2CN&reqm=sebekon.psbpayment&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:24 -  - TIME LoadModulesUpdates(request) 0.304 sec
+2017-01-16 04:04:24 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:24 - S - STEP
+2017-01-16 04:04:24 - LMU01 - LoadModulesUpdates-Step
+2017-01-16 04:04:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:25 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:25 -  - loadFile
+2017-01-16 04:04:25 - U - RETURN
+2017-01-16 04:04:25 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-16 04:04:25 -  - TIME UnGzipArchive 0.005 sec
+2017-01-16 04:04:25 - CSURUS1 - Run updater '/bitrix/updates/update_m1484528665/sebekon.psbpayment/updater1.0.5.php'
+2017-01-16 04:04:25 -  - TIME UpdateStepModules 0.006 sec
+2017-01-16 04:04:25 - UPD_SUCCESS - Updated: sebekon.psbpayment (1.0.5)<br>* Исправлена ошибка при показе сообщений
+2017-01-16 04:04:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:25 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bsebekon.psbpayment%2C1.0.5%2CN&reqm=sebekon.psbpayment&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:25 -  - TIME LoadModulesUpdates(request) 0.318 sec
+2017-01-16 04:04:25 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:25 - S - STEP
+2017-01-16 04:04:25 - LMU01 - LoadModulesUpdates-Step
+2017-01-16 04:04:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:26 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:26 -  - loadFile
+2017-01-16 04:04:26 - U - RETURN
+2017-01-16 04:04:26 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-16 04:04:26 -  - TIME UnGzipArchive 0.005 sec
+2017-01-16 04:04:26 - CSURUS1 - Run updater '/bitrix/updates/update_m1484528666/sebekon.psbpayment/updater1.0.6.php'
+2017-01-16 04:04:26 -  - TIME UpdateStepModules 0.006 sec
+2017-01-16 04:04:26 - UPD_SUCCESS - Updated: sebekon.psbpayment (1.0.6)<br>* Исправлена ошибка при показе сообщений
+2017-01-16 04:04:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-16 04:04:26 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:26 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bsebekon.psbpayment%2C1.0.6%2CN&reqm=sebekon.psbpayment&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:26 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:27 -  - TIME LoadModulesUpdates(request) 0.286 sec
+2017-01-16 04:04:27 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:27 - STEP - Finish - NOUPDATES
+2017-01-16 04:04:27 - STEP - Finish - NOUPDATES
+2017-01-16 04:04:31 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-16 04:04:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bsebekon.psbpayment%2C1.0.6%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal%2Csebekon.psbpayment&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:31 -  - TIME GetUpdatesList(request) 0.282 sec
+2017-01-16 04:04:31 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-16 04:04:32 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-16 04:04:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-16 04:04:32 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bkc-ih.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=14&TYPENC=E&CLIENT_PHPVER=5.3.10-precise1&NGINX=Y&dbv=5.5.49&instm=main%2C16.5.8%2CN%3Biblock%2C16.5.6%2CN%3Bsocialservices%2C16.5.5%2CN%3Bmobileapp%2C16.0.11%2CN%3Bseo%2C16.0.3%2CN%3Breport%2C16.5.0%2CN%3Brodzeta.yandexmetricgoals%2C0.0.2%2CN%3Bforum%2C17.0.0%2CN%3Babtest%2C16.0.0%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bcatalog%2C16.5.6%2CN%3Bsale%2C16.5.14%2CN%3Bsender%2C16.5.2%2CN%3Bconversion%2C15.5.6%2CN%3Bsubscribe%2C16.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bfileman%2C16.5.5%2CN%3Beshopapp%2C16.5.0%2CN%3Bpull%2C17.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bblog%2C16.5.7%2CN%3Bcompression%2C16.0.0%2CN%3Bbitrix.sitepersonal%2C15.0.0%2CN%3Bcurrency%2C16.5.0%2CN%3Bform%2C15.0.2%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Btranslate%2C14.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Bartofbx.yandexmetrika%2C1.0.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bsecurity%2C16.5.0%2CN%3Bclouds%2C16.5.2%2CN%3Bperfmon%2C16.5.0%2CN%3Bb24connector%2C16.5.3%2CN%3Bbitrix.siteinfoportal%2C15.0.0%2CN%3Bsebekon.psbpayment%2C1.0.6%2CN&reqm=rodzeta.yandexmetricgoals%2Cbitrix.sitecorporate%2Cbitrix.sitepersonal%2Cartofbx.yandexmetrika%2Cbitrix.siteinfoportal%2Csebekon.psbpayment&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-16 04:04:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-16 04:04:32 -  - TIME GetUpdatesList(request) 0.307 sec
+2017-01-16 04:04:32 -  - exec CUpdateClientPartner::ParseServerData

@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ВКС</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300italic,400,500,500italic&amp;subset=latin,cyrillic" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="js/chosen/chosen.css" />
+        <link rel="stylesheet" href="js/jscrollpane/jquery.jscrollpane.css" />
+        <link rel="stylesheet" href="js/datatables/datatables.css" />
+
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/chosen/chosen.jquery.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/jscrollpane/jquery.mousewheel.js"></script>
+        <script src="js/jscrollpane/jquery.jscrollpane.min.js"></script>
+        <script src="js/datatables/datatables.min.js"></script>
+        <script src="js/jquery.scrollTo.min.js"></script>
+        <script src="js/tools.js"></script>
+
+        <meta name="viewport" content="width=device-width" />
+    </head>
+
+    <body class="page-list">
+<!-- content="width=480" -->
+        <!-- wrapper -->
+        <div class="wrapper">
+
+            <header>
+                <div class="header-inner">
+                    <div class="header-left">
+                        <a href="#" class="header-user"><span>Личный кабинет</span></a>
+
+                        <div class="header-social">
+                            <a href="#" class="header-social-1"></a>
+                            <a href="#" class="header-social-2"></a>
+                            <a href="#" class="header-social-3"></a>
+                            <a href="#" class="header-social-4"></a>
+                            <a href="#" class="header-social-5"></a>
+                        </div>
+
+                        <div class="logo"><a href="#"><img src="images/logo.png" alt="" width="282" height="120" /></a></div>
+                    </div>
+
+                    <div class="header-right">
+                        <div class="header-contacts">
+                            <a href="#" class="header-address"><span>Адреса школ</span></a>
+                            <a href="#" class="header-phone"><span><em>+7 495</em> 737-52-25</span></a>
+                        </div>
+                        <a href="windows/order.html" class="header-link-order window-link">Заявка на обучение</a>
+                        <a href="#" class="header-link-test">Пройти онлайн-тест</a>
+                    </div>
+
+                    <div class="header-center"><img src="images/N1.png" alt="" width="370" height="167" /></div>
+                </div>
+            </header>
+
+            <!-- mobile navigator -->
+            <div class="mobile-navigator">
+                <a href="#" class="mobile-navigator-link"></a>
+                <div class="mobile-navigator-container">
+                    <!-- mobile navigator langs -->
+                    <div class="mobile-navigator-langs">
+                        <div class="mobile-navigator-langs-list">
+                            <ul>
+                                <li class="active"><a href="#" class="mobile-navigator-lang-01">Английский</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-02">Немецкий</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-03">Французский</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-04">Итальянский</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-05">Испанский</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-06">Китайский</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-07">Японский</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-08">Чешский</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-09">Арабский</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-10">Португальский</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-11">Греческий</a></li>
+                                <li><a href="#" class="mobile-navigator-lang-12">Russian</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- mobile navigator langs END -->
+
+                    <!-- mobile navigator info tabs -->
+                    <div class="mobile-navigator-info-tabs">
+
+                        <!-- mobile navigator info tab -->
+                        <div class="mobile-navigator-info-tab active">
+                            <!-- mobile navigator info -->
+                            <div class="mobile-navigator-info">
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-03"></strong><span>Академический английский</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-12"></strong><span>Английский по доступным ценам</span></a></div>
+                            </div>
+                            <!-- mobile navigator info END -->
+                        </div>
+                        <!-- mobile navigator info tab END -->
+
+                        <!-- mobile navigator info tab -->
+                        <div class="mobile-navigator-info-tab">
+                            <!-- mobile navigator info -->
+                            <div class="mobile-navigator-info">
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                            </div>
+                            <!-- mobile navigator info END -->
+                        </div>
+                        <!-- mobile navigator info tab END -->
+
+                        <!-- mobile navigator info tab -->
+                        <div class="mobile-navigator-info-tab">
+                            <!-- mobile navigator info -->
+                            <div class="mobile-navigator-info">
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-03"></strong><span>Академический английский</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                            </div>
+                            <!-- mobile navigator info END -->
+                        </div>
+                        <!-- mobile navigator info tab END -->
+
+                        <!-- mobile navigator info tab -->
+                        <div class="mobile-navigator-info-tab">
+                            <!-- mobile navigator info -->
+                            <div class="mobile-navigator-info">
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-03"></strong><span>Академический английский</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                <div class="mobile-navigator-info-item"><a href="#"><strong class="mobile-navigator-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                            </div>
+                            <!-- mobile navigator info END -->
+                        </div>
+                        <!-- mobile navigator info tab END -->
+
+                    </div>
+                    <!-- mobile navigator info tabs END -->
+                </div>
+            </div>
+            <!-- mobile navigator END -->
+
+            <!-- nav -->
+            <div class="nav">
+                <div class="nav-inner">
+                    <a href="#" class="search-link"></a>
+
+                    <ul class="nav-menu">
+                        <li class="nav-menu-with-submenu">
+                            <a href="#"><span class="nav-menu-1"></span>Курсы для&nbsp;взрослых</a>
+
+                            <!-- submenu -->
+                            <div class="submenu">
+                                <!-- submenu langs -->
+                                <div class="submenu-langs">
+                                    <div class="submenu-langs-list">
+                                        <ul>
+                                            <li class="active"><a href="#" class="submenu-lang-01">Английский</a></li>
+                                            <li><a href="#" class="submenu-lang-02">Немецкий</a></li>
+                                            <li><a href="#" class="submenu-lang-03">Французский</a></li>
+                                            <li><a href="#" class="submenu-lang-04">Итальянский</a></li>
+                                            <li><a href="#" class="submenu-lang-05">Испанский</a></li>
+                                            <li><a href="#" class="submenu-lang-06">Китайский</a></li>
+                                            <li><a href="#" class="submenu-lang-07">Японский</a></li>
+                                            <li><a href="#" class="submenu-lang-08">Чешский</a></li>
+                                            <li><a href="#" class="submenu-lang-09">Арабский</a></li>
+                                            <li><a href="#" class="submenu-lang-10">Португальский</a></li>
+                                            <li><a href="#" class="submenu-lang-11">Греческий</a></li>
+                                            <li><a href="#" class="submenu-lang-12">Russian</a></li>
+                                            <li><a href="#" class="submenu-lang-02">Немецкий</a></li>
+                                            <li><a href="#" class="submenu-lang-03">Французский</a></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="submenu-langs-prev disabled"></a>
+                                    <a href="#" class="submenu-langs-next disabled"></a>
+                                </div>
+                                <!-- submenu langs END -->
+
+                                <!-- submenu tabs -->
+                                <div class="submenu-tabs">
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab active">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-12"></strong><span>Английский по доступным ценам</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                        <!-- submenu banners -->
+                                        <div class="submenu-banners">
+                                            <div class="main-banner-3">
+                                                <div class="main-banner-title">Горящие<br />группы месяца!</div>
+                                                <div class="main-banner-text">Открыт набор в ГОРЯЩИЕ этого месяца!</div>
+                                                <a href="#" class="main-banner-link">Заказать</a>
+                                            </div>
+                                            <div class="main-banner-5">
+                                                <div class="main-banner-title">4 стратегии экономии<br />от ВКС-IH</div>
+                                                <div class="main-banner-text">Изучайте иностранные языки прямо в офисе!</div>
+                                                <a href="#" class="main-banner-link">Заказать</a>
+                                            </div>
+                                        </div>
+                                        <!-- submenu banners END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-12"></strong><span>Английский по доступным ценам</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                </div>
+                                <!-- submenu tabs END -->
+
+                            </div>
+                            <!-- submenu END -->
+
+                        </li>
+                        <li class="nav-menu-with-submenu">
+                            <a href="#"><span class="nav-menu-2"></span>Курсы&nbsp;для&nbsp;детей и&nbsp;подростков</a>
+
+                            <!-- submenu -->
+                            <div class="submenu">
+                                <!-- submenu langs -->
+                                <div class="submenu-langs">
+                                    <div class="submenu-langs-list">
+                                        <ul>
+                                            <li class="active"><a href="#" class="submenu-lang-01">Английский</a></li>
+                                            <li><a href="#" class="submenu-lang-02">Немецкий</a></li>
+                                            <li><a href="#" class="submenu-lang-03">Французский</a></li>
+                                            <li><a href="#" class="submenu-lang-04">Итальянский</a></li>
+                                            <li><a href="#" class="submenu-lang-05">Испанский</a></li>
+                                            <li><a href="#" class="submenu-lang-06">Китайский</a></li>
+                                            <li><a href="#" class="submenu-lang-07">Японский</a></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="submenu-langs-prev disabled"></a>
+                                    <a href="#" class="submenu-langs-next disabled"></a>
+                                </div>
+                                <!-- submenu langs END -->
+
+                                <!-- submenu tabs -->
+                                <div class="submenu-tabs">
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab active">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-12"></strong><span>Английский по доступным ценам</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                        <!-- submenu banners -->
+                                        <div class="submenu-banners">
+                                            <div class="main-banner-3">
+                                                <div class="main-banner-title">Горящие<br />группы месяца!</div>
+                                                <div class="main-banner-text">Открыт набор в ГОРЯЩИЕ этого месяца!</div>
+                                                <a href="#" class="main-banner-link">Заказать</a>
+                                            </div>
+                                            <div class="main-banner-5">
+                                                <div class="main-banner-title">4 стратегии экономии<br />от ВКС-IH</div>
+                                                <div class="main-banner-text">Изучайте иностранные языки прямо в офисе!</div>
+                                                <a href="#" class="main-banner-link">Заказать</a>
+                                            </div>
+                                        </div>
+                                        <!-- submenu banners END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-04"></strong><span>Интенсивные курсы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-08"></strong><span>Разговорные курсы и клубы</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-12"></strong><span>Английский по доступным ценам</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-02"></strong><span>Экспресс программы 2016</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-03"></strong><span>Академический английский</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-06"></strong><span>Общий курс для взрослых</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-07"></strong><span>Деловой английский для взрослых</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-10"></strong><span>Индивидуальное обучение</span></a></div>
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-11"></strong><span>Обучение по Skype</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                    <!-- submenu tab -->
+                                    <div class="submenu-tab">
+
+                                        <!-- submenu info -->
+                                        <div class="submenu-info">
+                                            <div class="submenu-info-cols">
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-01"></strong><span>Летние программы 2016</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-05"></strong><span>Однодневные тренинги</span></a></div>
+                                                </div>
+
+                                                <div class="submenu-info-col">
+                                                    <div class="submenu-info-item"><a href="#"><strong class="submenu-info-item-09"></strong><span>Международные программы в Москве</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submenu info END -->
+
+                                    </div>
+                                    <!-- submenu tab END -->
+
+                                </div>
+                                <!-- submenu tabs END -->
+
+                            </div>
+                            <!-- submenu END -->
+
+                        </li>
+                        <li>
+                            <a href="#"><span class="nav-menu-3"></span>Курсы для преподавателей</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="nav-menu-4"></span>Международные экзамены</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="nav-menu-5"></span>Обучение зарубежом</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="nav-menu-6"></span>Корпоративное обучение</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- nav END -->
+
+            <!-- container -->
+            <div class="container">
+
+                <!-- left -->
+                <div class="left">
+                    <a href="#" class="left-menu-mobile"></a>
+                    <div class="left-menu-wrap">
+                        <div class="left-menu">
+                            <ul>
+                                <li><a href="#"><div>О компании</div></a></li>
+                                <li><a href="#"><div>Дни открытых дверей</div></a></li>
+                                <li><a href="#"><div>Методика обучения</div></a></li>
+                                <li><a href="#"><div>Наши преподаватели</div></a></li>
+                                <li><a href="#"><div>Отзывы студентов и&nbsp;учителей</div></a></li>
+                                <li><a href="#"><div>Видео уроков и&nbsp;мероприятий</div></a></li>
+                                <li><a href="#"><div>Пресс-центр</div></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- left END -->
+
+                <!-- content -->
+                <div class="content">
+                    <div class="content-wrap">
+
+                        <h1>Школы иностранных языков ВКС в Москве и Московской области</h1>
+                        <div class="school-list-hint">(цвет меток соответствует линиям метро)</div>
+
+                        <div class="schools-view">
+                            <ul>
+                                <li><a href="#"><span class="schools-view-1"></span>На карте</a></li>
+                                <li><a href="#"><span class="schools-view-2"></span>На схеме метро</a></li>
+                                <li class="active"><a href="#"><span class="schools-view-3"></span>Списком</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- content END -->
+
+            </div>
+            <!-- container END -->
+
+            <!-- schools tabs -->
+            <div class="schools-tabs">
+
+                <!-- schools tab -->
+                <div class="schools-tab">
+
+                    <div id="map"></div>
+                    <script src="http://api-maps.yandex.ru/2.1/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+                    <script>
+
+                        var schools = [
+                                        [37.607697,         55.757425,          'windows/popup.html', 'International Academic Programmes Centre - подготовка к международным экзаменам и обучению за рубежом',  'red'],
+                                        [37.609802,         55.759198,          'windows/popup.html', 'ВКС Тверская/Охотный ряд',                                                                               'red'],
+                                        [37.636325,         55.76254,           'windows/popup.html', 'ВКС Чистые пруды - Центр интенсив',                                                                      'red'],
+                                        [37.67996,          55.791623,          'windows/popup.html', 'ВКС Сокольники',                                                                                         'red'],
+                                        [37.52107343914794, 55.68352470020909,  'windows/popup.html', 'ВКС Университет/Проспект Вернадского',                                                                   'red'],
+                                        [37.521444,         55.667975,          'windows/popup.html', 'ВКС Проспект Вернадского',                                                                               'red'],
+                                        [37.581954,         55.723602,          'windows/popup.html', 'ВКС Фрунзенская',                                                                                        'red'],
+                                        [37.466009,         55.66432,           'windows/popup.html', 'ВКС Юго-западная',                                                                                       'red'],
+                                        [37.43437,          55.740188,          'windows/popup.html', 'ВКС Кунцевская',                                                                                         'light-blue'],
+                                        [37.412586,         55.752496,          'windows/popup.html', 'ВКС Крылатское',                                                                                         'light-blue'],
+                                        [37.737264,         55.782456,          'windows/popup.html', 'ВКС Партизанская/Семеновская',                                                                           'light-blue'],
+                                        [37.413197,         55.803044,          'windows/popup.html', 'ВКС Строгино',                                                                                           'light-blue'],
+                                        [37.572001,         55.683458,          'windows/popup.html', 'ВКС Академическая',                                                                                      'orange'],
+                                        [37.64391099999997, 55.80649927696422,  'windows/popup.html', 'ВКС Алексеевская',                                                                                       'orange'],
+                                        [37.667204,         55.867698,          'windows/popup.html', 'ВКС Бабушкинская',                                                                                       'orange'],
+                                        [37.634209,         55.786419,          'windows/popup.html', 'ВКС Проспект Мира',                                                                                      'orange'],
+                                        [37.529047,         55.637586,          'windows/popup.html', 'ВКС Беляево',                                                                                            'orange'],
+                                        [37.590057,         55.894667,          'windows/popup.html', 'ВКС Алтуфьево',                                                                                          'grey'],
+                                        [37.570855,         55.842731,          'windows/popup.html', 'ВКС Петровско-Разумовская',                                                                              'grey'],
+                                        [37.600343,         55.606531,          'windows/popup.html', 'ВКС Пражская',                                                                                           'grey'],
+                                        [37.854251,         55.696352,          'windows/popup.html', 'ВКС Жулебино',                                                                                           'purple'],
+                                        [37.489257,         55.793212,          'windows/popup.html', 'ВКС Октябрьское Поле/Щукинская',                                                                         'purple'],
+                                        [37.531711,         55.775864,          'windows/popup.html', 'ВКС Полежаевская',                                                                                       'purple'],
+                                        [37.616863,         55.768132,          'windows/popup.html', 'ВКС Петровский бульвар-Центр интенсив',                                                                  'purple'],
+                                        [37.187275,         55.976011,          'windows/popup.html', 'ВКС Зеленоград',                                                                                         'none'],
+                                        [37.41246,          55.903726,          'windows/popup.html', 'ВКС Химки',                                                                                              'none'],
+                                        [37.545258,         55.433282,          'windows/popup.html', 'ВКС Подольск / ул. Февральская, д. 65',                                                                  'none'],
+                                        [37.497243,         55.423826,          'windows/popup.html', 'ВКС Подольск / ул. Юбилейная, дом 11А',                                                                  'none'],
+                                        [37.300898,         55.475398,          'windows/popup.html', 'ВКС Троицк',                                                                                             'none'],
+                                        [37.525953,         55.547346,          'windows/popup.html', 'ВКС Южное Бутово',                                                                                       'none'],
+                                        [37.36484949999997, 55.81758727695926,  'windows/popup.html', 'ВКС Павшинская Пойма',                                                                                   'none'],
+                                        [37.671527,         55.638035,          'windows/popup.html', 'ВКС Каширская/Кантемировская',                                                                           'green'],
+                                        [37.471354,         55.856351,          'windows/popup.html', 'ВКС Речной вокзал',                                                                                      'green'],
+                                        [37.505588,         55.818179,          'windows/popup.html', 'ВКС Войковская',                                                                                         'green'],
+                                        [37.779143,         55.75361,           'windows/popup.html', 'ВКС Перово',                                                                                             'yellow'],
+                                        [37.847927,         55.736871,          'windows/popup.html', 'ВКС Новокосино',                                                                                         'yellow'],
+                                        [37.571067,         55.761138,          'windows/popup.html', 'ВКС Красная Пресня',                                                                                     'brown']
+                                      ];
+
+                        ymaps.ready(init);
+
+                        var myMap;
+
+                        function init() {
+                            myMap = new ymaps.Map('map', {
+                                center: [55.755768, 37.617671],
+                                zoom: 10,
+                                controls: ['zoomControl']
+                            });
+
+                            myMap.behaviors.disable('scrollZoom');
+
+                            var MyBalloonLayout = ymaps.templateLayoutFactory.createClass(
+                                '<div class="popover">' +
+                                    '<a class="close" href="#"></a>' +
+                                    '$[[options.contentLayout observeSize minWidth=400 maxWidth=400]]' +
+                                '</div>', {
+                                    build: function() {
+                                        this.constructor.superclass.build.call(this);
+                                        this._$element = $('.popover', this.getParentElement());
+                                        this.applyElementOffset();
+                                        this._$element.find('.close')
+                                            .on('click', $.proxy(this.onCloseClick, this));
+                                    },
+
+                                    clear: function() {
+                                        this._$element.find('.close')
+                                            .off('click');
+                                        this.constructor.superclass.clear.call(this);
+                                    },
+
+                                    onSublayoutSizeChange: function() {
+                                        MyBalloonLayout.superclass.onSublayoutSizeChange.apply(this, arguments);
+                                        if (!this._isElement(this._$element)) {
+                                            return;
+                                        }
+                                        this.applyElementOffset();
+                                        this.events.fire('shapechange');
+                                    },
+
+                                    applyElementOffset: function() {
+                                        this._$element.css({
+                                            left: 3,
+                                            top: -108
+                                    });
+                                },
+
+                                onCloseClick: function(e) {
+                                    e.preventDefault();
+                                    this.events.fire('userclose');
+                                },
+
+                                getShape: function () {
+                                    if (!this._isElement(this._$element)) {
+                                        return MyBalloonLayout.superclass.getShape.call(this);
+                                    }
+
+                                    var position = this._$element.position();
+
+                                    return new ymaps.shape.Rectangle(new ymaps.geometry.pixel.Rectangle([
+                                        [position.left, position.top], [
+                                            position.left + 3,
+                                            position.top - 108
+                                        ]
+                                    ]));
+                                },
+
+                                _isElement: function(element) {
+                                    return element && element[0];
+                                }
+                            });
+
+                            var MyBalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+                                '$[properties.balloonContent]'
+                            );
+
+                            for (var i = 0; i < schools.length; i++) {
+                                var curItem = schools[i];
+                                var myPlacemark = new ymaps.Placemark([curItem[1], curItem[0]], {
+                                    hintContent: curItem[3],
+                                    balloonLink: curItem[2],
+                                    balloonContent: '<div class="popup"><h3>Идет загрузка данных...</h3></div>'
+                                }, {
+                                    balloonShadow: false,
+                                    balloonLayout: MyBalloonLayout,
+                                    balloonContentLayout: MyBalloonContentLayout,
+                                    hideIconOnBalloonOpen: false,
+                                    balloonPanelMaxMapArea: 0,
+                                    iconLayout: 'default#image',
+                                    iconImageHref: 'images/map-icon-' + curItem[4] + '.png',
+                                    iconImageSize: [49, 37],
+                                    iconImageOffset: [-16, -37],
+                                    openEmptyBalloon: true
+                                });
+                                myPlacemark.events.add('balloonopen', function(e) {
+                                    var curPlacemark = e.get('target');
+                                    $.ajax({
+                                        type: 'POST',
+                                        url: curPlacemark.properties.get('balloonLink'),
+                                        dataType: 'html',
+                                        cache: false
+                                    }).done(function(html) {
+                                        curPlacemark.properties.set('balloonContent', html);
+                                    });
+                                });
+                                myMap.geoObjects.add(myPlacemark);
+                            }
+                        }
+                    </script>
+                </div>
+                <!-- schools tab END -->
+
+                <!-- schools tab -->
+                <div class="schools-tab">
+
+                    <!-- metro -->
+                    <div class="metro">
+
+                        <div class="metro-item" style="left:127px; top:20px">
+                            <a href="windows/popup.html" class="metro-item-icon"><div class="metro-item-name" style="left:16px; top:-3px; width:71px; height:18px"></div></a>
+                        </div>
+
+                        <div class="metro-item" style="left:57px; top:290px">
+                            <a href="windows/popup.html" class="metro-item-icon"><div class="metro-item-name" style="left:16px; top:-3px; width:68px; height:18px"></div></a>
+                        </div>
+
+                        <div class="metro-item" style="left:140px; top:923px">
+                            <a href="windows/popup.html" class="metro-item-icon"><div class="metro-item-name" style="left:16px; top:-3px; width:46px; height:18px"></div></a>
+                        </div>
+
+                        <div class="metro-item" style="left:368px; top:3px">
+                            <a href="windows/popup.html" class="metro-item-icon"><div class="metro-item-name" style="left:16px; top:-3px; width:66px; height:18px"></div></a>
+                        </div>
+
+                    </div>
+                    <!-- metro END -->
+
+                    <!-- container -->
+                    <div class="container">
+                        <!-- content -->
+                        <div class="content">
+                            <div class="content-wrap">
+
+                                <h2>Ключевые школы</h2>
+                            </div>
+                        </div>
+                        <!-- content END -->
+
+                    </div>
+                    <!-- container END -->
+
+
+                    <table class="school-list">
+                        <thead>
+                            <tr>
+                                <th class="school-list-col-1">Название школы</th>
+                                <th class="school-list-col-2">Метро</th>
+                                <th class="school-list-col-1">Адрес</th>
+                                <th class="school-list-col-2" data-orderable="false">Телефоны</th>
+                                <th class="school-list-col-2" data-orderable="false">График работы</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p><a href="#">International Academic</a></p>
+                                    <p><a href="#">Programmes Centre</a></p>
+                                    <p>Академический Английский, подготовка к IELTS, TOEFL, GMAT, GRE; Foundation, Pre-Masters в Москве</p>
+                                </td>
+                                <td><span class="metro-text-red">Охотный Ряд</span></td>
+                                <td>Газетный пер., д.3-5, стр.1</td>
+                                <td>+7(499)372-00-12</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Красная Пресня</td>
+                                <td><span class="metro-text-brown">Красная Пресня</span></td>
+                                <td>ул.Ленская, 10к1, 2 подъезд, 2 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Обучение за рубежом</td>
+                                <td><span class="metro-text-red">Охотный ряд</span></td>
+                                <td>ул. Кедрова 14, к.1, 3 этаж</td>
+                                <td>+7(499)995-12-92</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Тверская / Охотный ряд (Английский язык для детей и взрослых, широкий выбор программ обучения)</td>
+                                <td><span class="metro-text-green">Тверская</span> / <span class="metro-text-red">Охотный ряд</span></td>
+                                <td>ул. Кедрова 14, к.1, 3 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Вт-Пт</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                        <div class="schedule-row schedule-row-weekend">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">выходные</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Чистые пруды - Центр Интенсив</td>
+                                <td><span class="metro-text-red">Чистые пруды</span></td>
+                                <td>ул. Профсоюзная, 93к4, 1 этаж</td>
+                                <td>8 (495) 988 55 26 (доб. 1)</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <!-- schools tab END -->
+
+                <!-- schools tab -->
+                <div class="schools-tab active">
+
+                    <table class="school-list">
+                        <thead>
+                            <tr>
+                                <th class="school-list-col-1">Название школы</th>
+                                <th class="school-list-col-2">Метро</th>
+                                <th class="school-list-col-1" data-orderable="false">Адрес</th>
+                                <th class="school-list-col-2" data-orderable="false">Телефоны</th>
+                                <th class="school-list-col-2" data-orderable="false">График работы</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p><a href="#">International Academic</a></p>
+                                    <p><a href="#">Programmes Centre</a></p>
+                                    <p>Академический Английский, подготовка к IELTS, TOEFL, GMAT, GRE; Foundation, Pre-Masters в Москве</p>
+                                </td>
+                                <td><span class="metro-text-red">Охотный Ряд</span></td>
+                                <td>Газетный пер., д.3-5, стр.1</td>
+                                <td>+7(499)372-00-12</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Академическая</td>
+                                <td><span class="metro-text-orange">Академическая</span></td>
+                                <td>ул. Кедрова 14, к.1, 3 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Вт-Пт</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                        <div class="schedule-row schedule-row-weekend">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">выходные</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Алтуфьево</td>
+                                <td><span class="metro-text-grey">Алтуфьево</span></td>
+                                <td>Шенкурский проезд, 11</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Бабушкинская</td>
+                                <td><span class="metro-text-orange">Бабушкинская</span></td>
+                                <td>ул.Ленская, 10к1, 2 подъезд, 2 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Беляево</td>
+                                <td><span class="metro-text-orange">Беляево</span></td>
+                                <td>ул. Профсоюзная, 93к4, 1 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Войковская</td>
+                                <td><span class="metro-text-green">Войковская</span></td>
+                                <td>ул. Зои и Александра Космодемьянских, 6</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Глобус Охотный ряд (Центр изучения Европейских и редких языков)</td>
+                                <td><span class="metro-text-red">Охотный ряд</span></td>
+                                <td>ул. Тверская д 9а, стр 4, 3 этаж</td>
+                                <td>+7(499)995-12-84,<br />+7(495) 737-5225</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Вт-Пт</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                        <div class="schedule-row schedule-row-weekend">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">выходные</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Жулебино</td>
+                                <td><span class="metro-text-purple">Жулебино</span></td>
+                                <td>ул. Кедрова 14, к.1, 3 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Каширская / Кантемировская</td>
+                                <td><span class="metro-text-green">Каширская</span></td>
+                                <td>Шенкурский проезд, 11</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Красная Пресня</td>
+                                <td><span class="metro-text-brown">Красная Пресня</span></td>
+                                <td>ул.Ленская, 10к1, 2 подъезд, 2 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Крылатское</td>
+                                <td><span class="metro-text-blue">Крылатское</span></td>
+                                <td>ул. Профсоюзная, 93к4, 1 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Кунцевская</td>
+                                <td><span class="metro-text-light-blue">Кунцевская</span></td>
+                                <td>ул. Зои и Александра Космодемьянских, 6</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Новокосино</td>
+                                <td><span class="metro-text-yellow">Новокосино</span></td>
+                                <td>ул. Тверская д 9а, стр 4, 3 этаж</td>
+                                <td>+7(495)7030920,<br />+7(495)7375225</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Обучение за рубежом</td>
+                                <td><span class="metro-text-red">Охотный ряд</span></td>
+                                <td>ул. Кедрова 14, к.1, 3 этаж</td>
+                                <td>+7(499)995-12-92</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Октябрьское Поле / Щукинская</td>
+                                <td><span class="metro-text-purple">Щукинская</span></td>
+                                <td>Шенкурский проезд, 11</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Партизанская / Семеновская</td>
+                                <td><span class="metro-text-blue">Семеновская</span></td>
+                                <td>ул.Ленская, 10к1, 2 подъезд, 2 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Перово</td>
+                                <td><span class="metro-text-yellow">Перово</span></td>
+                                <td>ул. Профсоюзная, 93к4, 1 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Петровский бульвар-Центр интенсив</td>
+                                <td>Петровский бульвар</td>
+                                <td>ул. Зои и Александра Космодемьянских, 6</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Петровско-Разумовская</td>
+                                <td><span class="metro-text-grey">Петровско-Разумовская</span></td>
+                                <td>ул. Тверская д 9а, стр 4, 3 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Полежаевская</td>
+                                <td><span class="metro-text-purple">Полежаевская</span></td>
+                                <td>ул. Кедрова 14, к.1, 3 этаж</td>
+                                <td>+7(499) 372-15-04</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Пражская</td>
+                                <td><span class="metro-text-grey">Пражская</span></td>
+                                <td>Шенкурский проезд, 11</td>
+                                <td>+7(495) 737-5225,</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Пролетарская-Центр интенсив</td>
+                                <td><span class="metro-text-purple">Пролетарская</span></td>
+                                <td>ул.Ленская, 10к1, 2 подъезд, 2 этаж</td>
+                                <td>+7(495) 258-0004<br />+7(495) 737-5225,</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Проспект Мира</td>
+                                <td><span class="metro-text-brown">Проспект Мира</span></td>
+                                <td>ул. Профсоюзная, 93к4, 1 этаж</td>
+                                <td>+7(495) 258-0004<br />+7(495) 737-5225,</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Речной вокзал</td>
+                                <td><span class="metro-text-green">Речной вокзал</span></td>
+                                <td>ул. Зои и Александра Космодемьянских, 6</td>
+                                <td>+7(495) 258-0004<br />+7(499)457-03-46</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Сокольники</td>
+                                <td><span class="metro-text-red">Сокольники</span></td>
+                                <td>ул. Тверская д 9а, стр 4, 3 этаж</td>
+                                <td>+7(916)923-79-96<br />+7 (925) 506-87-11</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Строгино</td>
+                                <td><span class="metro-text-blue">Строгино</span></td>
+                                <td>ул. Кедрова 14, к.1, 3 этаж</td>
+                                <td>+7(495)544-75-64</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Тверская / Охотный ряд (Английский язык для детей и взрослых, широкий выбор программ обучения)</td>
+                                <td><span class="metro-text-green">Тверская</span> / <span class="metro-text-red">Охотный ряд</span></td>
+                                <td>ул. Кедрова 14, к.1, 3 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Вт-Пт</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                        <div class="schedule-row schedule-row-weekend">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">выходные</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Университет</td>
+                                <td><span class="metro-text-red">Университет</span></td>
+                                <td>Шенкурский проезд, 11</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Фрунзенская</td>
+                                <td><span class="metro-text-red">Фрунзенская</span></td>
+                                <td>ул.Ленская, 10к1, 2 подъезд, 2 этаж</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Чистые пруды - Центр Интенсив</td>
+                                <td><span class="metro-text-red">Чистые пруды</span></td>
+                                <td>ул. Профсоюзная, 93к4, 1 этаж</td>
+                                <td>8 (495) 988 55 26 (доб. 1)</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Юго-западная</td>
+                                <td><span class="metro-text-red">Юго-западная</span></td>
+                                <td>ул. Зои и Александра Космодемьянских, 6</td>
+                                <td>+7(495) 737-5225,<br />+7(495) 258-0004</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">ВКС Южное Бутово</a></td>
+                                <td>Южное Бутово</td>
+                                <td>ул. Тверская д 9а, стр 4, 3 этаж</td>
+                                <td>+7(968)914-19-91,<br />+7(499)793-96-94</td>
+                                <td>
+                                    <div class="schedule">
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Пн–Пт</div>
+                                            <div class="schedule-row-value">10:00–20:00</div>
+                                        </div>
+                                        <div class="schedule-row">
+                                            <div class="schedule-row-name">Сб–Вс</div>
+                                            <div class="schedule-row-value">10:00–18:00</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- container -->
+                    <div class="container">
+                        <!-- content -->
+                        <div class="content">
+                            <div class="content-wrap">
+
+                                <h2>ВKC – школы по изучению иностранных языков для взрослых и детей</h2>
+                                <p>Абсолютно все школы по изучению иностранных языков, которые Вы видите в списке, предоставляют курсы для детей и взрослых, а также входят в одну из самых крупных сетей, которая, кстати, занимает позицию лидера на рынке в сфере образования. Именно BKC-IH является первопроходцем в повышении стандартов процессов обучения. Именно у нас работают самые профессиональные и высококвалифицированные педагоги. Перед трудоустройством все они прошли многоуровневый кастинг, и это дает гарантию действительно качественного преподавания. К тому же в компании BKC-IH существует специальное подразделение, которое строго следит, чтобы обучение проходило на самом высоком уровне и только в соответствии с самыми новыми методиками.</p>
+                                <p>Мы постоянно обновляем учебные пособия, а педагогов отправляем на специализированные тренинги и курсы, повышающие квалификацию. Также они регулярно посещают профильные конференции в России и странах СНГ.</p>
+                                <p>Обучение в любой из школ BKC-IH открывает перед вами прекрасные возможности. С дипломом, который вы получите, вы будете чувствовать себя не чужим в любой стране мира. Следует добавить, что выдаваемые BKC-IH сертификаты котируются больше, чем в тридцати странах мира, поэтому получение виз, устройство на работу в международные компании и просто свободное общение с иностранцами больше не будет для Вас затруднительным.</p>
+                                <p>У нас предусмотрены обучающие курсы для всех возрастных групп, в том числе и для детей от трёх лет. А уникальная коммуникативная методика преподавания позволит Вам и вашим близким учить любой иностранный язык с интересом, получая знания путем живой практики и в естественной среде.</p>
+                            </div>
+                        </div>
+                        <!-- content END -->
+
+                    </div>
+                    <!-- container END -->
+
+                </div>
+                <!-- schools tab END -->
+
+            </div>
+            <!-- schools tabs END -->
+
+            <!-- subscribe -->
+            <div class="subscribe">
+                <div class="subscribe-inner">
+                    <div class="subscribe-title">Будьте в курсе новостей и акций</div>
+                    <form action="#" method="post">
+                        <div class="form-input"><input type="text" name="email" value="" placeholder="Ваш адрес электронной почты" class="required" /></div>
+                        <div class="form-submit"><input type="submit" value="Ок" /></div>
+                    </form>
+                </div>
+            </div>
+            <!-- subscribe END -->
+
+            <footer>
+                <div class="footer-inner">
+
+                    <!-- footer content -->
+                    <div class="footer-content">
+                        <div class="footer-menu">
+                            <h3><a href="#">Курсы</a></h3>
+                            <ul>
+                                <li><a href="#">Курсы для взрослых</a></li>
+                                <li><a href="#">Курсы для детей и&nbsp;подростков</a></li>
+                                <li><a href="#">Корпоративное обучение</a></li>
+                                <li><a href="#">Международные экзамены</a></li>
+                                <li><a href="#">Обучение зарубежом</a></li>
+                                <li><a href="#">Курсы для преподавателей</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu">
+                            <h3><a href="#">Иностранные языки</a></h3>
+                            <ul>
+                                <li><a href="#">Английский</a></li>
+                                <li><a href="#">Немецкий</a></li>
+                                <li><a href="#">Испанский</a></li>
+                                <li><a href="#">Итальянский</a></li>
+                                <li><a href="#">Французский</a></li>
+                                <li><a href="#">Китайский</a></li>
+                                <li><a href="#">Японский</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu">
+                            <h3><a href="#">Обучение за рубежом</a></h3>
+                            <ul>
+                                <li><a href="#">Языковые курсы за рубежом</a></li>
+                                <li><a href="#">Программа Foundation Year</a></li>
+                                <li><a href="#">ВКС Pre-Masters Programme</a></li>
+                                <li><a href="#">Подготовка к поступлению</a></li>
+                                <li><a href="#">Специализированные курсы и&nbsp;тренинги</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu">
+                            <h3><a href="#">Компания</a></h3>
+                            <ul>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Методика обучения</a></li>
+                                <li><a href="#">Отзывы студентов</a></li>
+                                <li><a href="#">Преподаватели</a></li>
+                                <li><a href="#">Пресс-центр</a></li>
+                                <li><a href="#">Работа в ВКС-IH</a></li>
+                                <li><a href="#">Jobs for teachers</a></li>
+                                <li><a href="#">Партнеры</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-contacts">
+                            <h3><a href="#">Контакты</a></h3>
+                            <div class="footer-phones"><span>+7 (495)</span> 737-52-25<br /><span>+7 (495)</span> 258-00-04</div>
+                            <a href="#" class="footer-callback">Обратный звонок</a>
+                            <div class="footer-email"><a href="#">info@bkc.ru</a></div>
+                            <div class="footer-social">
+                                <a href="#" class="footer-social-1"></a>
+                                <a href="#" class="footer-social-2"></a>
+                                <a href="#" class="footer-social-3"></a>
+                                <a href="#" class="footer-social-4"></a>
+                                <a href="#" class="footer-social-5"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footer content END -->
+
+                    <!-- footer links -->
+                    <div class="footer-links">
+                        <div class="footer-logo"><img src="images/footer-logo.png" alt="" width="268" height="105" /></div>
+                        <div class="footer-charity">Выбирая обучение в BKC IH, Вы помогаете пройти реабилитацию детям, перенесшим тяжелые заболевания</div>
+                        <div class="footer-developer">Интернет-маркетинг<br /><a href="#" target="_blank">Smirnov Digital</a></div>
+                        <div class="footer-developer">Создание сайта<br /><a href="#" target="_blank">Bilingo Digital Agency</a></div>
+                    </div>
+                    <!-- footer links END -->
+
+                </div>
+            </footer>
+
+        </div>
+        <!-- wrapper END -->
+
+    </body>
+</html>

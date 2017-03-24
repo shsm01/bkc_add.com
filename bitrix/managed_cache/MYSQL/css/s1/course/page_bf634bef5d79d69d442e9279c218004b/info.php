@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/local/templates/.default/components/bitrix/catalog.section/partners/style.css" => "149002198524522",), 'CUR_SEL_CNT' => '193', 'CUR_IE_CNT' => '0'); ?>

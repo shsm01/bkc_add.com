@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/local/templates/.default/components/bitrix/menu/school/script.js" => "1472528864409","/local/templates/.default/components/bitrix/menu/vertical_multilevel/script.js" => "1472528864409",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>
