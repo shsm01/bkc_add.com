@@ -1,4 +1,4 @@
-﻿<?
+<?
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
 global $APPLICATION;
@@ -44,9 +44,12 @@ $pos = strpos($APPLICATION->GetCurUri(), 'SECTION_CODE');
 
 if ($pos === false):
    $aMenuLinks[1][3] = Array("NO_LANG"=>"1");
+   unset($aMenuLinks[0]);
 else:
    unset($aMenuLinks[1]);
    $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
+   unset($aMenuLinks[0]);
+
 endif;
 
 ?>

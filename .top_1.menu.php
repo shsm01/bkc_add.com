@@ -16,7 +16,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Корпоративное обучение", 
-		"/corp_learn/advantages/", 
+		"/corp_learn/", 
 		Array(), 
 		Array(), 
 		"" 

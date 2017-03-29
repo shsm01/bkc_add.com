@@ -9,23 +9,23 @@ $main='';
 
 $main_0='';
 $lev_0='english';
+
 $lang_show=true;
 
-// $lang_show=false;
 
 foreach($arResult as $k=>$arItem){
   if(CSite::InDir($arItem["LINK"]))
     $arResult[$k]["SELECTED"] = true;
 }
 
-foreach($arResult as $k=>$arItem)
 
+foreach($arResult as $k=>$arItem)
   if (isset($arItem['PARAMS']['NO_LANG'])){
     $lang_show = false;
     break;
   }
 
-// var_dump($arResult);
+var_dump($arResult);
 
 
 $second='';
@@ -171,16 +171,7 @@ foreach($arResult as $k=>$arItem):?>
 	<?=str_repeat("</ul></li>", ($previousLevel-2) );?>
 <?endif?>
 <?if ($course_show_menu==1):?>
-           </ul>
-           </div>
-        </div>
-
-            <br><br>
-
-    <div class="course-menu-wrap">
-    <div class="course-menu">
-    <ul>
-
+<li><br><br></li>
 <?endif;?>
 					<?/*Выводим меню раздела*/?>
 <?foreach($arResult as $k=>$arItem):?>

@@ -1,23 +1,12 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Корпоративное обучение");
-
-if (!$_REQUEST['SECTION_CODE']):
-//		$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>23));
-//		$sec=$res->GetNext();
-//		header('location:./'.$sec['CODE'].'/');
-// endif;
-?>
-
-<p>
-Корпоративное обучение URL /corp_learn/ без всяких english.
-</p>
-
-
-<?
-else:
-
 if (CModule::IncludeModule("iblock")):
+if (!$_REQUEST['SECTION_CODE']):
+		$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>23));
+		$sec=$res->GetNext();
+		header('location:./'.$sec['CODE'].'/');
+endif;
 
 $res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>23,'CODE'=>$_REQUEST['SECTION_CODE']));
 $sec_desc_bot=$res->GetNext();
@@ -27,7 +16,6 @@ array('SORT'=>'ASC'),
 array('IBLOCK_ID'=>23,'SECTION_ID'=>$sec_desc_bot['ID'])
 );
 endif;
-
 if (!($el=$res->GetNext())):
 
 ?>
@@ -55,9 +43,7 @@ if (!($el=$res->GetNext())):
 		"VIEW_MODE" => "LINE",	// Вид списка подразделов
 	),
 	false
-);
-
-?><br>
+);?><br>
 
                         <div class="corporate-banner" style="background-image:url(/local/layout/files/corporate-banner.jpg)">
                             <div class="corporate-banner-inner">
@@ -252,6 +238,5 @@ print('                                                <option value="'.$el['NAM
 	),
 	false
 );?>
-<?endif;?>
 <?endif;?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

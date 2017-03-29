@@ -3,7 +3,7 @@ $aMenuLinks = Array(
 
 	Array(
 		"", 
-		"#", 
+		"", 
 		Array(), 
 		Array(), 
 		"" 
@@ -11,13 +11,9 @@ $aMenuLinks = Array(
 
 	Array(
 		"Курсы", 
-//		"#", 
 		"/corp_learn/english/", 
 		Array(), 
-		Array(), 
-//		Array("NO_LANG"=>"1"), 
-//              Array("FROM_IBLOCK"=>"1", "IS_PARENT"=>"", "DEPTH_LEVEL"=>"2";),
-///              Array("FROM_IBLOCK"=>"1", "IS_PARENT"=>"true", "DEPTH_LEVEL"=>"1"),
+		Array("NO_LANG"=>"1"), 
 		"" 
 	),
 	Array(

@@ -19,16 +19,17 @@ endif;
 
 		$arIBlock = GetIBlock($cur['BID']);
 
-                if ($cur['BID'] == 23):
-//                   var_dump ($arIBlock);
-                   $arIBlock['LIST_PAGE_URL'] .= "advantages/";
-//                   echo $arIBlock['LIST_PAGE_URL']."  ". $cur['NAME'];
-
+                if ($cur['BID'] == 20):
+//                    var_dump($cur);
+//                    var_dump($arIBlock);
+//                    var_dump($arIBlock['SECTION_PAGE_URL']); 
+//                   $arIBlock['LIST_PAGE_URL'] .= "advantages/";
 		endif;
 
 //		print_r($arIBlock['LIST_PAGE_URL']);
 		$arFilter = Array('IBLOCK_ID'=>$cur['BID'], 'GLOBAL_ACTIVE'=>'Y','DEPTH_LEVEL'=>1);
 		$db_list = CIBlockSection::GetList(Array("SORT"=>"ASC"), $arFilter, true);
+
 		$act=0;
 		$arr_lvl=array();
 		$class_bid='';
@@ -53,6 +54,7 @@ endif;
 							<ul>
 <?
 	while($ar = $db_list->GetNext()){
+
 	$arFilter_el = Array('IBLOCK_ID'=>$ar['IBLOCK_ID'], 'ACTIVE'=>'Y','SECTION_ID'=>$ar['ID'],'INCLUDE_SUBSECTIONS'=>'Y');
 	$el_res = CIBlockElement::GetList(Array("SORT"=>"ASC"), $arFilter_el, false, Array("nPageSize"=>1));
 		if ($el= $el_res->GetNext()){

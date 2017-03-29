@@ -2,6 +2,10 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Корпоративное обучение");
 
+// var_dump($_REQUEST);
+
+// $_REQUEST = array();
+
 if (!$_REQUEST['SECTION_CODE']):
 //		$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>23));
 //		$sec=$res->GetNext();
@@ -17,7 +21,12 @@ if (!$_REQUEST['SECTION_CODE']):
 <?
 else:
 
+
+// $_REQUEST['SECTION_CODE'] = 'german';
+
+// var_dump($_GET);
 if (CModule::IncludeModule("iblock")):
+
 
 $res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>23,'CODE'=>$_REQUEST['SECTION_CODE']));
 $sec_desc_bot=$res->GetNext();
@@ -27,6 +36,11 @@ array('SORT'=>'ASC'),
 array('IBLOCK_ID'=>23,'SECTION_ID'=>$sec_desc_bot['ID'])
 );
 endif;
+
+// var_dump($_REQUEST['SECTION_CODE']);
+// $sec_desc_bot['CODE'] = 'german';
+// var_dump($sec_desc_bot['CODE']);
+// var_dump($res);
 
 if (!($el=$res->GetNext())):
 
@@ -57,6 +71,7 @@ if (!($el=$res->GetNext())):
 	false
 );
 
+// var_dump($APPLICATION);
 ?><br>
 
                         <div class="corporate-banner" style="background-image:url(/local/layout/files/corporate-banner.jpg)">
