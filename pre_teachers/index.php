@@ -1,6 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Курсы для преподавателей");
+$APPLICATION->SetTitle("О центре");
+
 if (!$_REQUEST['SECTION_CODE']):
 //		$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>20));
 //		$sec=$res->GetNext();
@@ -8,21 +9,17 @@ if (!$_REQUEST['SECTION_CODE']):
 ?>
 
 <p>
-Центр подготовки преподавателей BKC-IH предлагает широкий спектр программ как для начинающих преподавателей английского языка, делающих свои первые шаги в профессии, так и для опытных специалистов, желающих повысить свою квалификацию.
+В Москве на базе образовательной компании BKC-International House с 1996 года действует Международный Центр подготовки преподавателей английского языка как иностранного (<a style="font-weight:bold;" href="http://bkcih-moscow.com/training/celta.html" alt="">BKC-IH Moscow Teacher Training Centre</a>). Центр был основан при поддержке крупнейшей Международной Лингвистической Организации Internation House (UK), которая является автором коммуникативной методики, завоевавшей признание во всем мире.
 </p>
-<p style="fonr-weight:bold;color:#000;">
-Подобрать подходящую Вам программу поможет данная тест-схема:
-</p>
-<div class="bkn_choose" style="text-align:center;padding-bottom:52px;padding-top:25px;">
-	<a class="window-link btn_choose_lnk" style="padding:15px;cursor:pointer;text-decoration:none;" href="/local/windows/schema_teacher.php" alt="">
-Подобрать программу
-	</a>
-</div>
-<!--
-<a class="window-link" style="border:0;" href="/local/windows/schema_teacher.php" alt="">
-<img src="/local/windows/schema_teacher.png" style="width:100%;max-width:450px;" alt="">
-</a>
--->
+
+<p>В 1997 году компании <span style="font-weight:bold;">BKC-International House</span> была официально признана Кембриджским университетом (<a href="http://www.cambridgeenglish.org" alt="">Cambridge English Language Asessment</a>) как Центр подготовки преподавателей английского языка как иностранного, что дало право проводить в Москве курсы для преподавателей английского языка <span style="font-weight:bold"><a href="http://www.bkcih-moscow.com/training_n/celta" alt="">Cambridge CELTA</a></span> (Certificate in Teaching English to Speakers of Other Languages) и Cambridge Delta (Diploma in Teaching English to Speakers of Other Languages).</p>
+
+<p>На сегодняшний день <span style="font-weight:bold;">BKC-IH Moscow Teacher Training Centre</span> - это единственный в России Центр, предлагающий широкий спектр курсов и семинаров для преподавателей английского языка, среди которых Кембриджские программы, курсы <a href="http://ihworld.com" alt="">International House World Organisation</a>, а также тренинги и семинароы, разработанные специалистами Центра.</p>
+
+<p>Одним из важных направлений деятельности Центра является поддержание и повышение качества преподавания иностранных языков внутри компании путем организации и проведения регулярных методических тренингов, семинаров и мастер-классов.</p>
+
+<p>Деятельность Центра координирует DOS (Директор по образованию). В течение учебного года для проведения различных тренинговых программ приезжают специалисты в области преподавания английского как иностранного - TEFL (Teaching English as a Foreign Language). Также на протяжении нескольких лет Центр занимается подготовкой тренеров для проведения курсов.</p>
+
 <?
 else:
 

@@ -9,17 +9,17 @@ $main='';
 
 $main_0='';
 $lev_0='english';
+
 $lang_show=true;
 
-// $lang_show=false;
 
 foreach($arResult as $k=>$arItem){
   if(CSite::InDir($arItem["LINK"]))
     $arResult[$k]["SELECTED"] = true;
 }
 
-foreach($arResult as $k=>$arItem)
 
+foreach($arResult as $k=>$arItem)
   if (isset($arItem['PARAMS']['NO_LANG'])){
     $lang_show = false;
     break;

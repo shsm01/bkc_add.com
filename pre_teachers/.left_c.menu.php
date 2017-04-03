@@ -8,13 +8,6 @@ $aMenuLinks = Array(
 		""
 	),
 	Array(
-		"О центре",
-		"/pre_teachers/about_center/",
-		Array(),
-		Array(),
-		""
-	),
-	Array(
 		"Мероприятия",
 		"/pre_teachers/events/",
 		Array(),

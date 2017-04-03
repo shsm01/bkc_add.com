@@ -64,9 +64,15 @@ print('
 
                         <div class="course-price">
                             <div class="course-price-text"><?=$arResult["PROPERTIES"]['price']['NAME']?><strong><?=$price;?></strong></div>
-                            <div class="course-price-link"><a href="/local/windows/order_course.php?id=<?=$arResult['ID']?>" class="btn window-link"><?=$arResult["PROPERTIES"]['button_text']['VALUE']?$arResult["PROPERTIES"]['button_text']['VALUE']:"Заказать курс"?></a></div>
+                            <div class="course-price-lnk"><a href="/local/windows/order_course.php?id=<?=$arResult['ID']?>" class="btn01 window-link"><?=$arResult["PROPERTIES"]['button_text']['VALUE']?$arResult["PROPERTIES"]['button_text']['VALUE']:"Заказать курс"?></a></div>
                         </div>
-	<?if(strlen($arResult["DETAIL_TEXT"])>0):?>
+	<?if(strlen($arResult["DETAIL_TEXT"])>0):
+	/*
+	echo '<pre>';
+	print_r($arResult);
+	echo '</pre>';
+	*/
+	?>
 		<?echo $arResult["DETAIL_TEXT"];?>
 	<?else:?>
 		<?echo $arResult["PREVIEW_TEXT"];?>

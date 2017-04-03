@@ -2129,9 +2129,8 @@ footer {background:#f7f7f7}
 .course-price:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
 .course-price-text {float:left; font-weight:normal; padding:12px 0 0 0}
 .course-price-text strong {display:block; font-size:20px}
-.course-price-lnk {float:right; width:210px; padding:18px 0 0 0} 
+.course-price-lnk {float:right; width:210px; padding:18px 0 0 0}
 .course-price-link .btn {font-size:14px; height:40px; line-height:40px; box-shadow:none}
-.course-price-lnk .btn01 {font-size:14px; height:40px; line-height:40px; box-shadow:none}
 
 @media (max-width:1199px) {
     .course-price {text-align:center; padding-bottom:30px}
