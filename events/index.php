@@ -1,26 +1,27 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости и мероприятия");
+$APPLICATION->AddChainItem("Курсы для преподавателей", "/pre_teachers/");
+$APPLICATION->AddChainItem("Новости и мероприятия", "");
 ?><p>
   <strong>В школах ВКС-IH проходит много интересных событий и мероприятий.<br>
           Мы рады видеть всех, кто захочет присоединиться!
   </strong>
 </p>
-<?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
-	"news_bkc", 
-	array(
-		"ACTIVE_DATE_FORMAT" => "j F Y",
-		"ADD_SECTIONS_CHAIN" => "Y",
-		"AJAX_MODE" => "N",
+
+<?
+$APPLICATION->IncludeComponent("bitrix:news.list", "news_bkc", array(
+		"ACTIVE_DATE_FORMAT" => "j F Y",//Формат показа даты
+		"ADD_SECTIONS_CHAIN" => "Y",//Включать раздел в цепочку навигации
+		"AJAX_MODE" => "N",//Включить режим AJAX
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"AJAX_OPTION_HISTORY" => "N",
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
 		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
-		"CACHE_TIME" => "36000000",
-		"CACHE_TYPE" => "A",
+		"CACHE_GROUPS" => "Y",//Учитывать права доступа
+		"CACHE_TIME" => "36000000",//Время кеширования (сек)
+		"CACHE_TYPE" => "A",//Тип кеширования
 		"CHECK_DATES" => "Y",
 		"DETAIL_URL" => "",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
@@ -35,7 +36,7 @@ $APPLICATION->SetTitle("Новости и мероприятия");
 		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "5",
+		"IBLOCK_ID" => "40",//5
 		"IBLOCK_TYPE" => "press_center",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"INCLUDE_SUBSECTIONS" => "Y",
@@ -69,5 +70,6 @@ $APPLICATION->SetTitle("Новости и мероприятия");
 		"COMPONENT_TEMPLATE" => "news_bkc"
 	),
 	false
-);?>
+);
+?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

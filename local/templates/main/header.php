@@ -22,7 +22,7 @@
 						<div class="header-contacts">
 							<?$APPLICATION->IncludeFile("/local/includes/h.contacts.php",Array(),Array("MODE"=>"text"));?>
 						</div>
-						<a href="/local/windows/order.php" class="header-link-order window-link">Заявка на обучение</a>
+						<a href="/local/windows/order.php" class="header-link-order window-link">Заявка на обучение 1</a>
 						<a href="/quiz/" class="header-link-test">Пройти онлайн-тест</a>
 					</div>
 

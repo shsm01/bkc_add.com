@@ -3,7 +3,7 @@
 <div class="header-callback">
 	<a href="#" class="header-callback-close"></a>
 	<div class="header-callback-content">
-		<div class="header-callback-text">Оставьте свой номер телефона и мы перезвоним вам в ближайшее время</div>
+		<div class="header-callback-text">Оставьте свой номер телефона и мы перезвоним вам в ближайшее время 1.</div>
 		<form action="/local/windows/callback.php" method="post" onsubmit="$.ajax({type: 'POST',url: $(this).attr('action'),data: $(this).serialize(),dataType: 'html',}).done(function(html) {
 		$('.header-callback-content').html('<div style=\'color:white;margin-top:20px;\'>'+html+'</div>');
 		});return false;">

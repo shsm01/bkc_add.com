@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Программы центра",
+		"/pre_teachers/programs/",
+		Array(),
+		Array("NO_LANG"=>"1"),
+		""
+	),
+	Array(
+		"Мероприятия",
+		"/pre_teachers/event/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Тренеры",
+		"/pre_teachers/trainers/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Методические дни",
+		"/pre_teachers/days/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Выездные семинары",
+		"/pre_teachers/seminars/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Отзывы",
+		"/comment/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Новости",
+		"/events/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Контакты",
+		"/pre_teachers/contacts/",
+		Array(),
+		Array(),
+		""
+	)
+);
+?>

@@ -1,6 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Курсы для детей и подростков");
+var_dump($_REQUEST);
+var_dump($_POST);
+var_dump($_GET);
 CModule::IncludeModule("iblock");
 if (!$_REQUEST['SECTION_CODE']):
 		$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>19));

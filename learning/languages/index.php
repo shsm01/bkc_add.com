@@ -1,7 +1,46 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Курсы для взрослых");
+$APPLICATION->SetTitle("Курсы для взрослых languages");
 CModule::IncludeModule("iblock");
+
+echo "REQUEST: "."<br>";
+var_dump($_REQUEST);
+
+
+$sDefaultSectionCode = 'english';
+$arLanguages = $arSectionFilter = $arLanguagesID = array();
+
+// получаем список азыков
+$obLanguages = CIBlockSection::GetList(
+    array('SORT'      => 'ASC',
+          'ID'        => 'ASC',
+    ),
+    array('IBLOCK_ID'    => 16,
+          'DEPTH_LEVEL'  => 1
+    )
+);
+
+while($arLanguage = $obLanguages->GetNext()) {
+    $arLanguages[] = $arLanguage['CODE'];
+    $arLanguagesID[$arLanguage['CODE']] = $arLanguage['ID'];
+}
+
+
+if(($_REQUEST['PRE_SECTION_CODE'] && !in_array($_REQUEST["PRE_SECTION_CODE"], $arLanguages)) || !$_REQUEST['SECTION_CODE'])
+    $arSectionFilter = ['CODE' => $sDefaultSectionCode] ;
+else
+    $arSectionFilter = ['CODE' => $_REQUEST['SECTION_CODE'],
+        'SECTION_ID' => (!is_null($arLanguagesID[$_REQUEST['PRE_SECTION_CODE']])?$arLanguagesID[$_REQUEST['PRE_SECTION_CODE']]:$arLanguagesID[$sDefaultSectionCode])];
+
+$res = CIBlockSection::GetList(
+        array('SORT'      => 'ASC',
+              'ID'        => 'ASC',
+        ),
+        array('IBLOCK_ID' => $iIBlockID)+ $arSectionFilter
+);
+
+$section = $res->GetNext();
+
 if (!$_REQUEST['SECTION_CODE']):
 		$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>16));
 		$sec=$res->GetNext();
@@ -23,8 +62,15 @@ if($_REQUEST["PRE_SECTION_CODE"] && $_REQUEST["SECTION_CODE"]){
   )->Fetch();
 }
 
+echo "++++++++++++++++++++".$section["ID"]."++++++++++++++++++++";
+
+// echo $_REQUEST['SECTION_CODE']."<br>";
+// var_dump($sec);
+
 if($elem_res['ID']){?>  
-<?$APPLICATION->IncludeComponent(
+<?
+echo "Template name: "."course_det"."<br>";
+$APPLICATION->IncludeComponent(
 	"bitrix:news.detail", 
 	"course_det", 
 	array(
@@ -102,7 +148,10 @@ array('IBLOCK_ID'=>16,'SECTION_ID'=>$sec['ID'])
 if (!($el=$res->GetNext())):
 
 ?>
-<?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "courses", Array(
+<?
+echo "Template name: "."courses"."<br>";
+
+$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "courses", Array(
 	"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
 		"CACHE_GROUPS" => "Y",	// Учитывать права доступа
 		"CACHE_TIME" => "36000000",	// Время кеширования (сек.)
@@ -129,7 +178,10 @@ if (!($el=$res->GetNext())):
 );?><br>
 <?else:
 ?>
- <?$APPLICATION->IncludeComponent(
+ <?
+echo "Template name: "."courses_list_elem"."<br>";
+
+$APPLICATION->IncludeComponent(
 	"bitrix:catalog.section", 
 	"courses_list_elem", 
 	array(
@@ -211,7 +263,8 @@ if (!($el=$res->GetNext())):
 			18 => "",
 		),
 		"SECTION_CODE" => $_REQUEST["SECTION_CODE"],
-		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+//		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+                "SECTION_ID" => $section['ID'],
 		"SECTION_ID_VARIABLE" => "SECTION_ID",
 		"SECTION_URL" => "",
 		"SECTION_USER_FIELDS" => array(

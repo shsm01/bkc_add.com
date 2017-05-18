@@ -1,8 +1,8 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Курсы для взрослых", 
-		"/languages/english/", 
+		"Курсы для взрослых",
+		"/learn_english/",
 		Array(), 
 		Array(), 
 		"" 

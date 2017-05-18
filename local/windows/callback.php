@@ -16,6 +16,7 @@ $_REQUEST['phone']=strip_tags($_REQUEST['phone']);
 
     //can add without authorization
     $ID = $el->Add($arLoadProductArray);
+
     if($ID>0)
 		{
 		$files=false;

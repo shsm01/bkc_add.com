@@ -2,6 +2,8 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Корпоративное обучение");
 
+var_dump($_REQUEST);
+
 if (!$_REQUEST['SECTION_CODE']):
 //		$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>23));
 //		$sec=$res->GetNext();
@@ -20,18 +22,31 @@ else:
 if (CModule::IncludeModule("iblock")):
 
 $res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>23,'CODE'=>$_REQUEST['SECTION_CODE']));
+// $res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>23,'CODE'=>'english'));
+
+// var_dump($res);
+// var_dump($_REQUEST);
+
 $sec_desc_bot=$res->GetNext();
+
+var_dump($sec_desc_bot);
 
 $res=CIBlockElement::GetList(
 array('SORT'=>'ASC'),
 array('IBLOCK_ID'=>23,'SECTION_ID'=>$sec_desc_bot['ID'])
 );
+
+var_dump($sec_desc_bot['ID']);
+
 endif;
 
 if (!($el=$res->GetNext())):
 
+// var_dump($sec_desc_bot);
+
 ?>
-<?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "courses", Array(
+<?
+$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "courses", Array(
 	"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
 		"CACHE_GROUPS" => "Y",	// Учитывать права доступа
 		"CACHE_TIME" => "36000000",	// Время кеширования (сек.)
@@ -40,6 +55,7 @@ if (!($el=$res->GetNext())):
 		"IBLOCK_ID" => "23",	// Инфоблок
 		"IBLOCK_TYPE" => "edu",	// Тип инфоблока
 		"SECTION_CODE" => $_REQUEST["SECTION_CODE"],	// Код раздела
+//		"SECTION_CODE" => "english02",	// Код раздела
 		"SECTION_FIELDS" => array(	// Поля разделов
 			0 => "",
 			1 => "",
@@ -55,9 +71,7 @@ if (!($el=$res->GetNext())):
 		"VIEW_MODE" => "LINE",	// Вид списка подразделов
 	),
 	false
-);
-
-?><br>
+); ?><br>
 
                         <div class="corporate-banner" style="background-image:url(/local/layout/files/corporate-banner.jpg)">
                             <div class="corporate-banner-inner">
@@ -145,7 +159,10 @@ print('                                                <option value="'.$el['NAM
 
 <?else:
 ?>
- <?$APPLICATION->IncludeComponent(
+ <?
+
+echo "courses_list_elem";
+$APPLICATION->IncludeComponent(
 	"bitrix:catalog.section", 
 	"courses_list_elem", 
 	array(
@@ -251,7 +268,8 @@ print('                                                <option value="'.$el['NAM
 		"COMPONENT_TEMPLATE" => "courses_list_elem"
 	),
 	false
-);?>
+);
+?>
 <?endif;?>
 <?endif;?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

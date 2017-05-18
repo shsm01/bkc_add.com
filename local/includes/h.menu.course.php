@@ -15,16 +15,38 @@ endif;
 */
 	foreach($curs as $nav=>$cur):
 
+// echo "URL00 = ".$arIBlock['LIST_PAGE_URL']."<br>";
+
 		if(strpos($APPLICATION->GetCurPage(),'/'.$cur['sect'].'/')!==false)$section_code_bid=$cur['BID'];
 
 		$arIBlock = GetIBlock($cur['BID']);
 
-                if ($cur['BID'] == 20):
-//                    var_dump($cur);
+// echo "URL01 = ".$arIBlock['LIST_PAGE_URL']."<br>";
+
+// echo $cur['BID']."<br>";
+
+                if ($cur['BID'] == 16):
+                    $cur['sect'] = "/learn_english/";
+                    $arIBlock['LIST_PAGE_URL'] = "";
+                    $arIBlock['LIST_PAGE_URL'] = "/learn_english/";
+
+//                    $arIBlock01 = GetIBlock(52);
+
+//                    $arIBlock['~LIST_PAGE_URL'] = "learn_english";
+//                     var_dump($arIBlock01);
+//                     var_dump($cur);
+/*
+                    var_dump($arIBlock['LIST_PAGE_URL']);
+                    var_dump($arIBlock['~LIST_PAGE_URL']);
+*/
 //                    var_dump($arIBlock);
 //                    var_dump($arIBlock['SECTION_PAGE_URL']); 
 //                   $arIBlock['LIST_PAGE_URL'] .= "advantages/";
 		endif;
+
+// echo "URL02 = ".$arIBlock['LIST_PAGE_URL']."<br>";
+
+//                var_dump($cur);
 
 //		print_r($arIBlock['LIST_PAGE_URL']);
 		$arFilter = Array('IBLOCK_ID'=>$cur['BID'], 'GLOBAL_ACTIVE'=>'Y','DEPTH_LEVEL'=>1);
@@ -58,7 +80,12 @@ endif;
 	$arFilter_el = Array('IBLOCK_ID'=>$ar['IBLOCK_ID'], 'ACTIVE'=>'Y','SECTION_ID'=>$ar['ID'],'INCLUDE_SUBSECTIONS'=>'Y');
 	$el_res = CIBlockElement::GetList(Array("SORT"=>"ASC"), $arFilter_el, false, Array("nPageSize"=>1));
 		if ($el= $el_res->GetNext()){
+// Change URL
+                    if ($ar['SECTION_PAGE_URL'] == '/languages/english/') {
+                        $ar['SECTION_PAGE_URL'] = '/learn_english/';
+                    }
 			$arr_lvl[] = $ar['ID'];
+// Flagki
 			if($act==0)print('<li class="active"><a href="'.$ar['SECTION_PAGE_URL'].'" class="submenu-lang-'.$lang_cl[$ar['CODE']].'">'.$ar['NAME'].'</a></li>');
 			else print('<li><a href="'.$ar['SECTION_PAGE_URL'].'" class="submenu-lang-'.$lang_cl[$ar['CODE']].'">'.$ar['NAME'].'</a></li>');
 			$act = 1;
@@ -76,12 +103,28 @@ endif;
 	}
 
 //Разделы 2 уровня	
+/*
+if ($cur['BID'] == 16) {
+    $cur['BID'] = 52;
+	$arFilter = Array('IBLOCK_ID'=>$cur['BID'], 'GLOBAL_ACTIVE'=>'Y','DEPTH_LEVEL'=>1);
+	$db_list = CIBlockSection::GetList(Array("SORT"=>"ASC"), $arFilter, true);
+ echo "++++++++++++++++++++++++++++++++++++";
+        var_dump($db_list);
+} else {
+
+*/
+
+
 	$arFilter = Array('IBLOCK_ID'=>$cur['BID'], 'GLOBAL_ACTIVE'=>'Y','DEPTH_LEVEL'=>2);
 	$db_list = CIBlockSection::GetList(Array("SORT"=>"ASC"), $arFilter, true);
+// }
+
 	$act2 = 0;
 	$arr_lvl2 = array();
 	while($ar = $db_list->GetNext()){
 		$arr_lvl2[$ar['IBLOCK_SECTION_ID']][]=$ar;
+// echo "++++++++++++++++++++++++++++++++++++";
+// var_dump($ar);
 	}
 
 ?>
@@ -109,16 +152,31 @@ endif;
 										<!-- submenu info -->
 										<div class="submenu-info">
 											<div class="submenu-info-cols">');
+
 //Если есть разделы, выводим разделы, иначе пробуем курсы
 if (count($arr_lvl2[$v])>0):
 	$act3 = 1;
 	$col = array();
 	$i = 0;
+
 	foreach($arr_lvl2[$v] as $v2){
+
+          $pos = strpos($v2['SECTION_PAGE_URL'], "/languages/english/") ;
+
+          if ( $pos !== false ) {
+             $pieces = explode("/", $v2['SECTION_PAGE_URL']);
+             $pieces[1] = "learn_english"; 
+             array_splice($pieces,2,1);
+             $v2['SECTION_PAGE_URL'] = implode("/", $pieces);
+          }
+
+
 		$i++;
 		$class='03';
 		foreach($progr as $k=>$v3)
 			if (strpos($v2['NAME'],$k)!==false){$class=$v3;break;}
+
+// href and name courses
 				$col[$i%3].='<div class="submenu-info-item"><a href="'.$v2['SECTION_PAGE_URL'].'"><span><img src="/local/layout/images/lang-icon-'.$class.'.png" alt="" width="40" height="40" /><img src="/local/layout/images/lang-icon-'.$class.'-a.png" alt="" width="40" height="40" />'.$v2['NAME'].'</span></a></div>';
 	}
 else:
@@ -136,6 +194,7 @@ endif;
 	foreach($col as $v3)
 		print('<div class="submenu-info-col">'.$v3.'</div>');
 ?>
+
 						</div>
 					</div>
 					<!-- submenu info END -->

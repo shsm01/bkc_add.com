@@ -17,7 +17,13 @@ $this->setFrameMode(true);
 <?
 $arr=array();
 $i=0;
+
+// var_dump($arResult["PROPERTIES"]["dates"]["VALUE"]);
+
 foreach($arResult["PROPERTIES"] as $pid=>$arProperty):
+
+echo $pid."<br>";
+
 if ($pid=='price')continue;
 if ($pid=='price_all')continue;
 if ($pid=='menu_name')continue;

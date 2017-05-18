@@ -1,0 +1,275 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Курсы для взрослых");
+
+// if (!$_REQUEST['SECTION_CODE']):
+//		$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>16));
+//		$sec=$res->GetNext();
+//		header('location:./'.$sec['CODE'].'/');
+// endif;
+?>
+
+<p> Курсы для взрослых URL /learn_english/ без всяких english. </p>
+
+
+<?
+// else:
+
+// var_dump($_REQUEST);
+
+if (CModule::IncludeModule("iblock")):
+
+// echo $_REQUEST['SECTION_CODE']."IncludeModule";
+
+// $res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>16,'CODE'=>$_REQUEST['SECTION_CODE']));
+
+$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>16,'CODE'=>'english'));
+
+// var_dump($res);
+
+$sec_desc_bot=$res->GetNext();
+
+$res=CIBlockElement::GetList(
+array('SORT'=>'ASC'),
+array('IBLOCK_ID'=>16,'SECTION_ID'=>$sec_desc_bot['ID'])
+//  array('IBLOCK_ID'=>16,'SECTION_ID'=>55)
+);
+endif;
+
+var_dump($sec_desc_bot);
+
+
+if (!($el=$res->GetNext())):
+
+?>
+<?
+$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "courses", Array(
+	"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
+		"CACHE_GROUPS" => "Y",	// Учитывать права доступа
+		"CACHE_TIME" => "36000000",	// Время кеширования (сек.)
+		"CACHE_TYPE" => "A",	// Тип кеширования
+		"COUNT_ELEMENTS" => "Y",	// Показывать количество элементов в разделе
+		"IBLOCK_ID" => "16",	// Инфоблок
+		"IBLOCK_TYPE" => "edu",	// Тип инфоблока
+//		"SECTION_CODE" => $_REQUEST["SECTION_CODE"],	// Код раздела
+		"SECTION_CODE" => 'english',	// Код раздела
+		"SECTION_FIELDS" => array(	// Поля разделов
+			0 => "",
+			1 => "",
+		),
+//		"SECTION_ID" => $_REQUEST["SECTION_ID"],	// ID раздела
+		"SECTION_ID" => 55,	// ID раздела
+		"SECTION_URL" => "",	// URL, ведущий на страницу с содержимым раздела
+		"SECTION_USER_FIELDS" => array(	// Свойства разделов
+			0 => "UF_PREVIEW_DESC",
+			1 => "",
+		),
+		"SHOW_PARENT_NAME" => "Y",	// Показывать название раздела
+		"TOP_DEPTH" => "5",	// Максимальная отображаемая глубина разделов
+		"VIEW_MODE" => "LINE",	// Вид списка подразделов
+	),
+	false
+);
+?><br>
+
+                        <div class="corporate-banner" style="background-image:url(/local/layout/files/corporate-banner.jpg)">
+                            <div class="corporate-banner-inner">
+                                <div class="corporate-banner-text">
+                                    <div class="corporate-banner-text-1">Обучение иностранным языкам у вас в офисе</div>
+                                    <div class="corporate-banner-text-2">Мы гордимся высоким уровнем преподавания, международной командой педагогов и многолетним опытом обучения. BKC-ih - лидер в сфере корпоративного образования.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- order -->
+                        <div class="order order-corporate">
+                            <h2>Заявка на обучение у Вас в офисе</h2>
+                            <div class="order-text">Оставьте заявку, и наши специалисты свяжутся с вами в ближайшее время</div>
+                            <form  action="/local/windows/corp_order.php" method="post" onsubmit="$.ajax({type: 'POST',url: $(this).attr('action'),data: $(this).serialize(),dataType: 'html',}).done(function(html) {
+		$('.order-corporate').html('<div style=\'color:black;margin-top:20px;\'>'+html+'</div>');
+		});return false;">
+                                <div class="form-row">
+                                    <div class="form-label">Как к Вам обращаться <span>*</span></div>
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="text" name="name" value="" class="required" /></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">Должность</div>
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="text" name="post" value="" /></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">Телефон</div>
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="text" name="phone" value="" class="maskPhone" /></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">E-mail <span>*</span></div>
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="text" name="email" value="" class="email required" /></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">Ваша компания <span>*</span></div>
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="text" name="company" value="" class="required" /></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">Желаете учить <span>*</span></div>
+                                    <div class="form-field">
+                                        <div class="form-select">
+                                            <select name="language" class="required">
+<?
+$lang=array('английский',
+'немецкий',
+'французский',
+'испанский',
+'итальянский',
+'китайский');
+$res=GetIBlockSectionList(16,0);
+while($el=$res->GetNext())
+if (in_array(strtolower($el['NAME']),$lang))
+print('                                                <option value="'.$el['NAME'].'">'.$el['NAME'].'</option>
+');
+?>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-submit"><input type="submit" value="Подать заявку" /></div>
+                            </form>
+                        </div>
+                        <!-- order END -->
+
+
+
+<br>
+
+
+<?else:
+?>
+ <?
+echo "++++++++++++";
+
+$APPLICATION->IncludeComponent(
+	"bitrix:catalog.section", 
+	"courses_list_elem", 
+	array(
+		"ACTION_VARIABLE" => "action",
+		"ADD_PICT_PROP" => "-",
+		"ADD_PROPERTIES_TO_BASKET" => "Y",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "N",
+		"BACKGROUND_IMAGE" => "-",
+		"BASKET_URL" => "/personal/basket.php",
+		"BROWSER_TITLE" => "-",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"DISABLE_INIT_JS_IN_COMPONENT" => "Y",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"ELEMENT_SORT_FIELD" => "sort",
+		"ELEMENT_SORT_FIELD2" => "id",
+		"ELEMENT_SORT_ORDER" => "asc",
+		"ELEMENT_SORT_ORDER2" => "desc",
+		"FILTER_NAME" => "arrFilter",
+		"IBLOCK_ID" => "16",
+		"IBLOCK_TYPE" => "edu",
+		"INCLUDE_SUBSECTIONS" => "Y",
+		"LABEL_PROP" => "-",
+		"LINE_ELEMENT_COUNT" => "3",
+		"MESSAGE_404" => "",
+		"MESS_BTN_ADD_TO_BASKET" => "В корзину",
+		"MESS_BTN_BUY" => "Купить",
+		"MESS_BTN_DETAIL" => "Подробнее",
+		"MESS_BTN_SUBSCRIBE" => "Подписаться",
+		"MESS_NOT_AVAILABLE" => "Нет в наличии",
+		"META_DESCRIPTION" => "-",
+		"META_KEYWORDS" => "-",
+		"OFFERS_LIMIT" => "5",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Товары",
+		"PAGE_ELEMENT_COUNT" => "30",
+		"PARTIAL_PRODUCT_PROPERTIES" => "N",
+		"PRICE_CODE" => array(
+		),
+		"PRICE_VAT_INCLUDE" => "Y",
+		"PRODUCT_ID_VARIABLE" => "id",
+		"PRODUCT_PROPERTIES" => array(
+		),
+		"PRODUCT_PROPS_VARIABLE" => "prop",
+		"PRODUCT_QUANTITY_VARIABLE" => "",
+		"PROPERTY_CODE" => array(
+			0 => "year",
+			1 => "len",
+			2 => "int",
+			3 => "hours",
+			4 => "mesto",
+			5 => "title",
+			6 => "menu_name",
+			7 => "h1",
+			8 => "br_name",
+			9 => "nagr",
+			10 => "price_all",
+			11 => "uch",
+			12 => "photos",
+			13 => "cel",
+			14 => "price",
+			15 => "level",
+			16 => "day",
+			17 => "mesto2",
+			18 => "",
+		),
+		"SECTION_CODE" => $_REQUEST["SECTION_CODE"],
+		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+		"SECTION_ID_VARIABLE" => "SECTION_ID",
+		"SECTION_URL" => "",
+		"SECTION_USER_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"SEF_MODE" => "N",
+		"SET_BROWSER_TITLE" => "Y",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_META_DESCRIPTION" => "Y",
+		"SET_META_KEYWORDS" => "Y",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "Y",
+		"SHOW_404" => "N",
+		"SHOW_ALL_WO_SECTION" => "N",
+		"SHOW_PRICE_COUNT" => "1",
+		"TEMPLATE_THEME" => "blue",
+		"USE_MAIN_ELEMENT_SECTION" => "Y",
+		"USE_PRICE_COUNT" => "N",
+		"USE_PRODUCT_QUANTITY" => "N",
+		"COMPONENT_TEMPLATE" => "courses_list_elem"
+	),
+	false
+);
+?>
+
+<?endif;?>
+<?// endif;?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

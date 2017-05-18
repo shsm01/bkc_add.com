@@ -16,7 +16,11 @@ $aMenuLinksExt = $APPLICATION->IncludeComponent(
 		"DEPTH_LEVEL"=>'4'
     )
 );
-          //var_Dump($aMenuLinksExt);
+
+//          var_Dump($aMenuLinksExt);
+//          var_Dump($aMenuLinks);
 
 $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
+
+
 ?>

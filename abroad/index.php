@@ -2,6 +2,9 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Обучение за рубежом");
 if (CModule::IncludeModule("iblock")):
+
+var_dump($_REQUEST);
+
 if (!$_REQUEST['SECTION_CODE']):
 		$res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>22));
 		$sec=$res->GetNext();
@@ -11,11 +14,14 @@ endif;
 $res=CIBlockSection::GetList(array('SORT'=>'ASC','ID'=>'ASC'),array('IBLOCK_ID'=>22,'CODE'=>$_REQUEST['SECTION_CODE']));
 $sec_desc_bot=$res->GetNext();
 
+var_dump($sec_desc_bot);
+
 $res=CIBlockElement::GetList(
 array('SORT'=>'ASC'),
 array('IBLOCK_ID'=>22,'SECTION_ID'=>$sec_desc_bot['ID'])
 );
 endif;
+
 if (!($el=$res->GetNext())):
 
 ?><?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "courses", Array(

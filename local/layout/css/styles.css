@@ -1,4 +1,8 @@
-@font-face {font-family:"Rouble"; src:url("../fonts/rouble.woff") format("woff"); font-weight:normal; font-style:normal}
+@font-face {font-family:"Rouble"; src:url("../fonts/rouble.woff") format("woff"); font-weight:normal; font-style:normal;}
+@font-face {
+font-family:"Triple";src:url("../fonts/triple_dot.woff") format("woff"); font-weight:normal; font-style:normal;}
+@font-face {
+font-family:"PT Sans";src:url("../fonts/PTN57F.woff") format("woff"); font-weight:normal; font-style:normal;}
 
 html {min-width:480px}
 
@@ -342,7 +346,8 @@ header {background:#00bcc6}
 .top-menu ul li:before {display:none}
 .top-menu ul li a {color:#fff; text-decoration:none; padding:13px 20px 16px 20px; display:block; width:165px; white-space:normal}
 @media (min-width:1200px) {
-    .top-menu ul li a:hover {background-color:#213c87}
+    .top-menu ul li a:hover {background-color:#213c87;}
+    .top-menu ul li a:active {background-color:#00bcc6;}
 }
 .top-menu ul li.active a {font-weight:500; background-color:#00bcc6}
 .top-menu ul li ul {display:none}
@@ -619,8 +624,8 @@ header {background:#00bcc6}
 .left-menu ul li ul li ul li a div {padding-left:57px}
 
 .left-menu ul li.active {z-index:2}
-.left-menu ul li.active:after {content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #fff003; border-top:30px solid transparent; border-bottom:30px solid transparent}
-.left-menu ul li.open:after {content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #fff003; border-top:30px solid transparent; border-bottom:30px solid transparent}
+.left-menu ul li.active:after {content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #fff003; border-top:30px solid transparent; border-bottom:30px solid transparent;padding-left:1px;}
+.left-menu ul li.open:after {content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #fff003; border-top:30px solid transparent; border-bottom:30px solid transparent;padding-left:1px;}
 .left-menu > ul > li.open > ul > li.open:after {right:-38px}
 .left-menu ul li ul li.active:after {border-left-color:#ffcd03}
 .left-menu ul li ul li.open:after {border-left-color:#ffcd03}
@@ -672,9 +677,17 @@ header {background:#00bcc6}
 
     .left-menu ul li ul li.active > a {background:none; font-weight:500; color:#2b3138}
     .left-menu ul li ul li ul li.active > a {background:none; font-weight:500; color:#2b3138}
+    .left-menu ul li.open:after {content:""; display:block; width:30px; height:90px; position:absolute; right:-30px; top:0; background:#00bcc6; border-radius:0; border:none;}
+    .left-menu ul li.open:before {content:""; display:block; width:30px; height:90px; position:absolute; left:-30px; top:0; background:#00bcc6; border-radius:0; border:none;}
 
-    .left-menu ul li.open:after {content:""; display:block; width:30px; height:90px; position:absolute; right:-30px; top:0; background:#00bcc6; border-radius:0; border:none}
-    .left-menu ul li.open:before {content:""; display:block; width:30px; height:90px; position:absolute; left:-30px; top:0; background:#00bcc6; border-radius:0}
+/*start*/
+/*
+    .left-menu ul li.open:after{content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #fff003; border-top:30px solid transparent; border-bottom:30px solid transparent}
+    .left-menu ul li.open:before{content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #fff003; border-top:30px solid transparent; border-bottom:30px solid transparent}
+    .left-menu ul li:first-child > a {border-top:none}
+/*
+/*end*/
+
     .left-menu ul li ul li.open:before {background:#eaf9fa}
     .left-menu ul li ul li.open:after {background:#eaf9fa}
 
@@ -732,6 +745,15 @@ header {background:#00bcc6}
 .course-menu-parent ul li a.course-menu-parent-other-11:before {background-position:-32px -21px}
 .course-menu-parent ul li a.course-menu-parent-other-12:before {background-position:-96px -42px}
 
+/* For pre-teachers */
+.course-menu > ul > ul > li > a {position: relative;}
+.course-menu > ul > ul > li > a:after {content: ''; position: absolute; top: 50%; left: 25px; width: 9px; height: 9px; border-radius: 100%; border: 1px solid #000; margin-top: -5.5px; background-color: #fff; }	
+.course-menu > ul > ul > li > a:before {content: ''; position: absolute; top: 0; left: 30px; width: 1px; height: 100%; background-color: #000;}
+.course-menu > ul > ul:last-of-type > li > a:before {height: 50%;}
+.course-menu > ul > ul > li.active > a:after{background-color: #000;}
+.course-menu > ul > ul > li.active > a {background-color: #ffcd03;}
+.course-menu > ul > ul > li.active:after{content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #ffcd03; border-top:30px solid transparent; border-bottom:30px solid transparent} */
+
 @media (max-width:1199px) {
     .course-menu-parent {display:none}
 }
@@ -743,7 +765,7 @@ header {background:#00bcc6}
 .course-menu ul li {margin:0 0 -1px 0; padding:0; position:relative}
 .course-menu ul li:before {display:none}
 .course-menu ul li a {display:table; width:100%; border-top:1px solid #e5f8f9; line-height:20px; text-transform:uppercase; color:#0faab2}
-.course-menu ul li a:hover {text-decoration:none; color:#2b3138}
+.course-menu ul li a:hover {text-decoration:none; color:#2b3138; background-color:#f7f7f7;}
 .course-menu ul li ul {display:none}
 .course-menu ul li.open ul {display:block}
 .course-menu ul li ul li a {text-transform:none}
@@ -757,11 +779,14 @@ header {background:#00bcc6}
 .course-menu ul li.active a div img+img {opacity:1}
 
 .course-menu ul li.active {z-index:2}
-.course-menu ul li ul li.active:after {content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #fff003; border-top:30px solid transparent; border-bottom:30px solid transparent}
+.course-menu ul li ul li.active:after {content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #ffcd03; border-top:30px solid transparent; border-bottom:30px solid transparent}
 
-.course-menu ul li.open > a {color:#2b3138}
-.course-menu ul li.active > a {color:#2b3138}
-.course-menu ul li ul li.active > a {background:#fff003; color:#2b3138; font-weight:300}
+.course-menu ul li.open > a {color:#2b3138;background-color:#fff003;border-top-color: #fff;font-weight: 500;}
+/*.course-menu ul li.open:after{content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #fff003; border-top:30px solid transparent; border-bottom:30px solid transparent}
+*/
+.course-menu ul li.active > a {color:#2b3138;background-color:#fff003;}
+.course-menu ul li.active:after{content:""; display:block; width:0; height:0; position:absolute; right:-13px; top:0; border-left:13px solid #fff003; border-top:30px solid transparent; border-bottom:30px solid transparent}
+.course-menu ul li ul li.active > a {background:#ffcd03; color:#2b3138; font-weight:500}
 
 .course-menu > ul > li.open > a > div:before {content:""; display:block; width:1px; height:30px; position:absolute; left:30px; top:30px; background:#2b3138}
 .course-menu > ul > li.open > ul > li > a > div:before {content:""; display:block; width:1px; height:60px; position:absolute; left:30px; top:-1px; background:#2b3138}
@@ -1814,6 +1839,7 @@ footer {background:#f7f7f7}
     .school-tabs-content .openday-text {float:left; width:100%; padding:0 0 0 130px}
 }
 
+/*стили не привязанные к разрешениям экрана*/
 .detail-map #map {height:400px}
 
 .video-list {font-size:0; line-height:0; letter-spacing:-1px; margin:0 -15px -30px -15px}
@@ -1824,6 +1850,12 @@ footer {background:#f7f7f7}
 .window-video-inner {position:relative; padding:56.25% 0 0 0}
 .window-video-inner iframe {position:absolute; left:0; top:0; width:100%; height:100%}
 
+/*стили для настольной версии*/
+@media (min-width:1200px) {
+.video-item {display:inline-block; vertical-align:top; width:100%; padding:0px; box-sizing:border-box; margin-bottom:25px;margin-top:25px;}
+}
+
+/*стили для планшетной версии*/
 @media (max-width:1199px) {
     .window-video {width:400px}
 }
@@ -2129,7 +2161,8 @@ footer {background:#f7f7f7}
 .course-price:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
 .course-price-text {float:left; font-weight:normal; padding:12px 0 0 0}
 .course-price-text strong {display:block; font-size:20px}
-.course-price-lnk {float:right; width:210px; padding:18px 0 0 0} 
+.course-price-lnk {float:right; width:210px; padding:18px 0 0 0}
+.course-price-link {float:right; width:210px; padding:18px 0 0 0}
 .course-price-link .btn {font-size:14px; height:40px; line-height:40px; box-shadow:none}
 .course-price-lnk .btn01 {font-size:14px; height:40px; line-height:40px; box-shadow:none}
 
@@ -2907,4 +2940,30 @@ a.btn_choose_lnk:hover{
 	background-color: #e5f003;
 	color:#000;
 }
+/*styles for page 404*/
+
+	.page-404-text-1 {
+        	font-size: 189px;
+        	color: #00bcc6;
+       		margin-top:64px;
+        	margin-bottom: 42px;
+        	text-align: center;
+	}
+	.page-404-text-2 {
+        	font-family: PT Sans;
+        	font-weight: bold;
+        	font-size: 14pt;
+        	word-spacing: 2pt;
+        	letter-spacing: 2px;
+        	margin-bottom: 5px;
+        	/*margin-left: 40px;*/
+		margin-top:0px;
+	}
+	.page-404-text-3 {
+        	margin-top: 5px;
+	}
+	.page-404-div-1 {
+		text-align: center;
+		padding-top: 8px;
+	}
 

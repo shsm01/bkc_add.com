@@ -1,7 +1,10 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Курс");
-?><?$APPLICATION->IncludeComponent(
+?><?
+echo "Template name: "."detail.php course_det"."<br>";
+
+$APPLICATION->IncludeComponent(
 	"bitrix:news.detail", 
 	"course_det", 
 	array(

@@ -11,6 +11,7 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+
 function EditData ($DATA) // конвертирует формат даты с 04.11.2008 в 04 Ноября, 2008
 {
 $MES = array( 
@@ -34,9 +35,13 @@ $newData = $d." ".$MES[$arData[1]]." ".$arData[2];
 return $newData;
 }
 
+// var_dump($arResult);
+// echo "D:\Ampps\www\bkc-add.com\local\templates\.default\components\bitrix\catalog.sections.top\photogalery\template.php ";
 ?>
+
                         <!-- photo galleries -->
                         <div class="photo-galleries">
+
 <?foreach($arResult["SECTIONS"] as $arSection):?>
 <?
 if (is_array($arSection["PICTURE"])):

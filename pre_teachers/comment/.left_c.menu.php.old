@@ -1,0 +1,74 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Программы центра",
+		"/pre_teachers/programs/",
+		Array(),
+		Array("NO_LANG"=>"1"),
+		""
+	),
+	Array(
+		"Мероприятия",
+		"/pre_teachers/event/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Тренеры Центра",
+		"/pre_teachers/our_teacher_trainers/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Методические дни",
+		"/pre_teachers/free_seminars_for_english_teachers/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Выездные семинары",
+		"/pre_teachers/v_seminars/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Отзывы",
+		"/pre_teachers/comment/",
+		Array(),
+		Array("IS_PARENT"=>"1", "DEPTH_LEVEL"=>"2"),
+		""
+	),
+	Array(
+		"Отзывы о TKT", 
+		"/pre_teachers/comment/review_tkt/", 
+		Array(), 
+		Array("ITEM_INDEX"=>"0","IS_PARENT"=>"0", "DEPTH_LEVEL"=>2), 
+		""
+	),
+	Array(
+		"Отзывы о CELTA", 
+		"/pre_teachers/comment/review_celta/", 
+		Array(), 
+		Array("ITEM_INDEX"=>"0","IS_PARENT"=>"0", "DEPTH_LEVEL"=>2), 
+		""
+	),
+	Array(
+		"Новости",
+		"/events/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Контакты",
+		"/pre_teachers/contacts/",
+		Array(),
+		Array(),
+		""
+	)
+);
+?>

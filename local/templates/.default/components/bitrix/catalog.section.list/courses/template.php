@@ -94,10 +94,27 @@ if(0){
 
 
 <?
+/*
+$arProp = CIBlock::GetPagePropertyList();
+
+   foreach($arProp as $key=>$value)
+    	echo '+++++++++++++ section'.$key.'+++++++++++++'.$value;
+
+// $arProp = $APPLICATION->ShowProperty("page_title");
+
+$arProp = $APPLICATION->GetPageProperty();
+
+ echo '+++++++++++++ section ShowProperty #2'.$arProp;
+*/
+
+
 
 $strSectionEdit = CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "SECTION_EDIT");
 $strSectionDelete = CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "SECTION_DELETE");
 $arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_CONFIRM'));
+
+// echo '+++++++++++++ section ShowProperty #2';
+// var_dump ($arResult);
 
 if (0 < $arResult["SECTIONS_COUNT"])
 {

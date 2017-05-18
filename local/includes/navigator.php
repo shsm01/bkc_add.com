@@ -6,7 +6,6 @@ require(".lang-codes.php");
 foreach($curs as $k=>$v)
   $curs_id[]=$v["BID"];
 
-
 $res = CIBlock::GetList(
     Array(), 
     Array(
@@ -21,17 +20,22 @@ while($ar_res = $res->Fetch())
     $curs[$ar_res["ID"]]["DESC"] = $ar_res; 
 }
 
-
   //получаем базовые иблоки
   $arFilter = Array('IBLOCK_ID'=>array(16,19,20,21,22,23), 'GLOBAL_ACTIVE'=>'Y','DEPTH_LEVEL'=>1);
   $db_list = CIBlockSection::GetList(Array("SORT"=>"ASC"), $arFilter, true);
   $gr=array();
+
+
   while ($ar=$db_list->GetNext(true,false)){
+
+     if ($ar['CODE'] == 'programs') {
+         $ar['CODE'] = 'english';
+//        echo $ar['CODE']."<br />";
+     }
   
     $gr[$ar['CODE']][]=$ar;
-    //echo $ar['CODE']."<br />";
   }
-  
+
 ?>
                 <!-- navigator -->
                 <div class="navigator">
@@ -44,12 +48,13 @@ while($ar_res = $res->Fetch())
 =
 
 <?
+
 $arr_lvl2=array();
 //$arr_lvl2_elem=array();
 $act=0;
 // print_r($lang_cl);
 
-foreach($gr as $code=>$lang)://языки вывод начало
+foreach($gr as $code=>$lang)://языки вывод флага и наименования начало
 if ($act++==0)
 print('
                                     <div class="navigator-langs-list-item active"><a href="#" class="navigator-lang-'.$lang_cl[$code].'">'.$lang[0]['NAME'].'</a></div>
@@ -60,19 +65,33 @@ print('
 ');
 
 $arr_ID=array();
+
+
 foreach($lang as $v_lang){
+
+// var_dump($lang);
+// echo "++++++++++++";
+
   $arr_ID[$v_lang['IBLOCK_ID']][]=$v_lang['ID'];
-  //print_r($v_lang['ID'].' - '.$v_lang['NAME'].' - '.$v_lang['IBLOCK_ID'].', ');
+//  print_r($v_lang['ID'].' - '.$v_lang['NAME'].' - '.$v_lang['IBLOCK_ID'].', ');
+//  echo "++++++++++++";
 }
-//print_r($arr_ID);
+// print_r($arr_ID);
+// var_dump($arr_ID[0][0]);
+// var_dump($curs);
+// echo "++++++++++++";
+
 		foreach($curs as $BID=>$vvvv):
 		  $arFilter = Array('IBLOCK_ID'=>$BID, 'GLOBAL_ACTIVE'=>'Y','DEPTH_LEVEL'=>2,'SECTION_ID'=>$arr_ID[$BID]);
-      var_dump($arFilter);
 		  $db_list = CIBlockSection::GetList(Array("SORT"=>"ASC"), $arFilter, true);
+
 		  while($ar = $db_list->GetNext())
 		  {
 //			  print($ar['IBLOCK_ID'].', ');
 			$arr_lvl2[$code][$ar['IBLOCK_ID']][]=$ar;
+//      var_dump($arr_lvl2);
+// echo "++++++++++++";
+
 		  }
 
 		  $arFilter = Array('IBLOCK_ID'=>$BID, 'ACTIVE'=>'Y','SECTION_ID'=>$arr_ID[$BID]);
@@ -81,9 +100,16 @@ foreach($lang as $v_lang){
 		  {
 //			  print($ar['IBLOCK_ID'].', ');
 			$arr_lvl2[$code][$ar['IBLOCK_ID']][]=$ar;
+//      var_dump($arr_lvl2);
+
+
 		  }
 
 		endforeach;
+
+// echo "<p>dcsdfsdfsdfsdfsdfsdf</p>";
+
+
 endforeach;//языки вывод конец (здесь же получили разделы второго уровня)
 //print_r($arr_lvl2_elem);
 ?>
@@ -96,9 +122,15 @@ endforeach;//языки вывод конец (здесь же получили 
 
                         <!-- navigator tabs -->
                         <div class="navigator-tabs">
+
 <?$l_act=0;?>
 
 <?foreach($arr_lvl2 as $code=>$lvl2)://Начало вывода табов языковых?>
+<?
+// var_dump($lvl2);
+// echo "++++++++++++";
+?>
+
 	<?if ($l_act==0):?>
 							<!-- navigator tab -->
 							<div class="navigator-tab active">
@@ -112,10 +144,10 @@ endforeach;//языки вывод конец (здесь же получили 
 								<div class="navigator-sections">
 	<?
 	$l2_act=0;
-	//var_dump($lvl2);
+//	 var_dump($lvl3);
   foreach($lvl2 as $BID=>$lvl3)://Начало вывода разделов
-	//var_dump( $curs[$BID]);
 
+// echo($l2_act);
   ?>
   <?if ($l2_act==0):?>
                   <div class="navigator-sections-current"><?=$curs[$BID]["DESC"]['NAME']?></div>
@@ -134,6 +166,7 @@ endforeach;//языки вывод конец (здесь же получили 
 	<?
 	$l2_act=0;
 	foreach($lvl2 as $BID=>$lvl3)://Начало вывода разделов tabs?>
+
 	<?if ($l2_act==0):?>
 									<!-- navigator sections tab -->
                                     <div class="navigator-sections-tab active">
@@ -184,6 +217,19 @@ else:
 	);
 	$content='';
 	while($el=$res->GetNext()):
+
+    $pos = strpos($el['DETAIL_PAGE_URL'], "/languages/english/") ;
+
+          if ( $pos !== false ) {
+             $pieces = explode("/", $el['DETAIL_PAGE_URL']);
+             $pieces[1] = "learn_english"; 
+             array_splice($pieces,2,1);
+             $el['DETAIL_PAGE_URL'] = implode("/", $pieces);
+          }
+
+
+                
+
 		$content.='
 																		<li><a href="'.$el['DETAIL_PAGE_URL'].'">'.$el['NAME'].'</a></li>
 		';

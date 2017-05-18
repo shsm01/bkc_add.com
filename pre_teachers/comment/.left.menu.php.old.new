@@ -1,0 +1,18 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Отзывы о TKT", 
+		"/pre_teachers/comment/review_tkt/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы о CELTA", 
+		"/pre_teachers/comment/review_celta/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

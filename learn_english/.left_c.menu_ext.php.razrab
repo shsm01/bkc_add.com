@@ -1,0 +1,110 @@
+<?
+if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+global $APPLICATION;
+
+$aMenuLinksExt = $APPLICATION->IncludeComponent(
+    "bitrix:menu.sections",
+    "",
+    Array(
+        "ID" => $_REQUEST["ELEMENT_ID"],
+        "IBLOCK_TYPE" => "edu",
+        "IBLOCK_ID" => "16",
+//        "IBLOCK_ID" => "52",
+        // "SECTION_URL" => "/adult/#CODE#/",
+        "CACHE_TIME" => "3600",
+		    "DEPTH_LEVEL"=>'4'
+    )
+);
+
+
+$aMenuLinksExt01 = $APPLICATION->IncludeComponent(
+    "bitrix:menu.sections",
+    "",
+    Array(
+        "ID" => $_REQUEST["ELEMENT_ID"],
+        "IBLOCK_TYPE" => "edu",
+        "IBLOCK_ID" => "52",
+        //"SECTION_URL" => "/adult/#CODE#/",
+        "CACHE_TIME" => "3600",
+		    "DEPTH_LEVEL"=>'4'
+    )
+);
+
+// var_dump($aMenuLinksExt01);
+// echo "+++++++++++++++++++++++++++++++++++";
+// var_dump($aMenuLinksExt01[0][3]['DEPTH_LEVEL']);
+
+// $aMenuLinksExt01[0][3]['DEPTH_LEVEL'] = '2';
+
+foreach ($aMenuLinksExt01 as $key => $value) {
+   $aMenuLinksExt01[$key][3]['DEPTH_LEVEL'] = '2';
+}
+
+
+/*
+$aMenuLinksExt01[0][2][0] = '/languages/english/obshchiy-kurs-dlya-vzroslykh/';
+*/
+
+// var_dump($aMenuLinksExt);
+// var_dump($aMenuLinks);
+
+$count = 0;
+
+foreach ($aMenuLinksExt as $key => $value) {
+//    echo $key;
+    $pos = strpos($aMenuLinksExt[$key][1], "/languages/english/") ;
+
+//    echo  $pos."  ". $aMenuLinksExt[$key][1]. "<br>";
+
+    if ( $pos !== false ) {
+         $count++;
+//        echo $aMenuLinksExt[$key][1]. "<br>";
+        $pieces = explode("/", $aMenuLinksExt[$key][1]);
+        $pieces[1] = "learn_english"; 
+        array_splice($pieces,2,1);
+        $aMenuLinksExt[$key][1] = implode("/", $pieces);
+//        echo $aMenuLinksExt[$key][1]. "<br>";
+//        echo count($pieces). "<br>";
+
+//        var_dump($pieces);  
+//        echo $pieces[count($pieces)]. "<br>";
+
+//         var_dump($aMenuLinksExt[$key]);
+//           echo $count ."  ". $aMenuLinksExt[$key][1]."<br>";
+    }
+}
+
+// echo $count;
+$count_arr = count($aMenuLinksExt);
+$tmp_arr = array_slice ( $aMenuLinksExt , 0, 1);
+$tmp_arr_01 = array_slice ( $aMenuLinksExt , $count, $count_arr);
+
+
+// var_dump($tmp_arr);
+// var_dump($tmp_arr_01);
+
+
+// echo $count;
+
+// $pos = strpos($mystring, $findme);
+
+// if (strstr($aMenuLinksExt[1]))
+
+// $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
+// $aMenuLinks = array_merge($aMenuLinksExt, $aMenuLinksExt01);
+$aMenuLinks = array_merge($tmp_arr, $aMenuLinksExt01, $tmp_arr_01);
+// $aMenuLinks = $aMenuLinksExt;
+
+/*
+foreach ($aMenuLinks as $key => $value) {
+
+var_dump($aMenuLinks[$key]);
+
+}
+*/
+
+// var_dump($aMenuLinks);
+// var_dump($aMenuLinksExt);
+// $aMenuLinks = array_merge($aMenuLinksExt);
+?>

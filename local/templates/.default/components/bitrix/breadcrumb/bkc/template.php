@@ -33,6 +33,13 @@ for($index = 0; $index < $itemSize; $index++)
 
 	if($arResult[$index]["LINK"] <> "" && $index != $itemSize-1)
 	{
+        //удаляем english из адреса ссылки
+        if(intval(strpos($arResult[$index]["LINK"],'child/english/'))>0):
+            $arResult[$index]["LINK"] = str_replace('/child/english/', '/child/', $arResult[$index]["LINK"]);
+        elseif (intval(strpos($arResult[$index]["LINK"],'languages/english/'))>0):
+            $arResult[$index]["LINK"] = str_replace('/languages/english/', '/learn_english/', $arResult[$index]["LINK"]);
+        endif;
+
 		$strReturn .= '
 				'.$arrow.'
 				<a href="'.$arResult[$index]["LINK"].'" title="'.$title.'" itemprop="url">

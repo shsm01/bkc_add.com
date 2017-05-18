@@ -16,5 +16,21 @@ $aMenuLinksExt = $APPLICATION->IncludeComponent(
     )
 );
 
+
+foreach ($aMenuLinksExt as $key => $value) {
+
+    $pos = strpos($aMenuLinksExt[$key][1], "/languages/english/") ;
+
+    if ( $pos !== false ) {
+        $pieces = explode("/", $aMenuLinksExt[$key][1]);
+        $pieces[1] = "learn_english"; 
+        array_splice($pieces,2,1);
+        $aMenuLinksExt[$key][1] = implode("/", $pieces);
+    }
+}
+
 $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
+
+// var_dump($aMenuLinksExt);
+// $aMenuLinks = array_merge($aMenuLinksExt);
 ?>

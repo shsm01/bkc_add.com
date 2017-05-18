@@ -1,0 +1,91 @@
+<?
+if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+global $APPLICATION;
+
+$aMenuLinksExt = $APPLICATION->IncludeComponent(
+	"bitrix:menu.sections", 
+//	"vertical_multilevel", 
+	"vertical_multilevel_courses", 
+//	"vertical_multilevel_teachers", 
+
+	array(
+		//"ID" => $_REQUEST["ELEMENT_ID"],
+               "ALLOW_MULTI_SELECT" => "Y",
+               "CHILD_MENU_TYPE" => "left_c",
+		"DELAY" => "Y",
+		"MAX_LEVEL" => "2",
+		"IBLOCK_ID" => "41",
+		"IBLOCK_TYPE" => "edu",
+		// "SECTION_URL" => "/learning/teachers/c/#CODE#/",
+		"CACHE_TIME" => "3600",
+		"DEPTH_LEVEL" => "4",
+		"IS_SEF" => "N",
+		"CACHE_TYPE" => "A",
+                "ROOT_MENU_TYPE" => "left_c",
+                "USE_EXT" => "Y",
+//		"COMPONENT_TEMPLATE" => "vertical_multilevel"
+		"COMPONENT_TEMPLATE" => "vertical_multilevel_courses"
+//		"COMPONENT_TEMPLATE" => "vertical_multilevel_teachers"
+
+	// "IS_SEF" => "Y",
+	// "SEF_BASE_URL" => "/",
+	// "SECTION_PAGE_URL" => "#SECTION_CODE#/",
+	// "DETAIL_PAGE_URL" => "#SECTION_CODE#/#ELEMENT_CODE/#",
+	// "IBLOCK_TYPE" => "content",
+	// "IBLOCK_ID" => 41,
+	// "DEPTH_LEVEL" => "2",
+	// "CACHE_TYPE" => "A",
+	//  "CACHE_TIME" => "3600000"
+	//  ),
+	//  false
+
+		//"ALLOW_MULTI_SELECT" => "Y",
+		//"CHILD_MENU_TYPE" => "",
+		//"DELAY" => "Y",
+		//"MAX_LEVEL" => "2",
+		//"MENU_CACHE_GET_VARS" => array(
+		//),
+		//"MENU_CACHE_TIME" => "3600",
+		//"MENU_CACHE_TYPE" => "N",
+		//"MENU_CACHE_USE_GROUPS" => "Y",
+		//"ROOT_MENU_TYPE" => "left_c",
+		//"USE_EXT" => "Y",
+//		"COMPONENT_TEMPLATE" => "vertical_multilevel"
+		//"COMPONENT_TEMPLATE" => "vertical_multilevel_courses"
+	
+	 ),
+         false	
+);
+
+
+foreach($aMenuLinks as $k => $arItem) {
+  if ($arItem[1] == '/pre_teachers/comment/') {
+//      echo $k;
+      $aMenuLinks[$k][3]['IS_PARENT'] = TRUE;
+      $output = array_slice($aMenuLinks, 0, $k+1);
+      $output_end = array_slice($aMenuLinks, $k+1);
+//      $aMenuLinks[] = $arItem;
+
+//     echo $arItem[1]."<br>";
+//     echo $arItem[3]['IS_PARENT']."<br>";
+//       $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
+$output = array_merge($output, $aMenuLinksExt);
+$aMenuLinks = array_merge($output, $output_end);
+
+   }
+}
+
+// var_dump($output);
+// var_dump($output_end);
+
+// echo "--------------- aMenuLinks -----------------";
+// var_dump($aMenuLinks);
+// echo "--------------- aMenuLinksExt -----------------";
+// var_dump($aMenuLinksExt);
+// echo "--------------- arItem -----------------";
+// var_dump($arItem);
+// $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
+// $aMenuLinks = array_merge($aMenuLinksExt, $aMenuLinks);
+
+?>

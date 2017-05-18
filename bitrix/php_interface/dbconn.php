@@ -3,9 +3,9 @@ define("BX_USE_MYSQLI", true);
 define("DBPersistent", false);
 $DBType = "mysql";
 $DBHost = "localhost";
-$DBLogin = "bkcb_db_user";
-$DBPassword = "Hmg4QLvhx4hxXT4IsDLD";
-$DBName = "bkcb_db";
+$DBLogin = "bitrix";
+$DBPassword = "Gaiph2ch";
+$DBName = "dev2_db";
 $DBDebug = false;
 $DBDebugToFile = false;
 

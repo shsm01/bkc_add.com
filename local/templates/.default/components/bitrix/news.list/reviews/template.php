@@ -11,7 +11,19 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+
+// var_dump($arResult);
+// $arResult['NAME'] ="Отзывы о ".Delta;
+// echo $arResult["ITEMS"][0]['IBLOCK_SECTION_ID'];
+// $sec=GetIBlockSection($arResult["ITEMS"][0]['IBLOCK_SECTION_ID']);
+// $arResult['NAME'] ="Отзывы о ".strtoupper($sec['NAME']);
+// var_dump($sec);
+// print($sec['DESCRIPTION']);
+
 ?>
+
+<!-- <p> D:\Ampps\www\bkc-add.com\local\templates\.default\components\bitrix\news.list\reviews\template.php  Мы тут !</p> -->
+
 
 <?foreach($arResult["ITEMS"] as $arItem):?>
 	<?

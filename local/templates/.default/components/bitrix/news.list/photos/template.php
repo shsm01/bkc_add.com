@@ -23,6 +23,7 @@ print($sec['DESCRIPTION']);
                         <div class="gallery">
 <?foreach($arResult["ITEMS"] as $arItem):?>
 	<?
+
 if (is_array($arItem["PREVIEW_PICTURE"])):
 $arItem["PREVIEW_PICTURE"]=CFile::ResizeImageGet($arItem["PREVIEW_PICTURE"],array("width" => 270, "height" => 180),BX_RESIZE_IMAGE_EXACT,true);
 if (!$arItem["PREVIEW_PICTURE"]['SRC'])$arItem["PREVIEW_PICTURE"]['SRC']=$arItem["PREVIEW_PICTURE"]['src'];

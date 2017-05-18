@@ -1,7 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Курс");
-?><?$APPLICATION->IncludeComponent(
+?><?
+$APPLICATION->IncludeComponent(
 	"bitrix:news.detail", 
 	"course_det", 
 	array(
@@ -68,4 +69,5 @@ $APPLICATION->SetTitle("Курс");
 		"COMPONENT_TEMPLATE" => "course_det"
 	),
 	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);
+?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

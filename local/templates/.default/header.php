@@ -37,6 +37,5 @@
         ?>
 
 		<?$APPLICATION->ShowHead()?>
-
         <meta name="viewport" content="width=480" />
 	</head>

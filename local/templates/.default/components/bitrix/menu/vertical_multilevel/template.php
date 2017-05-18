@@ -1,5 +1,8 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 
+<?// $arResult[24]['DEPTH_LEVEL'] = 1;?>
+<?// var_dump($arResult);?>
+
 <?if (!empty($arResult)):?>
 
 					<a href="#" class="left-menu-mobile"></a>
@@ -34,6 +37,7 @@ return $ss;
 
 $select=0;
 $previousLevel = 0;
+
 foreach($arResult as $k=>$arItem):?>
 
 	<?if ($previousLevel && $arItem["DEPTH_LEVEL"] < $previousLevel):?>
@@ -43,7 +47,7 @@ foreach($arResult as $k=>$arItem):?>
 	<?if ($arItem["IS_PARENT"]):?>
 
 		<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-			<li class="<?if ($arItem["SELECTED"]) if (sel($arResult,$k,$arItem["DEPTH_LEVEL"])):?>open active<?else:?>open<?endif?>"><a href="<?=$arItem["LINK"]?>"><div><?=$arItem["TEXT"]?></div></a>
+			<li class="<?if ($arItem["SELECTED"]) if (sel($arResult,$k,$arItem["DEPTH_LEVEL"])):?>open active<?else:?>open<?endif?>"><a href="<?=$arItem["LINK"]?>"><div><?=$arItem["TEXT"]."Popal"?></div></a>
 				<ul>
 		<?else:?>
 			<li class="<?if ($arItem["SELECTED"]) if (sel($arResult,$k,$arItem["DEPTH_LEVEL"])):?>open active<?else:?>open<?endif?>"><a href="<?=$arItem["LINK"]?>"><div><?=$arItem["TEXT"]?></div></a>
@@ -75,6 +79,7 @@ foreach($arResult as $k=>$arItem):?>
 	<?$previousLevel = $arItem["DEPTH_LEVEL"];?>
 
 <?endforeach?>
+
 
 <?if ($previousLevel > 1)://close last item tags?>
 	<?=str_repeat("</ul></li>", ($previousLevel-1) );?>

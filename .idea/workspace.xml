@@ -2,144 +2,232 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6aaa1f6-8284-4580-a5ae-edf97c823099" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/6d/6d260a0462575266fc54feff44aef554.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/6d/6d260a0462575266fc54feff44aef554.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/fe/fec46f2b1db3b65f82dee384ace8041e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/fe/fec46f2b1db3b65f82dee384ace8041e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/4c/4cfd1be1e82298e4d5fdc10e311a7753.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/4c/4cfd1be1e82298e4d5fdc10e311a7753.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/13/131498c033ae9cf3b039d71a8cee0210.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/13/131498c033ae9cf3b039d71a8cee0210.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/ca/ca052dcb3b4e226063dcec669a50d596.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/ca/ca052dcb3b4e226063dcec669a50d596.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/f5/f53a5802fff4cf7aaa952cef01d7f2a1.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/f5/f53a5802fff4cf7aaa952cef01d7f2a1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/49/493cee55c466da8a9b0400b7d14b72c0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/49/493cee55c466da8a9b0400b7d14b72c0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e0/e0a8b1ccd181697eccb50fd9405b939c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e0/e0a8b1ccd181697eccb50fd9405b939c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_sec_redirect_url/dd/ddc39d36dca0e1d26d89e2b1ae752402.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_sec_redirect_url/dd/ddc39d36dca0e1d26d89e2b1ae752402.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/94/942802d2347cdf0b9eaf0ff25c7de078.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/94/942802d2347cdf0b9eaf0ff25c7de078.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/site_checker_f2198faecb6a327379f210728081e44f.log" afterPath="$PROJECT_DIR$/bitrix/site_checker_f2198faecb6a327379f210728081e44f.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/25/25fd59289cdd49e9ea8481de170172e7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/25/25fd59289cdd49e9ea8481de170172e7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp_learn/.left_c.menu_ext.php" afterPath="$PROJECT_DIR$/corp_learn/.left_c.menu_ext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/c9/c9a5d807632d8a21e9937c29370a4b71.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/c9/c9a5d807632d8a21e9937c29370a4b71.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/b4/b4fd7ed8fa720f2175f3a9b86d57151a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/b4/b4fd7ed8fa720f2175f3a9b86d57151a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cb/cb54184b9c7e54769569a0636a8eca91.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cb/cb54184b9c7e54769569a0636a8eca91.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/72/72d773dad7cb7f1c9289ebd4c4d30235.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/72/72d773dad7cb7f1c9289ebd4c4d30235.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/fc/fc70ad1863cba1f1760c13e7b4e20a98.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/fc/fc70ad1863cba1f1760c13e7b4e20a98.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/90/90867669113f8bc762765a132add4562.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/90/90867669113f8bc762765a132add4562.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2c/2c2697aea927e4ad6f26aad8c8984f40.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2c/2c2697aea927e4ad6f26aad8c8984f40.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e9/e9d9251b32598e8d8b78be61cc7ccfc1.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e9/e9d9251b32598e8d8b78be61cc7ccfc1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/3b/3b4c49d283c66c28757da744ed39bbb3.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/3b/3b4c49d283c66c28757da744ed39bbb3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/bd/bd21575483a0787a72df6dead4cb9a56.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/bd/bd21575483a0787a72df6dead4cb9a56.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/1e/1e4ee1a31ed6e6561a1960cc9f910788.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/1e/1e4ee1a31ed6e6561a1960cc9f910788.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f2095449338c2b7f83c7a0c1ba5155f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f2095449338c2b7f83c7a0c1ba5155f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/12/12b471767f1503e012fd0c3eb4d95099.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/12/12b471767f1503e012fd0c3eb4d95099.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/87/877fea6bb74dfbaea1838207fb8dba06.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/87/877fea6bb74dfbaea1838207fb8dba06.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/48/48da69c45404193ceddc5bc668d8392b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/48/48da69c45404193ceddc5bc668d8392b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/80/8014d9a3d05ab339604ae6e99279c6d9.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/80/8014d9a3d05ab339604ae6e99279c6d9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/catalog_group/41/419e964e5def1e80617fa3a816965a78.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/catalog_group/41/419e964e5def1e80617fa3a816965a78.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c0/c0a6035229545c96522ff35e2b8c37a0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c0/c0a6035229545c96522ff35e2b8c37a0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/f6/f60f8c7cf0f8835b99bf0d7bfe4fbaff.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/f6/f60f8c7cf0f8835b99bf0d7bfe4fbaff.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45de2c44c106ab11b08ddc54666aa803.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45de2c44c106ab11b08ddc54666aa803.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/b2/b21d3c2ec406ac96b9b443675c383d36.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/b2/b21d3c2ec406ac96b9b443675c383d36.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp_learn/.left_c.menu.php" afterPath="$PROJECT_DIR$/corp_learn/.left_c.menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/f8/f8aa25bde9b456c6549a597dc3ee0512.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/f8/f8aa25bde9b456c6549a597dc3ee0512.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3d102e05659b57fe9571855dab3fb50.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3d102e05659b57fe9571855dab3fb50.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/includes/h.menu.course.php" afterPath="$PROJECT_DIR$/local/includes/h.menu.course.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fb/fbebca4e0e7b3b5d5031caeb6b93a51f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fb/fbebca4e0e7b3b5d5031caeb6b93a51f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/86/86b9dddd7150a33754b9e29d826083b0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/86/86b9dddd7150a33754b9e29d826083b0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn_english/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/ca/cada0c48a3b1d5a08b1d5ac8e479a974.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/4d/4dd448cfd3581a6ec6d2a78a257c9d77.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/c5/c51c2001a5978cd19090f5718ff42a64.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/cf/cfa1870655ed568669fe7fd858adefbc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/ee/ee2d11ad35ad0c0bce5fef0a7ffa06bb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/13/13c88a3a6cf94c506251d71f3757e37a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/5c/5ca977c94143999bfc9e54c78a601747.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/33/333a358012bd57f093a1aca09717d28f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/7e/7efd4e00e764b5ce533c8449be2e2fef.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/7f/7faa75b1bdf18ffdc5722beb1184652e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/e4/e4f41210686c68cbf9b76c5b531dd67b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/6f/6fa040aae88495af7c33637c359e685e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/b8/b8513619e22442ff9fbe3b6ed34d693c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/ca/ca9c1885099afd5499e19988e3cba864.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/16/16b31acb32a5b66146abd50798edae36.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/20/201e4060f7c6b4258bb85b1a1f34607e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__old/include.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pre_teachers/.left_c.menu_ext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/71/71c06b469c2eb5bb0fe1b706f1751744.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/4c/4cbdbcd3f635741ca17248c3c9058d40.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/07/07fec1e273f7888d01abf8955bb98bec.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/e4/e4ca1b76a7c9f73719a9967ef6dcfa4e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/c2/c219661fc8245db1f929b43fe27a3f71.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/94/94ce3a26724eea812b5d5794bbbe05c4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/e1/e131c27a53e8dcf0ec7833079530ad93.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/ee/ee6679d5ee1729ba70ae16a813268d81.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/31/3189fc8258b051dbf507705140609274.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/a3/a3d74e573c44d457decae6615ef712a7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/7e/7e28b20126fd9f392d4426f30bbec01e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/ef/efa9e8317c21c4c20b5c607140fa7477.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/8f/8fa5f2a26c534f367bcc4785ecf0d7cf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/49/4902da2f1fbe8308703ddfd1248e99a1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/cb/cb76939cf2b4ef1833501c9bdf185458.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/events/.section.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/menu/bb/bbe12ea880f84fd08d9f142e1d92e333.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/03/035dbb4f87b1711b44ec7ea24a9d663f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/03/035dbb4f87b1711b44ec7ea24a9d663f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/73/73606eb3f92e1cae51f452235f85d5c9.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/73/73606eb3f92e1cae51f452235f85d5c9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/63/63905232661a92e6ab5d574d571b8869.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/63/63905232661a92e6ab5d574d571b8869.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6c/6c1647d56469aa70d67ba0904bada677.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6c/6c1647d56469aa70d67ba0904bada677.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f0a715c791f6536876a0da8bd0cae52.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f0a715c791f6536876a0da8bd0cae52.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/7e/7ea9458fe5baf26f130128937f73d459.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/7e/7ea9458fe5baf26f130128937f73d459.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e4/e43e59b8228022db04ae44bb7917f7fc.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e4/e43e59b8228022db04ae44bb7917f7fc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/df/dfc95e68d66b73a7ece448627ffb87b5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/df/dfc95e68d66b73a7ece448627ffb87b5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/6c/6c0494a9d043e693a9d975df65972017.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/6c/6c0494a9d043e693a9d975df65972017.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/events/49/4950220e4a6334e2e99b5f0eb44e033c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/events/49/4950220e4a6334e2e99b5f0eb44e033c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45d2709d1cf143b83df37e1f6a54bc7c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45d2709d1cf143b83df37e1f6a54bc7c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/3b/3b00f277e855f3faa63f3b7773518180.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/3b/3b00f277e855f3faa63f3b7773518180.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/5a/5ac34a4d27aca16848347c44b236ebfa.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/5a/5ac34a4d27aca16848347c44b236ebfa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_sec_filter_mask/3e/3e109cefdbde61bf61a07dc79523b3a8.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_sec_filter_mask/3e/3e109cefdbde61bf61a07dc79523b3a8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/d1/d122a83f8120a48d91b6e4a64d043345.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/d1/d122a83f8120a48d91b6e4a64d043345.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/5c/5c6da7e88d19bbeee0ae40ae271e99a1.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/5c/5c6da7e88d19bbeee0ae40ae271e99a1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/41/416acb540279140f55ddb5b83b7646b7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/41/416acb540279140f55ddb5b83b7646b7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/36/3617741705059537d49166388178cc3e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/36/3617741705059537d49166388178cc3e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/c8/c8bac2f2f28f31e3ce59b1e417bb20af.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/c8/c8bac2f2f28f31e3ce59b1e417bb20af.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/c9/c9b248c0e36316b7bef92a383cac99a4.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/c9/c9b248c0e36316b7bef92a383cac99a4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/school/kernel_main/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/school/kernel_main/info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/dc/dc2e9208d174d0b32d3abf55f03f63b7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/dc/dc2e9208d174d0b32d3abf55f03f63b7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/4d/4ddd3d008a59ee248a70e8d70e0f258e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/4d/4ddd3d008a59ee248a70e8d70e0f258e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/9a/9af5a4c25331d8bd4c5d68555ab1f760.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/9a/9af5a4c25331d8bd4c5d68555ab1f760.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cd/cd5457f36a563044002e094895d9e3dc.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cd/cd5457f36a563044002e094895d9e3dc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/37/37b01ff1f91347c441e2efda19bce41d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/37/37b01ff1f91347c441e2efda19bce41d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/9f/9fd9f8a49d26441e9f82db4dc1ada745.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/9f/9fd9f8a49d26441e9f82db4dc1ada745.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2b/2bde203b4deec0ddb9daabf20b7a25af.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2b/2bde203b4deec0ddb9daabf20b7a25af.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/81/81b35fdc0bd1e631d0802243c93feb05.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/81/81b35fdc0bd1e631d0802243c93feb05.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/5c/5c025606c9a0baee7d52fddfbd4808eb.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/5c/5c025606c9a0baee7d52fddfbd4808eb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp_learn/index.php" afterPath="$PROJECT_DIR$/corp_learn/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/6f/6f24052edc6d7c8c5b5259e1710be981.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/6f/6f24052edc6d7c8c5b5259e1710be981.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/c0/c067442f4d6eaea3ea97d1c26db8f1c3.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/c0/c067442f4d6eaea3ea97d1c26db8f1c3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/56/56286db91a415d6c554aab4b073a79e0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/56/56286db91a415d6c554aab4b073a79e0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2c/2c607e2766df4d44c1ecf2c939ae9dc8.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2c/2c607e2766df4d44c1ecf2c939ae9dc8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e1/e1e5bc17ad8f42d6b82303a998393eba.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e1/e1e5bc17ad8f42d6b82303a998393eba.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/86/86f3ae27fdb89eca2c8542e08137eacb.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/86/86f3ae27fdb89eca2c8542e08137eacb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/9b/9b19b02d183433e128c60ae120c0a122.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/9b/9b19b02d183433e128c60ae120c0a122.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/12/12fe59ed4fd47eb7f7e38cdc8ffb4896.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/12/12fe59ed4fd47eb7f7e38cdc8ffb4896.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/dd/dd2739cfd52045f13ad25a9075831d17.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/dd/dd2739cfd52045f13ad25a9075831d17.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f2/f2b4f0740f1b769777ba539157d0b420.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f2/f2b4f0740f1b769777ba539157d0b420.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/8d/8d0139b163b5da7d9440526e5e32fd67.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/8d/8d0139b163b5da7d9440526e5e32fd67.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/c0/c0276d38fff5d9e235c9692e1e39d16b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/c0/c0276d38fff5d9e235c9692e1e39d16b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/8e/8e067b6cb546465b6484fa4b4d7fd2b2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/8e/8e067b6cb546465b6484fa4b4d7fd2b2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/b4/b41953f2bfbb14fe6047697d6684ea17.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/b4/b41953f2bfbb14fe6047697d6684ea17.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/school/kernel_main/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/school/kernel_main/info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/14/149676c3683da148057e50e22c6187de.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/14/149676c3683da148057e50e22c6187de.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/bb/bb0e6d1fa4da842766fa444a1c7c0043.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/bb/bb0e6d1fa4da842766fa444a1c7c0043.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/27/271df3f7a923bbd36350334edf96251f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/27/271df3f7a923bbd36350334edf96251f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/0c/0c29754507d3b6de41a19d433fe35f49.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/0c/0c29754507d3b6de41a19d433fe35f49.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pre_teachers/index.php" afterPath="$PROJECT_DIR$/pre_teachers/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/3f/3f8d868428f85a975e6b093594fafd51.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/3f/3f8d868428f85a975e6b093594fafd51.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/8a/8a6771cf0faa05bbec84465de484e41d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/8a/8a6771cf0faa05bbec84465de484e41d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/10/10c25e1504b9293ef4ea3d4579497a0f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/10/10c25e1504b9293ef4ea3d4579497a0f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/cf/cf5762188b8fd92e5345e64face86a07.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/cf/cf5762188b8fd92e5345e64face86a07.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_clouds_file_bucket/1a/1a01acc5e163d73a3f7a6fb4c387651a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_clouds_file_bucket/1a/1a01acc5e163d73a3f7a6fb4c387651a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e8/e8ccbf2aeb6f4cd6113a9e0434590fe8.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e8/e8ccbf2aeb6f4cd6113a9e0434590fe8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/aa/aac7c831cdd8f2b58559c862f99bf946.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/aa/aac7c831cdd8f2b58559c862f99bf946.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/16/16dda7230924804a6be4e290a94c1341.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/16/16dda7230924804a6be4e290a94c1341.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/b1/b1b43e5f8d5222fea555b151db18a023.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/b1/b1b43e5f8d5222fea555b151db18a023.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/65/65b7157158e194d714f3a0c683f9afce.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/65/65b7157158e194d714f3a0c683f9afce.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/stack_cache/MYSQL/currency_currency_lang/06/06e86a31a9acbf1f2b244a314b769dc6.php" afterPath="$PROJECT_DIR$/bitrix/stack_cache/MYSQL/currency_currency_lang/06/06e86a31a9acbf1f2b244a314b769dc6.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/76/762aab6596b25626b668b9298618b20d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/76/762aab6596b25626b668b9298618b20d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/0b/0b1905caef7b86e33ae13b80d1faad32.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/0b/0b1905caef7b86e33ae13b80d1faad32.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/40/40faa75732d71508cc60b22a6732a899.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/40/40faa75732d71508cc60b22a6732a899.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/64/641e0f27ba21967a793f5359d448f984.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/64/641e0f27ba21967a793f5359d448f984.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/9d/9d8c68225868ee036081eef8be4a9b38.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/9d/9d8c68225868ee036081eef8be4a9b38.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/18/189bff1eb3ca2494bd7e7c79dd4700ed.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/18/189bff1eb3ca2494bd7e7c79dd4700ed.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/stack_cache/MYSQL/currency_rate/61/617ce81921b8be705ca13e5be3992c16.php" afterPath="$PROJECT_DIR$/bitrix/stack_cache/MYSQL/currency_rate/61/617ce81921b8be705ca13e5be3992c16.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/c5/c50f038ed6291a78ea68e4a590830017.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/c5/c50f038ed6291a78ea68e4a590830017.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/map/kernel_main/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/map/kernel_main/info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c3/c35050d36b400527c5a655799ffd5918.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c3/c35050d36b400527c5a655799ffd5918.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/58/58cba15658529a6506af03904d3ee093.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/58/58cba15658529a6506af03904d3ee093.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b0/b0b40b5fdc88dae28f9c095cfb10f3aa.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b0/b0b40b5fdc88dae28f9c095cfb10f3aa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/6b/6b382c6961475cbe3a19467cf7e34c38.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/6b/6b382c6961475cbe3a19467cf7e34c38.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f0/f0715a75607aea70415b87f705acc850.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f0/f0715a75607aea70415b87f705acc850.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/e0/e07610b2abcea6a3927202eaabba1d36.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/e0/e07610b2abcea6a3927202eaabba1d36.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/27/27850a3654870e28053dd5b6d2051c3e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/27/27850a3654870e28053dd5b6d2051c3e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/c6/c6264b4f8d624fc15adcbef4d6b8f62f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/c6/c6264b4f8d624fc15adcbef4d6b8f62f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/ea/ea6468e26ce6d6e67995779dd1a84eef.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/ea/ea6468e26ce6d6e67995779dd1a84eef.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/12/12b471767f1503e012fd0c3eb4d95099.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/12/12b471767f1503e012fd0c3eb4d95099.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f4/f4057ab144c304a1b81ab900c77d6cb1.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f4/f4057ab144c304a1b81ab900c77d6cb1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/bc/bcb7ea6497199bcfce536c665000a049.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/bc/bcb7ea6497199bcfce536c665000a049.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/44/44dc7d668d6a6344676c436722ac4f8d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/44/44dc7d668d6a6344676c436722ac4f8d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/7e/7ea9458fe5baf26f130128937f73d459.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/7e/7ea9458fe5baf26f130128937f73d459.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/f5/f53a5802fff4cf7aaa952cef01d7f2a1.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/f5/f53a5802fff4cf7aaa952cef01d7f2a1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/73/73606eb3f92e1cae51f452235f85d5c9.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/73/73606eb3f92e1cae51f452235f85d5c9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/6c/6c0494a9d043e693a9d975df65972017.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/6c/6c0494a9d043e693a9d975df65972017.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/8a/8a6771cf0faa05bbec84465de484e41d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/8a/8a6771cf0faa05bbec84465de484e41d.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/63/63e7e68111d87c2d9a18c76a791e0095.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/63/63e7e68111d87c2d9a18c76a791e0095.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2b/2b8e050e92fb8e759f4d47843986bd0b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2b/2b8e050e92fb8e759f4d47843986bd0b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_catalog_currency/8b/8bee609c70ea3973541eb24e440070f0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_catalog_currency/8b/8bee609c70ea3973541eb24e440070f0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2d/2d81412d6b244708b21f3a7128f6b4de.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2d/2d81412d6b244708b21f3a7128f6b4de.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6a/6a717d8a77731a1d7d4a19e3f5f45b05.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6a/6a717d8a77731a1d7d4a19e3f5f45b05.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/77/77359c7a8c14afff12ed70dced85629b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/77/77359c7a8c14afff12ed70dced85629b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_catalog_currency/e2/e23844df2ae800f8ea71dbc676d22273.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_catalog_currency/e2/e23844df2ae800f8ea71dbc676d22273.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/4a/4a6d950e7b4790479f950d2a5921c62d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/4a/4a6d950e7b4790479f950d2a5921c62d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/16/16908b0605f2645dfcb4c3a8d248cef3.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/16/16908b0605f2645dfcb4c3a8d248cef3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/83/8359eb63ae3a007b4cb285c51ef9a703.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/83/8359eb63ae3a007b4cb285c51ef9a703.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/bc/bcc8b4f04e1c23ce98c9d5066dd91df2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/bc/bcc8b4f04e1c23ce98c9d5066dd91df2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e4/e43e59b8228022db04ae44bb7917f7fc.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e4/e43e59b8228022db04ae44bb7917f7fc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2b/2bde203b4deec0ddb9daabf20b7a25af.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2b/2bde203b4deec0ddb9daabf20b7a25af.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/dc/dc2e9208d174d0b32d3abf55f03f63b7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/dc/dc2e9208d174d0b32d3abf55f03f63b7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.top_1.menu.php" afterPath="$PROJECT_DIR$/.top_1.menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c3/c35050d36b400527c5a655799ffd5918.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c3/c35050d36b400527c5a655799ffd5918.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/08/08b3e8eb648ff58409c6c9dea98b5b0c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/08/08b3e8eb648ff58409c6c9dea98b5b0c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/includes/.lang-codes.php" afterPath="$PROJECT_DIR$/local/includes/.lang-codes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/4a/4af6b518cbf833914b1cbdd74b617a1c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/4a/4af6b518cbf833914b1cbdd74b617a1c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2b/2b8e050e92fb8e759f4d47843986bd0b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2b/2b8e050e92fb8e759f4d47843986bd0b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/77/77359c7a8c14afff12ed70dced85629b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/77/77359c7a8c14afff12ed70dced85629b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e8/e8ccbf2aeb6f4cd6113a9e0434590fe8.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e8/e8ccbf2aeb6f4cd6113a9e0434590fe8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cb/cb54184b9c7e54769569a0636a8eca91.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cb/cb54184b9c7e54769569a0636a8eca91.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/8a/8a72b382e6a173833dc5d73deca9a3a0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/8a/8a72b382e6a173833dc5d73deca9a3a0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/top-nav/template.php" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/top-nav/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/58/58cba15658529a6506af03904d3ee093.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/58/58cba15658529a6506af03904d3ee093.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/9d/9d8c68225868ee036081eef8be4a9b38.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/9d/9d8c68225868ee036081eef8be4a9b38.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e0/e0a8b1ccd181697eccb50fd9405b939c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e0/e0a8b1ccd181697eccb50fd9405b939c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/d1/d122a83f8120a48d91b6e4a64d043345.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/d1/d122a83f8120a48d91b6e4a64d043345.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/12/12fe59ed4fd47eb7f7e38cdc8ffb4896.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/12/12fe59ed4fd47eb7f7e38cdc8ffb4896.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/6f/6f24052edc6d7c8c5b5259e1710be981.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/6f/6f24052edc6d7c8c5b5259e1710be981.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/37/37b01ff1f91347c441e2efda19bce41d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/37/37b01ff1f91347c441e2efda19bce41d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/index.php" afterPath="$PROJECT_DIR$/events/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/e0/e07610b2abcea6a3927202eaabba1d36.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/e0/e07610b2abcea6a3927202eaabba1d36.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/75/75c4ab8b64e33a24f5dc5adfd78cb9a0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/75/75c4ab8b64e33a24f5dc5adfd78cb9a0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/b4/b41953f2bfbb14fe6047697d6684ea17.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/b4/b41953f2bfbb14fe6047697d6684ea17.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/course_det/template.php" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/course_det/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/5a/5ac34a4d27aca16848347c44b236ebfa.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/5a/5ac34a4d27aca16848347c44b236ebfa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/dd/dd2739cfd52045f13ad25a9075831d17.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/dd/dd2739cfd52045f13ad25a9075831d17.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/2a/2ad9c057a0ad83b1ef56305692615ebb.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/2a/2ad9c057a0ad83b1ef56305692615ebb.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/a2/a2eb4d7b185876fac3d45cf5cdaa8cf8.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/a2/a2eb4d7b185876fac3d45cf5cdaa8cf8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/map/kernel_main/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/map/kernel_main/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/36/3617741705059537d49166388178cc3e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/36/3617741705059537d49166388178cc3e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/events/49/4950220e4a6334e2e99b5f0eb44e033c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/events/49/4950220e4a6334e2e99b5f0eb44e033c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/0c/0c29754507d3b6de41a19d433fe35f49.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/0c/0c29754507d3b6de41a19d433fe35f49.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/8f/8fb7b97f64d59f8f013a3a1315b1760b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/8f/8fb7b97f64d59f8f013a3a1315b1760b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/e7/e774be88c9837876236d0c60cce54f41.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/e7/e774be88c9837876236d0c60cce54f41.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/3f/3f63b36a36c52d112348b022f62d87e9.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/3f/3f63b36a36c52d112348b022f62d87e9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/stack_cache/MYSQL/currency_currency_lang/06/06e86a31a9acbf1f2b244a314b769dc6.php" afterPath="$PROJECT_DIR$/bitrix/stack_cache/MYSQL/currency_currency_lang/06/06e86a31a9acbf1f2b244a314b769dc6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/81/81b35fdc0bd1e631d0802243c93feb05.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/81/81b35fdc0bd1e631d0802243c93feb05.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/8e/8e067b6cb546465b6484fa4b4d7fd2b2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/8e/8e067b6cb546465b6484fa4b4d7fd2b2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/36/36f21cd37cbee6cfd6e1688d12691bae.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/36/36f21cd37cbee6cfd6e1688d12691bae.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45d2709d1cf143b83df37e1f6a54bc7c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45d2709d1cf143b83df37e1f6a54bc7c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2c/2c2697aea927e4ad6f26aad8c8984f40.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2c/2c2697aea927e4ad6f26aad8c8984f40.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fb/fbebca4e0e7b3b5d5031caeb6b93a51f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fb/fbebca4e0e7b3b5d5031caeb6b93a51f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp_learn/index.php" afterPath="$PROJECT_DIR$/corp_learn/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/c9/c9a5d807632d8a21e9937c29370a4b71.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/c9/c9a5d807632d8a21e9937c29370a4b71.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/includes/navigator.php" afterPath="$PROJECT_DIR$/local/includes/navigator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cd/cd5457f36a563044002e094895d9e3dc.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cd/cd5457f36a563044002e094895d9e3dc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/d9/d92f3a2a5734c7c14f01204a0a6ced53.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/d9/d92f3a2a5734c7c14f01204a0a6ced53.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/65/65ae77686e501e0d96fc7cf4f7755e92.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/65/65ae77686e501e0d96fc7cf4f7755e92.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/6f/6f3764fe58fcebc68f3c208564da045f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/6f/6f3764fe58fcebc68f3c208564da045f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/ea/ea723d6bc89568a4ab943f47597a1c1c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/ea/ea723d6bc89568a4ab943f47597a1c1c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3d102e05659b57fe9571855dab3fb50.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3d102e05659b57fe9571855dab3fb50.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp_learn/.left_c.menu_ext.php" afterPath="$PROJECT_DIR$/corp_learn/.left_c.menu_ext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_clouds_file_bucket/1a/1a01acc5e163d73a3f7a6fb4c387651a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_clouds_file_bucket/1a/1a01acc5e163d73a3f7a6fb4c387651a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning/languages/.left_c.menu_ext.php" afterPath="$PROJECT_DIR$/learning/languages/.left_c.menu_ext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/cf/cf5762188b8fd92e5345e64face86a07.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/cf/cf5762188b8fd92e5345e64face86a07.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/c6/c6264b4f8d624fc15adcbef4d6b8f62f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/c6/c6264b4f8d624fc15adcbef4d6b8f62f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f2095449338c2b7f83c7a0c1ba5155f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f2095449338c2b7f83c7a0c1ba5155f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e9/e9d9251b32598e8d8b78be61cc7ccfc1.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e9/e9d9251b32598e8d8b78be61cc7ccfc1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pre_teachers/.left_c.menu.php" afterPath="$PROJECT_DIR$/pre_teachers/.left_c.menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f2/f2b4f0740f1b769777ba539157d0b420.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f2/f2b4f0740f1b769777ba539157d0b420.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/87/877fea6bb74dfbaea1838207fb8dba06.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/87/877fea6bb74dfbaea1838207fb8dba06.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/photos/template.php" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/photos/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/c0/c0276d38fff5d9e235c9692e1e39d16b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/c0/c0276d38fff5d9e235c9692e1e39d16b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/14/149676c3683da148057e50e22c6187de.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/14/149676c3683da148057e50e22c6187de.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/1c/1cc81a10722580c3e84b16ee5f6c23e9.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/1c/1cc81a10722580c3e84b16ee5f6c23e9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/9a/9af5a4c25331d8bd4c5d68555ab1f760.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/9a/9af5a4c25331d8bd4c5d68555ab1f760.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_catalog_currency/e2/e23844df2ae800f8ea71dbc676d22273.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_catalog_currency/e2/e23844df2ae800f8ea71dbc676d22273.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/8d/8d0139b163b5da7d9440526e5e32fd67.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/8d/8d0139b163b5da7d9440526e5e32fd67.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/35/35292448e1f054810f95a63c2de00899.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/35/35292448e1f054810f95a63c2de00899.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f0a715c791f6536876a0da8bd0cae52.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f0a715c791f6536876a0da8bd0cae52.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/76/762aab6596b25626b668b9298618b20d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/76/762aab6596b25626b668b9298618b20d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/b2/b21d3c2ec406ac96b9b443675c383d36.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/b2/b21d3c2ec406ac96b9b443675c383d36.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/13/1345006d3b3d654ba924c6932f4c7aac.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/13/1345006d3b3d654ba924c6932f4c7aac.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/13/131498c033ae9cf3b039d71a8cee0210.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/13/131498c033ae9cf3b039d71a8cee0210.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/48/48da69c45404193ceddc5bc668d8392b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/48/48da69c45404193ceddc5bc668d8392b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/79/797dbc624e6a1cdfdc2f0e699c6e175d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/79/797dbc624e6a1cdfdc2f0e699c6e175d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/windows/callback.php" afterPath="$PROJECT_DIR$/local/windows/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45de2c44c106ab11b08ddc54666aa803.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45de2c44c106ab11b08ddc54666aa803.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/.default/kernel_main/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/.default/kernel_main/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/56/56286db91a415d6c554aab4b073a79e0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/56/56286db91a415d6c554aab4b073a79e0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/4c/4cfd1be1e82298e4d5fdc10e311a7753.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/4c/4cfd1be1e82298e4d5fdc10e311a7753.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/41/416acb540279140f55ddb5b83b7646b7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/41/416acb540279140f55ddb5b83b7646b7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/94/942802d2347cdf0b9eaf0ff25c7de078.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/94/942802d2347cdf0b9eaf0ff25c7de078.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2c/2c607e2766df4d44c1ecf2c939ae9dc8.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2c/2c607e2766df4d44c1ecf2c939ae9dc8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/fe/fec46f2b1db3b65f82dee384ace8041e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/fe/fec46f2b1db3b65f82dee384ace8041e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_sec_redirect_url/dd/ddc39d36dca0e1d26d89e2b1ae752402.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_sec_redirect_url/dd/ddc39d36dca0e1d26d89e2b1ae752402.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bkc-add.com.iml" afterPath="$PROJECT_DIR$/.idea/bkc-add.com.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/layout/css/styles.css" afterPath="$PROJECT_DIR$/local/layout/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/80/8014d9a3d05ab339604ae6e99279c6d9.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/80/8014d9a3d05ab339604ae6e99279c6d9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/63/63905232661a92e6ab5d574d571b8869.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/63/63905232661a92e6ab5d574d571b8869.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/includes/h.contacts.php" afterPath="$PROJECT_DIR$/local/includes/h.contacts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pre_teachers/index.php" afterPath="$PROJECT_DIR$/pre_teachers/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/49/493cee55c466da8a9b0400b7d14b72c0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/49/493cee55c466da8a9b0400b7d14b72c0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/10/10c25e1504b9293ef4ea3d4579497a0f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/10/10c25e1504b9293ef4ea3d4579497a0f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/b1/b1b43e5f8d5222fea555b151db18a023.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/b1/b1b43e5f8d5222fea555b151db18a023.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/bc/bcc8b4f04e1c23ce98c9d5066dd91df2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/bc/bcc8b4f04e1c23ce98c9d5066dd91df2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/includes/h.menu.course.php" afterPath="$PROJECT_DIR$/local/includes/h.menu.course.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/catalog_group/41/419e964e5def1e80617fa3a816965a78.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/catalog_group/41/419e964e5def1e80617fa3a816965a78.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/97/97495487a049f16fbd8f1e82f36edeb5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/97/97495487a049f16fbd8f1e82f36edeb5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e1/e1e5bc17ad8f42d6b82303a998393eba.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/e1/e1e5bc17ad8f42d6b82303a998393eba.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6d/6d7e28fdac5fbb52739f3f7a3b14bd57.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6d/6d7e28fdac5fbb52739f3f7a3b14bd57.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/51/518625b546e948fc0a3182245417f9bb.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/51/518625b546e948fc0a3182245417f9bb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/77/773197c3f7eb368eb07c876a5cdbb08f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/77/773197c3f7eb368eb07c876a5cdbb08f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/91/91080c9d8058d8b8083eb8ac260a2bf5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/91/91080c9d8058d8b8083eb8ac260a2bf5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c0/c0a6035229545c96522ff35e2b8c37a0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c0/c0a6035229545c96522ff35e2b8c37a0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/16/16dda7230924804a6be4e290a94c1341.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/16/16dda7230924804a6be4e290a94c1341.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/ca/ca052dcb3b4e226063dcec669a50d596.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/ca/ca052dcb3b4e226063dcec669a50d596.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/aa/aac7c831cdd8f2b58559c862f99bf946.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/aa/aac7c831cdd8f2b58559c862f99bf946.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urlrewrite.php" afterPath="$PROJECT_DIR$/urlrewrite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning/languages/index.php" afterPath="$PROJECT_DIR$/learning/languages/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/3b/3b00f277e855f3faa63f3b7773518180.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/3b/3b00f277e855f3faa63f3b7773518180.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/3b/3b4c49d283c66c28757da744ed39bbb3.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/3b/3b4c49d283c66c28757da744ed39bbb3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/site_checker_f2198faecb6a327379f210728081e44f.log" afterPath="$PROJECT_DIR$/bitrix/site_checker_f2198faecb6a327379f210728081e44f.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/5c/5c025606c9a0baee7d52fddfbd4808eb.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/5c/5c025606c9a0baee7d52fddfbd4808eb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2d/2d81412d6b244708b21f3a7128f6b4de.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2d/2d81412d6b244708b21f3a7128f6b4de.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/main/header.php" afterPath="$PROJECT_DIR$/local/templates/main/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/f8/f8aa25bde9b456c6549a597dc3ee0512.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/f8/f8aa25bde9b456c6549a597dc3ee0512.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/5c/5c6da7e88d19bbeee0ae40ae271e99a1.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/5c/5c6da7e88d19bbeee0ae40ae271e99a1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/88/887663f5a14498b1ec4424f84e87f1a2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/88/887663f5a14498b1ec4424f84e87f1a2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/c5/c50f038ed6291a78ea68e4a590830017.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/c5/c50f038ed6291a78ea68e4a590830017.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/6b/6b382c6961475cbe3a19467cf7e34c38.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/6b/6b382c6961475cbe3a19467cf7e34c38.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/b0/b01d4ec3e5265b6523147694650b1562.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/b0/b01d4ec3e5265b6523147694650b1562.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.sections.top/photogalery/template.php" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.sections.top/photogalery/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/bd/bd21575483a0787a72df6dead4cb9a56.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/bd/bd21575483a0787a72df6dead4cb9a56.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/course/header.php" afterPath="$PROJECT_DIR$/local/templates/course/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/d0/d04885ed31f67065e1e38327c82dcda3.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/d0/d04885ed31f67065e1e38327c82dcda3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/4d/4ddd3d008a59ee248a70e8d70e0f258e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/4d/4ddd3d008a59ee248a70e8d70e0f258e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/27/271df3f7a923bbd36350334edf96251f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/27/271df3f7a923bbd36350334edf96251f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6a/6a717d8a77731a1d7d4a19e3f5f45b05.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6a/6a717d8a77731a1d7d4a19e3f5f45b05.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/39/39ad6da690a93a39d8763235123b55c8.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/39/39ad6da690a93a39d8763235123b55c8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/72/72d773dad7cb7f1c9289ebd4c4d30235.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/72/72d773dad7cb7f1c9289ebd4c4d30235.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/0b/0b1905caef7b86e33ae13b80d1faad32.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/0b/0b1905caef7b86e33ae13b80d1faad32.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/27/2713eaa91ae2980a0559a9a945559971.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/27/2713eaa91ae2980a0559a9a945559971.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/4a/4a6d950e7b4790479f950d2a5921c62d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/4a/4a6d950e7b4790479f950d2a5921c62d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/25/25fd59289cdd49e9ea8481de170172e7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/25/25fd59289cdd49e9ea8481de170172e7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning/child/index.php" afterPath="$PROJECT_DIR$/learning/child/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/40/40faa75732d71508cc60b22a6732a899.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/40/40faa75732d71508cc60b22a6732a899.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/c9/c9b248c0e36316b7bef92a383cac99a4.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/c9/c9b248c0e36316b7bef92a383cac99a4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/1d/1d9ea5e1989ebb4c84784c777b3c0517.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/1d/1d9ea5e1989ebb4c84784c777b3c0517.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/1e/1e4ee1a31ed6e6561a1960cc9f910788.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/1e/1e4ee1a31ed6e6561a1960cc9f910788.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/65/65b7157158e194d714f3a0c683f9afce.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/65/65b7157158e194d714f3a0c683f9afce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_catalog_currency/8b/8bee609c70ea3973541eb24e440070f0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_catalog_currency/8b/8bee609c70ea3973541eb24e440070f0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp_learn/detail.php" afterPath="$PROJECT_DIR$/corp_learn/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/vertical_multilevel/template.php" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/vertical_multilevel/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/9b/9b19b02d183433e128c60ae120c0a122.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/9b/9b19b02d183433e128c60ae120c0a122.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/fe/fe281fe196231c8d5d04f39a286c1fd5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/fe/fe281fe196231c8d5d04f39a286c1fd5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/c8/c8bac2f2f28f31e3ce59b1e417bb20af.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/c8/c8bac2f2f28f31e3ce59b1e417bb20af.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/68/68307628cd459a51f7da888ae62dd1b6.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/68/68307628cd459a51f7da888ae62dd1b6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/fc/fc70ad1863cba1f1760c13e7b4e20a98.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/fc/fc70ad1863cba1f1760c13e7b4e20a98.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/b6/b6c6ebed7e5345e86c3462120ce9a7aa.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/b6/b6c6ebed7e5345e86c3462120ce9a7aa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_sec_filter_mask/3e/3e109cefdbde61bf61a07dc79523b3a8.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_sec_filter_mask/3e/3e109cefdbde61bf61a07dc79523b3a8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/27/27850a3654870e28053dd5b6d2051c3e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/27/27850a3654870e28053dd5b6d2051c3e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/f8/f88242a9c0bbbf4b329ea5b0c3c7899c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/f8/f88242a9c0bbbf4b329ea5b0c3c7899c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/courses/template.php" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/courses/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/df/dfc95e68d66b73a7ece448627ffb87b5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/df/dfc95e68d66b73a7ece448627ffb87b5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/b4/b4fd7ed8fa720f2175f3a9b86d57151a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/b4/b4fd7ed8fa720f2175f3a9b86d57151a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning/child/.left_c.menu_ext.php" afterPath="$PROJECT_DIR$/learning/child/.left_c.menu_ext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-lessons/.left.menu.php" afterPath="$PROJECT_DIR$/video-lessons/.left.menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/6d/6d260a0462575266fc54feff44aef554.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/6d/6d260a0462575266fc54feff44aef554.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/83/8359eb63ae3a007b4cb285c51ef9a703.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/83/8359eb63ae3a007b4cb285c51ef9a703.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-lessons/index.php" afterPath="$PROJECT_DIR$/video-lessons/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/reviews/template.php" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/reviews/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/23/23e2893e2d083db8e5b22aaf4480f749.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/23/23e2893e2d083db8e5b22aaf4480f749.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6c/6c1647d56469aa70d67ba0904bada677.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6c/6c1647d56469aa70d67ba0904bada677.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/16/16908b0605f2645dfcb4c3a8d248cef3.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/16/16908b0605f2645dfcb4c3a8d248cef3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/57/57cd22ac1dccb90cdd222c39f8d335bc.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/57/57cd22ac1dccb90cdd222c39f8d335bc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abroad/index.php" afterPath="$PROJECT_DIR$/abroad/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/50/504e31f0aebfbabbf79e37c3227e95a2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/50/504e31f0aebfbabbf79e37c3227e95a2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b0/b0b40b5fdc88dae28f9c095cfb10f3aa.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b0/b0b40b5fdc88dae28f9c095cfb10f3aa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/.default/header.php" afterPath="$PROJECT_DIR$/local/templates/.default/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -173,14 +261,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/corp_learn/index.php">
+        <entry file="file://$PROJECT_DIR$/learn_english/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <marker date="1490704014805" expanded="true" signature="1938:9323" ph="..." />
-                <marker date="1490704014805" expanded="true" signature="3223:3251" ph="..." />
-              </folding>
+            <state relative-caret-position="993">
+              <caret line="305" column="2" lean-forward="false" selection-start-line="305" selection-start-column="2" selection-end-line="305" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,6 +288,7 @@
         <option value="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php" />
         <option value="$PROJECT_DIR$/local/includes/h.menu.course.php" />
         <option value="$PROJECT_DIR$/corp_learn/index.php" />
+        <option value="$PROJECT_DIR$/learn_english/index.php" />
       </list>
     </option>
   </component>
@@ -276,65 +362,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bkc-add.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bkc-add.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bkc-add.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bkc-add.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bkc-add.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bkc-add.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="learn_english" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,11 +387,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pre_teachers/index.php" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/pre_teachers/index.php" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.proxy" />
+    <property name="last_opened_file_path" value="D:/from_bkc/new1.bkc.ru/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php" />
+    <property name="two.files.diff.last.used.file" value="D:/from_bkc/new1.bkc.ru/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php" />
+    <property name="settings.editor.selected.configurable" value="Template Data Languages" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
     <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://bkc-add.com/corp_learn/index.php">
@@ -473,34 +513,41 @@
       <workItem from="1490589647283" duration="7416000" />
       <workItem from="1490704103747" duration="682000" />
       <workItem from="1491206834883" duration="25000" />
+      <workItem from="1492511496283" duration="987000" />
+      <workItem from="1492602916958" duration="229000" />
+      <workItem from="1492604625575" duration="260000" />
+      <workItem from="1492664163735" duration="674000" />
+      <workItem from="1492665227803" duration="1072000" />
+      <workItem from="1493190194489" duration="2837000" />
+      <workItem from="1493276647589" duration="101000" />
+      <workItem from="1494482567826" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23675000" />
+    <option name="totallyTimeSpent" value="29916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2683706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956802" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39740822" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="21" y="367" width="1878" height="305" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39740822" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,19 +558,91 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/learn_english/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_english/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_english/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_english/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_english/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_english/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corp_learn/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/from_bkc/new2.bkc.ru/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/from_bkc/new1.bkc.ru/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/corp_learn/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1490704014805" expanded="true" signature="1938:9323" ph="..." />
-            <marker date="1490704014805" expanded="true" signature="3223:3251" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corp_learn/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -538,10 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1490704014805" expanded="true" signature="1938:9323" ph="..." />
-            <marker date="1490704014805" expanded="true" signature="3223:3251" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -549,9 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1490685909354" expanded="true" signature="3598:3641" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,10 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1490704014805" expanded="true" signature="1938:9323" ph="..." />
-            <marker date="1490704014805" expanded="true" signature="3223:3251" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,10 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1490704014805" expanded="true" signature="1938:9323" ph="..." />
-            <marker date="1490704014805" expanded="true" signature="3223:3251" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,10 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1490704014805" expanded="true" signature="1938:9323" ph="..." />
-            <marker date="1490704014805" expanded="true" signature="3223:3251" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding>
-            <marker date="1490685909354" expanded="true" signature="3598:3641" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,14 +756,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/from_bkc/new1.bkc.ru/local/layout/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/from_bkc/new1.bkc.ru/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/from_bkc/new2.bkc.ru/local/templates/.default/components/bitrix/menu/vertical_multilevel_courses/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/corp_learn/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1490704014805" expanded="true" signature="1938:9323" ph="..." />
-            <marker date="1490704014805" expanded="true" signature="3223:3251" ph="..." />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_english/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="993">
+          <caret line="305" column="2" lean-forward="false" selection-start-line="305" selection-start-column="2" selection-end-line="305" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

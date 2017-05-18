@@ -1,6 +1,7 @@
 <?require(dirname(__FILE__)."/../.default/header.php");?><?require_once($_SERVER['DOCUMENT_ROOT'].'/local/includes/lang_pic.php');?>
 
 	<body class="page-course">
+
 		<?$APPLICATION->ShowPanel()?>
 <?include($_SERVER['DOCUMENT_ROOT'].'/local/windows/prew.php');?>
 <?//$APPLICATION->IncludeFile("/local/includes/err_link.php",Array(),Array("MODE"=>"php"));?>
@@ -67,7 +68,7 @@
 
 					<a href="#" class="left-menu-mobile"></a>
 <?
-if(isset($_SERVER["REAL_FILE_PATH"]))
+if (isset($_SERVER["REAL_FILE_PATH"]))
 {
     $APPLICATION->SetCurPage($_SERVER["REAL_FILE_PATH"]);
 }
@@ -106,3 +107,4 @@ $APPLICATION->reinitPath();
 					<div class="content-wrap">
 
 						<h1><?$APPLICATION->ShowTitle()?></h1>
+

@@ -3,6 +3,8 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
 global $APPLICATION;
 
+// var_dump($_REQUEST);
+
 $aMenuLinksExt = $APPLICATION->IncludeComponent(
     "bitrix:menu.sections",
     "",
@@ -51,5 +53,8 @@ else:
    unset($aMenuLinks[0]);
 
 endif;
+
+          var_Dump($aMenuLinks);
+
 
 ?>
